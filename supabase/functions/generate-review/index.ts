@@ -1787,11 +1787,31 @@ ${schoolData.essay_philosophy?.what_they_seek?.map(item => `- ${item}`).join('\n
 Key question: "${schoolData.essay_philosophy?.key_quote || 'Does this essay make the applicant memorable?'}"
 
 ### University Fit (Score 0-100)
-Specific to ${schoolData.name}:
-- Does applicant understand what makes ${schoolData.name} unique?
-- Did they mention specific programs, professors, opportunities?
-- Would they THRIVE in ${schoolData.name}'s culture?
-- Do their values align with ${schoolData.name}'s mission?
+**CRITICAL: This is about FIT ANALYSIS - matching the applicant's profile against what ${schoolData.name} specifically seeks.**
+
+**What ${schoolData.name} Seeks (from comprehensive research):**
+${schoolData.what_they_seek?.map(item => `- ${item}`).join('\n')}
+
+**Fit Analysis Questions:**
+1. **Alignment Check**: For EACH criterion above, does the applicant demonstrate it?
+   - If yes: Cite specific evidence from their application
+   - If no: Note this as a fit weakness
+2. **Cultural Fit**: Would they THRIVE in ${schoolData.name}'s specific culture?
+   - ${schoolData.name === 'MIT' ? 'MIT: Collaborative, hands-on, maker culture' : ''}
+   - ${schoolData.name === 'Harvard University' ? 'Harvard: Leadership-oriented, high-achieving, diverse interests' : ''}
+   - ${schoolData.name === 'Stanford University' ? 'Stanford: Entrepreneurial, innovative, intellectually vital' : ''}
+   - ${schoolData.name === 'Yale University' ? 'Yale: Residential colleges, humanities focus, intellectual community' : ''}
+   - ${schoolData.name === 'University of Chicago' ? 'UChicago: Intellectual, quirky, life of the mind' : ''}
+3. **Demonstrated Knowledge**: Do they understand what makes ${schoolData.name} unique?
+   - Mentioned specific programs, professors, opportunities?
+   - Generic response that could apply to any top school? (RED FLAG)
+4. **Values Alignment**: Do their stated values/goals align with ${schoolData.name}'s mission?
+
+**Scoring Guide:**
+- 90-100: Strong fit - applicant embodies most of what ${schoolData.name} seeks
+- 70-89: Good fit - aligns with several key criteria
+- 50-69: Moderate fit - some alignment but gaps exist
+- Below 50: Poor fit - significant misalignment with what ${schoolData.name} values
 
 ## Weakness Categories (${schoolData.name}-Calibrated)
 
@@ -1849,8 +1869,17 @@ Respond with valid JSON only:
     },
     "university_fit": {
       "score": 0-100,
-      "analysis": "Assessment of fit",
-      "specific_references": "Count of specific programs mentioned"
+      "analysis": "Comprehensive fit assessment",
+      "alignment_with_what_school_seeks": [
+        {
+          "criterion": "What the school seeks (from database)",
+          "demonstrated": true/false,
+          "evidence": "Specific evidence from application or 'Not evident'"
+        }
+      ],
+      "cultural_fit_assessment": "Would they thrive in this school's culture?",
+      "knowledge_of_school": "Did they show understanding of what makes this school unique?",
+      "values_alignment": "Do their values align with school's mission?"
     }
   },
   "narrative_assessment": {
@@ -1884,7 +1913,60 @@ Respond with valid JSON only:
 2. BE HONEST - this is practice
 3. BE SPECIFIC - cite evidence
 4. CONTEXT - frame relative to target school
-5. REMEMBER - comparing to 40,000+ excellent applicants`
+5. REMEMBER - comparing to 40,000+ excellent applicants
+
+## CRITICAL: FIT ANALYSIS REQUIREMENT
+For the "alignment_with_what_school_seeks" array in university_fit:
+- Create one object for EACH criterion in "What ${schoolData.name} Seeks" above
+- For each criterion, determine if the applicant demonstrates it
+- Provide specific evidence from their application (essays, activities, achievements)
+- If not demonstrated, mark as false and note "Not evident in application"
+- This is THE MOST IMPORTANT part of the evaluation - it shows if they match what the school wants
+
+## CRITICAL: COMMON PITFALLS DETECTION
+You MUST actively check the application against the ${schoolData.common_pitfalls?.length || 5} common pitfalls listed above:
+${schoolData.common_pitfalls?.map((p, i) => `${i + 1}. ${p}`).join('\n') || 'Check for generic common pitfalls'}
+
+For EACH pitfall:
+- Scan the application to see if this pitfall applies
+- If it does, add it to the "weaknesses" array with priority "HIGH"
+- In the weakness, cite specific evidence showing why this pitfall applies
+- Reference the exact pitfall name in the "category" field
+- In "school_expectation", explain what ${schoolData.name} wants instead
+
+Example:
+If pitfall is "Well-rounded but not distinguished" and applicant has 10 shallow activities:
+{
+  "priority": "HIGH",
+  "category": "Common Pitfall: Well-rounded but not distinguished",
+  "weakness": "Applicant lists 10 different activities but shows no depth or distinction in any area",
+  "evidence": "Activities list shows club membership without leadership, brief participation spans",
+  "school_expectation": "${schoolData.name} seeks students with 'spikes' - exceptional depth in 1-2 areas rather than breadth"
+}
+
+## CRITICAL: RED FLAGS DETECTION
+You MUST actively scan for the ${schoolData.red_flags?.length || 4} RED FLAGS specific to ${schoolData.name}:
+${schoolData.red_flags && schoolData.red_flags.length > 0 ? schoolData.red_flags.map((flag, i) => `${i + 1}. ${flag}`).join('\n') : `1. Essay sounds adult-written or consultant-polished
+2. Inflated or unverifiable achievements
+3. Avoided academic rigor when challenging courses were available
+4. Application feels assembled rather than authentic`}
+
+For EACH red flag:
+- Carefully examine the application for signs of this red flag
+- Red flags are SERIOUS issues that often lead to rejection
+- If detected, add to "red_flags" array with severity: "critical" or "high"
+- Be conservative - only flag if there's clear evidence
+- In "evidence", cite specific examples that triggered the flag
+- In "impact", explain how this hurts their chances at ${schoolData.name}
+
+Example:
+If red flag is "Test scores far below 25th percentile without compelling narrative" and applicant has 1350 SAT with no explanation:
+{
+  "flag": "Test scores far below 25th percentile without compelling narrative",
+  "severity": "critical",
+  "evidence": "SAT 1350 is 120 points below ${schoolData.name}'s 25th percentile (${schoolData.academic_expectations?.sat_25th}). No explanation or compelling story provided.",
+  "impact": "At ultra-selective schools, scores this far below range typically require extraordinary circumstances or achievements to overcome. Without that narrative, this is a near-automatic rejection factor."
+}`
 }
 
 function buildUserPromptV2(application: { program_type: string; form_data: Record<string, unknown> }, schoolData: ReturnType<typeof getSchoolData>): string {
