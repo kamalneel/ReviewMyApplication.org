@@ -17,6 +17,7 @@
 
 import { serve } from 'https://deno.land/std@0.168.0/http/server.ts'
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.38.4'
+import admissionsDatabase from './college_admissions_database.json' assert { type: 'json' }
 
 // Types
 interface ReviewRequest {
@@ -103,10 +104,82 @@ const corsHeaders = {
 const COUNSELOR_VERSION = 'v2.0.0'
 
 // ═══════════════════════════════════════════════════════════════════════════
-// COMPREHENSIVE UNIVERSITY KNOWLEDGE BASE (v2)
-// Based on deep research from college_admissions_database.json
+// COMPREHENSIVE UNIVERSITY KNOWLEDGE BASE (v3 - JSON Database Integration)
+// Loaded from college_admissions_database.json (1,822 lines, 150-200 data points per university)
 // ═══════════════════════════════════════════════════════════════════════════
 
+// JSON Database Interfaces (matches college_admissions_database.json structure)
+interface UniversityData {
+  university: string
+  ranking: string
+  acceptance_rate: string
+  admissions_office_urls: string[]
+  counselor_perspectives: {
+    overall_philosophy: string
+    holistic_review: string
+    what_they_seek: string[]
+    evaluation_process: string
+    memorable_candidates: string
+  }
+  academic_criteria: {
+    gpa_expectations: string
+    test_scores: {
+      sat_range: string
+      act_range: string
+      testing_policy: string
+      superscoring: string
+    }
+    course_rigor: string
+    academic_interests: string
+  }
+  essay_requirements: {
+    supplement_questions: string[]
+    essay_philosophy: string
+    what_makes_strong_essays: string[]
+    common_essay_mistakes: string[]
+  }
+  extracurriculars: {
+    importance: string
+    depth_vs_breadth: string
+    leadership: string
+    impact_and_initiative: string
+    recognition_level: string
+    unique_preferences?: string[]
+  }
+  letters_of_recommendation: {
+    requirements: string
+    what_reviewers_look_for: string[]
+    importance: string
+  }
+  demonstrated_interest: {
+    tracked: boolean
+    interviews: string
+  }
+  evaluation_rubrics: {
+    selection_process: string
+    committee_review: string
+    decision_framework: string
+    key_evaluation_points: string[]
+  }
+  unique_insights: string[]
+  common_pitfalls: string[]
+  red_flags?: string[]
+}
+
+interface AdmissionsDatabase {
+  metadata: {
+    project_name: string
+    version: string
+    last_updated: string
+    total_colleges_catalogued: number
+    colleges_with_deep_research: number
+    description: string
+  }
+  top_10_universities_deep_research: UniversityData[]
+  [key: string]: unknown
+}
+
+// Legacy interface for backward compatibility
 interface SchoolCriteria {
   name: string
   tier: 'ultra_selective' | 'highly_selective' | 'very_selective' | 'selective'
@@ -142,12 +215,26 @@ interface SchoolCriteria {
   common_pitfalls: string[]
   unique_differentiators: string[]
   counselor_perspective: string
-  
+
   evaluation_notes: {
     process: string
     committee_info: string
     key_insight: string
   }
+
+  // Enhanced fields from comprehensive JSON database (optional for backward compatibility)
+  key?: string
+  red_flags?: string[]
+  letters_of_recommendation?: {
+    requirements: string
+    what_reviewers_look_for: string[]
+    importance: string
+  }
+  demonstrated_interest?: {
+    tracked: boolean
+    interviews: string
+  }
+  admissions_urls?: string[]
 }
 
 // FULLY RESEARCHED SCHOOLS
@@ -1151,13 +1238,111 @@ serve(async (req: Request) => {
 // HELPER FUNCTIONS
 // ═══════════════════════════════════════════════════════════════════════════
 
+// Load comprehensive database from JSON
+const comprehensiveDatabase = admissionsDatabase as AdmissionsDatabase
+const universityMap = new Map<string, UniversityData>()
+
+// Build university lookup map (by name variations)
+comprehensiveDatabase.top_10_universities_deep_research.forEach(uni => {
+  const nameKey = uni.university.toLowerCase().replace(/[^a-z]/g, '')
+  universityMap.set(nameKey, uni)
+  universityMap.set(uni.university.toLowerCase(), uni)
+
+  // Add common short names
+  if (uni.university.includes('MIT')) universityMap.set('mit', uni)
+  if (uni.university.includes('Chicago')) universityMap.set('uchicago', uni)
+  if (uni.university.includes('Pennsylvania')) universityMap.set('penn', uni)
+  if (uni.university.includes('Northwestern')) universityMap.set('northwestern', uni)
+})
+
+// Convert comprehensive JSON data to SchoolCriteria format
+function mapUniversityDataToSchoolCriteria(uniData: UniversityData): SchoolCriteria {
+  // Parse SAT scores from range string (e.g., "1470-1570" or "1460-1580 (25th-75th percentile)")
+  const parseSATRange = (rangeStr: string): { sat_25th: number; sat_75th: number; sat_average: number } => {
+    const match = rangeStr.match(/(\d{4})-(\d{4})/)
+    if (match) {
+      const low = parseInt(match[1])
+      const high = parseInt(match[2])
+      return { sat_25th: low, sat_75th: high, sat_average: Math.round((low + high) / 2) }
+    }
+    return { sat_25th: 1470, sat_75th: 1580, sat_average: 1525 }
+  }
+
+  const satScores = parseSATRange(uniData.academic_criteria.test_scores.sat_range)
+
+  // Determine tier based on acceptance rate
+  let tier: 'ultra_selective' | 'highly_selective' | 'very_selective' | 'selective' = 'highly_selective'
+  const acceptanceNum = parseFloat(uniData.acceptance_rate.replace(/[^0-9.]/g, ''))
+  if (acceptanceNum < 5) tier = 'ultra_selective'
+  else if (acceptanceNum < 10) tier = 'ultra_selective'
+  else if (acceptanceNum < 15) tier = 'highly_selective'
+
+  return {
+    name: uniData.university,
+    tier,
+    acceptance_rate: uniData.acceptance_rate,
+    research_depth: 'full',
+
+    academic_expectations: {
+      gpa_expectation: uniData.academic_criteria.gpa_expectations,
+      gpa_percentile: 'Top 10%',
+      sat_25th: satScores.sat_25th,
+      sat_75th: satScores.sat_75th,
+      sat_average: satScores.sat_average,
+      testing_required: uniData.academic_criteria.test_scores.testing_policy.toLowerCase().includes('required'),
+      course_rigor_notes: uniData.academic_criteria.course_rigor
+    },
+
+    essay_philosophy: {
+      what_they_seek: uniData.essay_requirements.what_makes_strong_essays.slice(0, 4),
+      strong_essay_markers: uniData.essay_requirements.what_makes_strong_essays,
+      common_essay_pitfalls: uniData.essay_requirements.common_essay_mistakes,
+      key_quote: uniData.essay_requirements.essay_philosophy
+    },
+
+    extracurricular_expectations: {
+      importance: uniData.extracurriculars.importance,
+      depth_vs_breadth: uniData.extracurriculars.depth_vs_breadth,
+      recognition_level: uniData.extracurriculars.recognition_level,
+      unique_preferences: uniData.extracurriculars.unique_preferences || uniData.counselor_perspectives.what_they_seek.slice(0, 3),
+      key_quote: uniData.extracurriculars.leadership
+    },
+
+    what_they_seek: uniData.counselor_perspectives.what_they_seek,
+    common_pitfalls: uniData.common_pitfalls,
+    unique_differentiators: uniData.unique_insights,
+    counselor_perspective: uniData.counselor_perspectives.overall_philosophy,
+
+    evaluation_notes: {
+      process: uniData.evaluation_rubrics.selection_process,
+      committee_info: uniData.evaluation_rubrics.committee_review,
+      key_insight: uniData.evaluation_rubrics.decision_framework
+    },
+
+    // Additional rich data from JSON
+    red_flags: uniData.red_flags,
+    letters_of_recommendation: uniData.letters_of_recommendation,
+    demonstrated_interest: uniData.demonstrated_interest,
+    admissions_urls: uniData.admissions_office_urls
+  }
+}
+
 function extractTargetSchool(formData: Record<string, unknown>): string | null {
   // Check for school name in various fields
   const schoolFields = ['targetSchool', 'whyCollege', 'whySchool', 'college']
-  
+
   for (const field of schoolFields) {
     if (formData[field] && typeof formData[field] === 'string') {
       const text = (formData[field] as string).toLowerCase()
+
+      // First try JSON database (comprehensive data)
+      for (const [key, uni] of universityMap) {
+        if (text.includes(key) || text.includes(uni.university.toLowerCase())) {
+          return uni.university // Return full university name
+        }
+      }
+
+      // Fallback to legacy hardcoded data
       for (const school of Object.keys(UNIVERSITY_DATA)) {
         if (text.includes(school) || text.includes(UNIVERSITY_DATA[school].name.toLowerCase())) {
           return school
@@ -1165,18 +1350,34 @@ function extractTargetSchool(formData: Record<string, unknown>): string | null {
       }
     }
   }
-  
+
   return null
 }
 
-function getSchoolData(schoolKey: string | null) {
-  if (schoolKey && UNIVERSITY_DATA[schoolKey]) {
-    return {
-      ...UNIVERSITY_DATA[schoolKey],
-      key: schoolKey
+function getSchoolData(schoolKey: string | null): SchoolCriteria {
+  if (schoolKey) {
+    // Try to load from comprehensive JSON database first
+    const searchKey = schoolKey.toLowerCase()
+    const uniData = universityMap.get(searchKey) ||
+                   universityMap.get(searchKey.replace(/[^a-z]/g, ''))
+
+    if (uniData) {
+      const criteria = mapUniversityDataToSchoolCriteria(uniData)
+      return {
+        ...criteria,
+        key: searchKey
+      }
+    }
+
+    // Fallback to legacy hardcoded data
+    if (UNIVERSITY_DATA[schoolKey]) {
+      return {
+        ...UNIVERSITY_DATA[schoolKey],
+        key: schoolKey
+      }
     }
   }
-  
+
   // Return default highly selective tier data
   return {
     name: 'Highly Selective University',

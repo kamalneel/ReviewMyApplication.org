@@ -1,0 +1,1823 @@
+{
+  "metadata": {
+    "project_name": "College Admissions Counselor Knowledge Base",
+    "version": "1.0",
+    "last_updated": "2026-01-07",
+    "total_colleges_catalogued": 100,
+    "colleges_with_deep_research": 10,
+    "description": "Comprehensive database of college admissions counselor perspectives, preferences, and evaluation criteria"
+  },
+  "consulting_resources": [
+    {
+      "name": "Admissions Madness",
+      "url": "https://www.admissionsmadness.com",
+      "type": "Independent Consultant",
+      "counselor_background": "Kevin Martin, former UT-Austin admissions counselor, Fulbright Fellow",
+      "description": "Fresh perspectives on college admissions process, challenges underlying assumptions in higher education",
+      "specialty": "Holistic approach to admissions, addresses student psychology and systemic issues"
+    },
+    {
+      "name": "College Essay Guy",
+      "url": "https://www.collegeessayguy.com/college-admissions-blog",
+      "type": "Consulting Firm",
+      "description": "Comprehensive resources for college essays, application process, specific university guides",
+      "specialty": "Essay writing, personal narratives, application strategies"
+    },
+    {
+      "name": "Admissions.Blog (Undergraduate Admissions Uncensored)",
+      "url": "https://admissions.blog/",
+      "type": "Independent Analyst",
+      "description": "Uncensored analysis of admissions trends, early decision data, university-specific insights",
+      "specialty": "Data-driven admissions analysis, application statistics"
+    },
+    {
+      "name": "IvyWise",
+      "url": "https://www.ivywise.com/blog/",
+      "type": "Consulting Firm",
+      "counselor_background": "Dr. Kat Cohen and team of admissions experts",
+      "description": "Comprehensive admissions guidance, financial aid strategies, college rankings analysis",
+      "specialty": "Ivy League and selective college admissions"
+    },
+    {
+      "name": "Top Tier Admissions",
+      "url": "https://toptieradmissions.com/college-admissions-blog-news/",
+      "type": "Consulting Firm",
+      "description": "Expert admissions advice, supplemental essay guides, college-specific strategies",
+      "specialty": "Top university admissions, essay coaching"
+    },
+    {
+      "name": "PrepScholar",
+      "url": "https://blog.prepscholar.com/",
+      "type": "Test Prep & Consulting",
+      "description": "Detailed guides on getting into top schools, personal narratives from accepted students",
+      "specialty": "Academic preparation, standardized testing, Ivy League admissions"
+    },
+    {
+      "name": "Ivy Coach",
+      "url": "https://www.ivycoach.com/the-ivy-coach-blog/",
+      "type": "Consulting Firm",
+      "counselor_background": "Team of former elite college admissions officers",
+      "description": "Premium admissions counseling, 90%+ acceptance rates to Harvard/Stanford for package clients",
+      "specialty": "Early application strategies, singular hooks, elite college admissions"
+    },
+    {
+      "name": "InGenius Prep",
+      "url": "https://insidetheadmissionsoffice.podbean.com/",
+      "type": "Consulting Firm & Podcast",
+      "counselor_background": "Former admissions officers from top universities",
+      "description": "Podcast featuring former admissions officers discussing holistic review, decision-making",
+      "specialty": "Inside perspective on admissions committees"
+    },
+    {
+      "name": "College Transitions",
+      "url": "https://www.collegetransitions.com/blog/",
+      "type": "Consulting Firm",
+      "description": "Data-driven research on college admissions, acceptance rates, trends",
+      "specialty": "Statistical analysis of admissions data"
+    },
+    {
+      "name": "Expert Admissions",
+      "url": "https://expertadmissions.com/resources/blog/",
+      "counselor_background": "Former University Admissions Officers",
+      "description": "Application advice, interview preparation, demonstrated interest strategies",
+      "specialty": "Application process, admissions interviews"
+    }
+  ],
+  "database_resources": [
+    {
+      "name": "College Board BigFuture",
+      "url": "https://bigfuture.collegeboard.org/college-search",
+      "total_colleges": "3000+",
+      "description": "Comprehensive college search with admission, tuition, financial aid data"
+    },
+    {
+      "name": "Common Application",
+      "url": "https://www.commonapp.org/",
+      "total_colleges": "900+",
+      "description": "Platform for applying to colleges, member institutions"
+    },
+    {
+      "name": "CollegeData",
+      "url": "https://www.collegedata.com",
+      "total_colleges": "2600+",
+      "description": "College search, admissions calculator, scholarship finder, Common Data Set info"
+    },
+    {
+      "name": "College Navigator (NCES)",
+      "url": "https://nces.ed.gov/collegenavigator/",
+      "total_colleges": "6000+",
+      "description": "Government database with comprehensive data on all US colleges"
+    },
+    {
+      "name": "Coalition for College",
+      "url": "https://www.coalitionforcollegeaccess.org/",
+      "total_colleges": "150+",
+      "description": "Member schools committed to access, affordability, and graduation"
+    }
+  ],
+  "top_10_universities_deep_research": [
+    {
+      "university": "Harvard University",
+      "ranking": 1,
+      "acceptance_rate": "~3%",
+      "admissions_office_urls": {
+        "main_admissions": "https://college.harvard.edu/admissions",
+        "student_blogs": "https://college.harvard.edu/student-life/student-stories",
+        "crimson_admissions": "https://www.thecrimson.com/admissions/",
+        "hks_blog": "https://www.hks.harvard.edu/admissions-blog",
+        "hds_blog": "https://www.hds.harvard.edu/admissions-aid/admissions-blog"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "No formula for gaining admission. Academic accomplishment is important, but admissions committee considers community involvement, leadership, distinction in extracurricular activities, and personal qualities and character.",
+        "holistic_review": "Relies on teachers, counselors, and alumni to share information about applicant's strength of character, ability to overcome adversity, and other personal qualities.",
+        "what_they_seek": [
+          "Academic accomplishment in high school",
+          "Community involvement",
+          "Leadership and distinction in extracurricular activities",
+          "Personal qualities and character",
+          "Ability to overcome adversity",
+          "Students who will contribute to Harvard's mission"
+        ],
+        "evaluation_process": "Applications discussed after initial review, candidates must stand out beyond just good test scores and grades",
+        "memorable_candidates": "Students with clear arc to their application: notable scientist, future political leader, bridge-builder in times of division"
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Top 10% of graduating class minimum (vast majority)",
+        "test_scores": {
+          "sat_average": 1540,
+          "sat_range": "1470-1600 (25th-75th percentile)",
+          "act_average": 34,
+          "act_range": "32-35 (25th-75th percentile)",
+          "testing_requirement": "SAT or ACT required. In exceptional cases when not accessible: AP, IB, GCSE, or National Leaving Exams accepted"
+        },
+        "course_rigor": "Most rigorous courses available at high school, especially strong academic record",
+        "academic_interests": "Academic accomplishment in high school is important but not sufficient alone"
+      },
+      "essay_requirements": {
+        "supplement_questions": "Five required short-answer questions, 150 word limit each",
+        "essay_philosophy": "Ensure every student has same opportunity to reflect on life experiences, academic/extracurricular activities, how they will engage with others at Harvard, aspirations for future",
+        "what_makes_strong_essays": [
+          "Authenticity and genuine voice",
+          "Reflection on life experiences",
+          "How experiences shaped the applicant",
+          "Clear vision for engagement at Harvard",
+          "Future aspirations"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Critical - distinction in extracurricular activities is key differentiator",
+        "depth_vs_breadth": "Depth and distinction matter more than breadth",
+        "leadership_expectations": "Leadership and community involvement highly valued",
+        "impact_demonstration": "Must show how activities demonstrate character and contribution to community",
+        "recognition_level": "Many admitted students have state or national-level recognition in their craft"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Letters from teachers, counselors, and alumni",
+        "what_reviewers_look_for": [
+          "Strength of character",
+          "Ability to overcome adversity",
+          "Personal qualities",
+          "Academic abilities in specific contexts"
+        ],
+        "importance": "Harvard relies heavily on these to understand applicant beyond scores"
+      },
+      "demonstrated_interest": {
+        "importance": "Not explicitly stated as primary factor",
+        "how_measured": "Through essays, interviews, and engagement with Harvard community"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Discussion of each candidate after initial review, must stand out beyond academics",
+        "decision_framework": "Holistic review considering academics, activities, personal qualities, recommendations",
+        "committee_process": "Applications reviewed by admissions committee, consensus-based decisions"
+      },
+      "unique_insights": [
+        "Harvard admits ~3% of applicants - most competitive in nation",
+        "Students who demonstrate deep passion, grit, and work ethic have best chances",
+        "Clear narrative arc in application is crucial: the notable scientist, the future leader, the bridge-builder",
+        "Test scores and grades are baseline filters, not sufficient for admission",
+        "Many admitted students are first-generation college students from diverse backgrounds",
+        "Cross-admit data: 62% of students admitted to both Harvard and Stanford choose Harvard",
+        "When given choice between Harvard and other top schools: 65% choose Harvard over Yale, 75% choose Harvard over Princeton"
+      ],
+      "common_pitfalls": [
+        "Being 'just' a well-rounded student with good scores",
+        "Lacking clear passion or specialization",
+        "Not demonstrating impact or achievement beyond grades",
+        "Generic essays without authentic voice",
+        "Spreading activities too thin without depth"
+      ]
+    },
+    {
+      "university": "Massachusetts Institute of Technology (MIT)",
+      "ranking": 2,
+      "acceptance_rate": "~4%",
+      "admissions_office_urls": {
+        "main_admissions": "https://mitadmissions.org/",
+        "blogs": "https://mitadmissions.org/blogs/",
+        "what_we_look_for": "https://mitadmissions.org/apply/process/what-we-look-for/",
+        "selection_process": "https://mitadmissions.org/apply/process/selection/"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "While grades and scores are important in understanding academic preparedness for MIT, it's really the match between applicant and the Institute that drives our selection process.",
+        "mission_alignment": "MIT's mission is to use science, technology, and other areas of scholarship to make the world better. Community values excellence, openness, and fearless curiosity.",
+        "what_they_seek": [
+          "Alignment with MIT culture",
+          "Hands-on makers and doers",
+          "Initiative and impact-makers",
+          "Collaborative spirit",
+          "Risk-takers and resilient students",
+          "Balance between work and life",
+          "Trailblazers who challenge themselves"
+        ],
+        "evaluation_factors": {
+          "academic_preparedness": "Must demonstrate readiness for fast-paced core curriculum and educational autonomy",
+          "noncognitive_indicators": "Curiosity, initiative, resilience, ability to accept feedback, adaptability",
+          "character_qualities": "Thoughtful people who take care of each other and lift each other up"
+        }
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Top 10% of class (100% of admitted students who submitted class rank)",
+        "test_scores": {
+          "sat_range": "1510-1570 (middle 50%)",
+          "sat_math": "780-800 (middle 50%)",
+          "sat_ebrw": "730-780 (middle 50%)",
+          "act_range": "34-36 (middle 50%)",
+          "testing_requirement": "SAT or ACT required - reinstated after research showed need for students with least resources",
+          "superscoring": "Yes, MIT superscores both SAT and ACT"
+        },
+        "course_rigor": "Most demanding courses available, especially in math and science. All students take foundational math/science regardless of major",
+        "math_science_preparation": "Critical - even humanities majors must take two semesters of physics"
+      },
+      "essay_requirements": {
+        "essay_philosophy": "Show passion, alignment with MIT values, authentic voice",
+        "what_makes_strong_essays": [
+          "Demonstrating hands-on experience and making",
+          "Showing collaborative spirit",
+          "Evidence of taking thoughtful risks",
+          "Balance between academics and personal interests",
+          "Quality over quantity in activities"
+        ],
+        "activity_description": "Balance for the pleasure of it - MIT is NOT all work"
+      },
+      "extracurriculars": {
+        "importance": "Very high - evaluated on tier system",
+        "tier_system": "Tier 1 (exceptional, specialized like conducting prize-winning independent research) most competitive",
+        "depth_vs_breadth": "Quality over quantity - don't expect million things. Put heart into few things you truly care about",
+        "leadership_expectations": "Students apply theoretical knowledge to real-world problems, must show hands-on engagement",
+        "impact_demonstration": "Impact doesn't require curing diseases - tutoring a kid in math changes the world, advocating for change matters",
+        "unique_preference": "Hands-on makers, students who get 'metaphorically or literally' dirty trying something new"
+      },
+      "letters_of_recommendation": {
+        "requirements": "One from math/science teacher, one from humanities/social sciences/languages teacher",
+        "what_reviewers_look_for": [
+          "Recent teacher who knows student well and likes them",
+          "Specific examples of achievements and contributions",
+          "Academic abilities AND character",
+          "Genuine insights into who student truly is"
+        ],
+        "supplemental_recommendations": "Not advised if from someone well-known but doesn't really know the student"
+      },
+      "demonstrated_interest": {
+        "importance": "Lower priority than fit and match",
+        "interviews": "MIT tries to interview all applicants with ~5,500 alumni interviewers, but not required. No campus interviews"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Application read by senior admissions officer holistically, strong applications read by additional officers who summarize for Admissions Committee",
+        "committee_review": "At least a dozen people significantly discuss and debate an application before admit pile",
+        "decision_framework": "Multiple groups of different admissions staff and faculty weigh in",
+        "key_evaluation_points": [
+          "Academic preparedness for fast-paced curriculum",
+          "Match with MIT culture and mission",
+          "Noncognitive indicators (curiosity, resilience, initiative)",
+          "Collaborative mindset",
+          "Balance and well-being"
+        ]
+      },
+      "unique_insights": [
+        "MIT's Latin motto 'Mens et Manus' (Mind and Hand) reflects hands-on philosophy",
+        "Innovation is risky and messy - MIT values students who embrace this",
+        "Community values are critical: thoughtful people who lift each other up",
+        "Reinstated testing requirement based on equity research - helps students with least resources demonstrate preparation",
+        "Students regularly work alongside faculty to shape MIT policies",
+        "Risk-taking can lead to failure, but structural supports help students learn resilience",
+        "MIT has active blogs since 2004, unfiltered student narratives"
+      ],
+      "common_pitfalls": [
+        "Focusing solely on academic achievement without showing hands-on making",
+        "Not demonstrating collaborative spirit or community care",
+        "Appearing to do activities just for resume building",
+        "Lacking balance between work and personal interests",
+        "Not showing resilience or willingness to take risks",
+        "Focusing on breadth over depth in activities"
+      ]
+    },
+    {
+      "university": "Stanford University",
+      "ranking": 3,
+      "acceptance_rate": "~3.7%",
+      "admissions_office_urls": {
+        "main_admissions": "https://admission.stanford.edu/",
+        "selection_process": "https://admission.stanford.edu/apply/selection/",
+        "essays": "https://admission.stanford.edu/apply/first-year/essays.html",
+        "blogs": "https://admission.stanford.edu/blog/",
+        "faqs": "https://admission.stanford.edu/apply/first-year/faqs.html"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "Stanford seeks students who will make meaningful contributions to the Stanford community and, eventually, to the world. We look for distinctive students who exhibit an abundance of energy and curiosity in their classes, activities, projects, research, and lives.",
+        "mission_alignment": "Stanford's commitment to access, opportunity, and impact drives admissions. The university values intellectual vitality, demonstrated impact, and distinctive perspective.",
+        "what_they_seek": [
+          "Intellectual vitality - love of learning for its own sake",
+          "Evidence of initiative and impact beyond the classroom",
+          "Distinctive voice and perspective",
+          "Innovation and creative thinking",
+          "Demonstrated curiosity beyond coursework",
+          "Future leaders and changemakers",
+          "Students who will contribute to Stanford's mission of creating knowledge and educating students"
+        ],
+        "evaluation_philosophy": "Stanford employs comprehensive holistic review. Essays are weighted very heavily - they want to understand who you are beyond test scores and grades. They seek students who show depth of thought, reflection, and authentic voice."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Most admitted students are in top 10% of their class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1470-1570 (middle 50%)",
+          "sat_math": "750-800 (middle 50%)",
+          "sat_ebrw": "720-770 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-optional for recent cycles, but strong scores still advantageous",
+          "superscoring": "Yes, Stanford superscores SAT"
+        },
+        "course_rigor": "Most demanding curriculum available - expects maximum challenge in areas of strength. Values depth in academic interests.",
+        "academic_interests": "Values students who pursue learning beyond classroom requirements - independent research, advanced coursework, intellectual exploration"
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application or Coalition Application essay",
+        "supplemental_essays": "Multiple short essays including 'What matters to you and why?' (100-250 words) and 'Why Stanford?' essays",
+        "essay_philosophy": "Essays are critically important at Stanford. They want authentic, distinctive, memorable voices. Essays reveal intellectual vitality, values, perspective, and fit with Stanford's culture.",
+        "what_makes_strong_essays": [
+          "Authentic voice that sounds like a real person, not polished to perfection",
+          "Specific, vivid examples and storytelling",
+          "Deep reflection and self-awareness",
+          "Demonstrating intellectual vitality and curiosity",
+          "Showing your unique perspective and values",
+          "Genuine enthusiasm for Stanford's specific offerings",
+          "Avoiding clich\u00e9s and generic statements",
+          "Demonstrating impact and initiative"
+        ],
+        "common_essay_mistakes": [
+          "Essays that sound too polished or written by committee",
+          "Generic 'Why Stanford' essays listing famous programs without personal connection",
+          "Trying to be who you think Stanford wants rather than being yourself",
+          "Lists of accomplishments without reflection",
+          "Lack of specificity or concrete examples"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Extremely high - Stanford looks for sustained impact and depth",
+        "depth_vs_breadth": "Strongly prefer depth and distinction over breadth. Quality of impact matters far more than quantity of activities.",
+        "leadership_expectations": "Leadership and initiative are valued, but formal titles less important than demonstrated impact",
+        "impact_demonstration": "Must show tangible impact - what changed because of your involvement? Numbers, outcomes, and sustained commitment matter.",
+        "recognition_level": "Many admitted students have regional, state, or national recognition, but impact can also be deeply local",
+        "unique_preference": "Innovation, entrepreneurship, creative problem-solving, and making things happen"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations (from different subject areas) plus counselor recommendation",
+        "what_reviewers_look_for": [
+          "Intellectual vitality and curiosity in classroom",
+          "Contribution to class discussions and community",
+          "Character, integrity, and personal qualities",
+          "Specific examples and anecdotes",
+          "How student stands out among peers",
+          "Growth mindset and resilience"
+        ],
+        "importance": "Very important - strong letters can significantly boost application"
+      },
+      "demonstrated_interest": {
+        "importance": "Not tracked - Stanford does not consider demonstrated interest",
+        "interviews": "Optional interviews with alumni when available, not required or guaranteed"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Multiple readers review each application. First read by regional officer, strong applications get second and third reads, then committee discussion for competitive applicants.",
+        "committee_review": "Final decisions made in committee with multiple admissions officers discussing each case",
+        "decision_framework": "Holistic evaluation of academic excellence, intellectual vitality, personal context, extracurricular impact, and fit with Stanford mission",
+        "key_evaluation_points": [
+          "Academic excellence and preparation for Stanford's rigor",
+          "Intellectual vitality - genuine love of learning",
+          "Personal context and overcoming challenges",
+          "Extracurricular depth and impact",
+          "Essay quality - distinctive voice and perspective",
+          "Recommendations - evidence of classroom contribution and character",
+          "Contribution to Stanford community - what will you add?"
+        ]
+      },
+      "unique_insights": [
+        "Stanford places exceptional weight on essays - they truly want to hear your voice",
+        "Intellectual vitality is Stanford's signature evaluation criterion - showing you love learning for its own sake",
+        "Location in Silicon Valley shapes culture - innovation and entrepreneurship highly valued",
+        "Stanford looks for students who will 'make a difference' - impact orientation is key",
+        "The 'What matters to you and why?' essay is uniquely Stanford - reveals values and depth of thought",
+        "Stanford has one of lowest acceptance rates (~3.7%) but seeks accessible, authentic students, not perfection",
+        "Cross-admit data: 38% choose Stanford over Harvard - strong preference among STEM/innovation-focused students",
+        "Stanford values diversity of thought and experience - geographic, socioeconomic, and intellectual diversity all matter"
+      ],
+      "common_pitfalls": [
+        "Generic or overly polished essays that lack authentic voice",
+        "Not demonstrating intellectual vitality beyond grades and test scores",
+        "Shallow involvement in many activities without meaningful impact",
+        "Weak 'Why Stanford' essays that could apply to any top university",
+        "Missing opportunities to show initiative and innovation",
+        "Focusing on prestige of activities rather than personal growth and impact",
+        "Trying to present a 'perfect' image rather than authentic self",
+        "Not contextualizing achievements within available opportunities"
+      ],
+      "red_flags": [
+        "Lack of genuine intellectual curiosity",
+        "Resume padding - long lists of brief involvements",
+        "Essays that sound like marketing materials",
+        "No evidence of impact or initiative",
+        "Inconsistencies between different parts of application",
+        "Lack of authenticity or self-awareness"
+      ]
+    },
+    {
+      "university": "Yale University",
+      "ranking": 4,
+      "acceptance_rate": "~4.5%",
+      "admissions_office_urls": {
+        "main_admissions": "https://admissions.yale.edu/",
+        "what_yale_looks_for": "https://admissions.yale.edu/what-yale-looks-for",
+        "application_info": "https://admissions.yale.edu/first-year-applicants",
+        "admissions_blog": "https://admissions.yale.edu/bulldog-blog",
+        "faqs": "https://admissions.yale.edu/faqs"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "Yale undertakes a holistic review of every application. We look at academic achievement in the context of opportunities available and the student's personal story. We're building a diverse community of exceptional individuals who will learn from one another.",
+        "mission_alignment": "Yale seeks students who will take advantage of Yale's extraordinary resources and contribute to the residential college community. The university values intellectual curiosity, especially in humanities and liberal arts, along with leadership and character.",
+        "what_they_seek": [
+          "Outstanding academic achievement in context",
+          "Intellectual curiosity and love of learning",
+          "Leadership and initiative",
+          "Contribution to community",
+          "Character and personal qualities",
+          "Diverse perspectives and experiences",
+          "Students who will thrive in residential college system",
+          "Depth in academic and extracurricular pursuits"
+        ],
+        "evaluation_philosophy": "Yale has reinstated testing requirements, viewing standardized tests as one tool to evaluate preparation. They emphasize context - what opportunities were available to you? How did you make the most of them? The committee seeks students who show both achievement and promise."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Vast majority of admitted students are in top 10% of graduating class, typically 3.95+ unweighted GPA",
+        "test_scores": {
+          "sat_range": "1470-1570 (middle 50%)",
+          "sat_math": "730-790 (middle 50%)",
+          "sat_ebrw": "740-780 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "SAT or ACT required (reinstated after test-optional period)",
+          "superscoring": "Yes, Yale superscores both SAT and ACT"
+        },
+        "course_rigor": "Most demanding curriculum available at your high school. Yale expects students to challenge themselves with honors, AP, IB, or equivalent courses.",
+        "academic_interests": "Strong preference for students with intellectual curiosity across disciplines - the liberal arts ideal"
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application or Coalition Application essay (650 words)",
+        "supplemental_essays": "Multiple Yale-specific short answer questions and essays including 'Why Yale?' and intellectual engagement questions",
+        "essay_philosophy": "Yale wants to understand who you are beyond your transcript. Essays should reveal your voice, values, intellectual interests, and how you think. They value authenticity, reflection, and specific examples.",
+        "what_makes_strong_essays": [
+          "Authentic voice and genuine reflection",
+          "Specific examples and vivid storytelling",
+          "Intellectual curiosity and depth of thought",
+          "Understanding of Yale's specific offerings (residential colleges, shopping period, etc.)",
+          "Personal growth and self-awareness",
+          "How you'll contribute to Yale community",
+          "Evidence of character and values"
+        ],
+        "common_essay_mistakes": [
+          "Generic essays that could apply to any Ivy League school",
+          "Listing accomplishments without reflection",
+          "Overly formal or trying too hard to impress",
+          "Not demonstrating knowledge of Yale's unique features",
+          "Lack of specific examples",
+          "Missing opportunities to show intellectual curiosity"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Very high - Yale evaluates both achievement and contribution to community",
+        "depth_vs_breadth": "Depth, commitment, and impact strongly preferred over long lists of activities",
+        "leadership_expectations": "Leadership valued, but can take many forms - formal positions, informal influence, or initiative",
+        "impact_demonstration": "Show sustained commitment and tangible outcomes. What changed because of your involvement?",
+        "recognition_level": "Many admitted students have state or national recognition, but deep local impact also valued",
+        "unique_preference": "Activities that demonstrate intellectual curiosity, service to others, and contribution to community"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations plus counselor recommendation; third teacher recommendation optional",
+        "what_reviewers_look_for": [
+          "Intellectual curiosity and contribution to classroom",
+          "Character, integrity, and personal qualities",
+          "Specific examples and anecdotes",
+          "How student interacts with peers and teachers",
+          "Academic abilities and potential",
+          "Growth and resilience"
+        ],
+        "importance": "Critical - Yale places heavy weight on recommendations to understand classroom presence and character"
+      },
+      "demonstrated_interest": {
+        "importance": "Not considered - Yale does not track demonstrated interest",
+        "interviews": "Alumni interviews offered when available, evaluative but not required. No campus interviews."
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications read by at least two admissions officers. Strong applications discussed in regional and full committee meetings.",
+        "committee_review": "Admissions committee includes admissions officers and faculty. Decisions made by consensus after thorough discussion.",
+        "decision_framework": "Holistic evaluation considering academic achievement, testing, recommendations, essays, extracurriculars, and personal context",
+        "key_evaluation_points": [
+          "Academic achievement in context of opportunities",
+          "Standardized test scores (reinstituted requirement)",
+          "Teacher and counselor recommendations",
+          "Essay quality and personal voice",
+          "Extracurricular depth and impact",
+          "Character and personal qualities",
+          "Contribution to Yale's diverse community",
+          "Fit with residential college system"
+        ]
+      },
+      "unique_insights": [
+        "Yale's residential college system is central to student life - admissions looks for students who will thrive in close-knit community",
+        "Humanities and liberal arts orientation - Yale values intellectual breadth and curiosity across disciplines",
+        "Shopping period (first two weeks to sample classes) reflects commitment to academic exploration",
+        "Yale has reinstated standardized testing requirement, viewing tests as important evaluation tool",
+        "Strong preference for students with intellectual engagement beyond classroom",
+        "Cross-admit data: 65% choose Harvard over Yale, 54% choose Yale over Stanford",
+        "Yale's location in New Haven and commitment to community engagement shapes admissions priorities",
+        "Faculty involvement in admissions decisions reflects academic focus"
+      ],
+      "common_pitfalls": [
+        "Not understanding Yale's distinctive features (residential colleges, shopping period, etc.)",
+        "Weak 'Why Yale?' essays without specific knowledge",
+        "Overemphasis on STEM without showing liberal arts engagement",
+        "Activity lists focused on quantity over quality",
+        "Generic essays lacking personal voice",
+        "Not demonstrating intellectual curiosity beyond grades",
+        "Missing opportunities to show character and values",
+        "Underestimating importance of standardized tests"
+      ],
+      "red_flags": [
+        "Below 25th percentile test scores without exceptional circumstances",
+        "Lack of intellectual curiosity or engagement",
+        "Generic application without Yale-specific knowledge",
+        "Resume padding without meaningful commitment",
+        "Essays that don't reveal authentic voice",
+        "Weak or generic recommendations"
+      ]
+    },
+    {
+      "university": "Princeton University",
+      "ranking": 5,
+      "acceptance_rate": "~4%",
+      "admissions_office_urls": {
+        "main_admissions": "https://admission.princeton.edu/",
+        "how_to_apply": "https://admission.princeton.edu/how-apply",
+        "what_princeton_looks_for": "https://admission.princeton.edu/how-apply/what-princeton-looks",
+        "blogs": "https://admission.princeton.edu/blogs",
+        "admission_dean_blog": "https://admission.princeton.edu/blogs/dean"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "Princeton conducts a thorough holistic review of every application. We seek students who have made the most of their opportunities and will contribute to Princeton's undergraduate-focused community. Character matters as much as achievement.",
+        "mission_alignment": "Princeton's commitment to undergraduate education is unparalleled. The university seeks students who will take advantage of independent work, junior papers, and senior thesis while contributing to tight-knit residential community.",
+        "what_they_seek": [
+          "Academic excellence and intellectual curiosity",
+          "Independent thinking and research potential",
+          "Character, integrity, and ethical commitment",
+          "Contribution to residential community",
+          "Leadership and initiative",
+          "Diverse perspectives and experiences",
+          "Students who will thrive with undergraduate focus and close faculty relationships",
+          "Commitment to service and impact"
+        ],
+        "evaluation_philosophy": "Princeton emphasizes fit with undergraduate-focused mission. The admissions committee looks for students who will excel in Princeton's distinctive academic structure (independent work, precepts) and contribute to residential college community."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Nearly all admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1470-1570 (middle 50%)",
+          "sat_math": "740-800 (middle 50%)",
+          "sat_ebrw": "730-770 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "SAT or ACT required",
+          "superscoring": "Yes, Princeton superscores SAT and ACT"
+        },
+        "course_rigor": "Most rigorous curriculum available. Princeton expects maximum academic challenge and depth in areas of interest.",
+        "academic_interests": "Values students prepared for independent work and research. Intellectual independence is key."
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application essay (650 words)",
+        "supplemental_essays": "Multiple Princeton supplements including essays on extracurriculars, summer experiences, 'favorite' prompts, and academic interests",
+        "essay_philosophy": "Princeton values authentic voice, reflection, and insight into character. Essays should reveal intellectual curiosity, values, and how you think. The admissions committee wants to understand who you are and how you'll contribute.",
+        "what_makes_strong_essays": [
+          "Authentic personal voice",
+          "Specific examples and concrete details",
+          "Reflection and self-awareness",
+          "Intellectual depth and curiosity",
+          "Understanding of Princeton's unique features (independent work, precepts, residential colleges)",
+          "Evidence of character and values",
+          "Genuine enthusiasm for Princeton's offerings",
+          "How you'll contribute to community"
+        ],
+        "common_essay_mistakes": [
+          "Generic 'Why Princeton' without specific knowledge",
+          "Lists of accomplishments without reflection",
+          "Trying to sound impressive rather than authentic",
+          "Missing opportunities to show character",
+          "Not demonstrating understanding of independent work or undergraduate focus",
+          "Lack of specific examples"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Very high - Princeton evaluates depth of commitment and impact",
+        "depth_vs_breadth": "Strongly prefer sustained depth and measurable impact over breadth",
+        "leadership_expectations": "Leadership important, but quality of contribution matters more than titles",
+        "impact_demonstration": "Show sustained commitment over time and tangible outcomes. What impact did you make?",
+        "recognition_level": "Many admitted students have regional or national recognition, but deep local leadership also valued",
+        "unique_preference": "Service, research, intellectual pursuits, and activities showing independent initiative"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations plus counselor recommendation",
+        "what_reviewers_look_for": [
+          "Intellectual curiosity and classroom contribution",
+          "Character, integrity, and ethical qualities",
+          "Relationship with peers and teachers",
+          "Specific examples of impact and growth",
+          "Potential for independent work and research",
+          "Academic excellence and engagement"
+        ],
+        "importance": "Critical - Princeton places heavy emphasis on recommendations to understand character and classroom presence"
+      },
+      "demonstrated_interest": {
+        "importance": "Not tracked - Princeton does not consider demonstrated interest",
+        "interviews": "Alumni interviews offered when available but not required"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Each application read by multiple officers. Regional discussions followed by full committee review for competitive applicants.",
+        "committee_review": "Full admissions committee discusses competitive applications. Dean of Admission makes final decisions with committee input.",
+        "decision_framework": "Holistic evaluation of academic achievement, personal character, extracurricular impact, and fit with Princeton's mission",
+        "key_evaluation_points": [
+          "Academic excellence and preparation for rigorous curriculum",
+          "Potential for independent work and research",
+          "Character and personal qualities",
+          "Extracurricular depth and leadership",
+          "Essay quality and authentic voice",
+          "Recommendations - classroom presence and character",
+          "Contribution to diverse community",
+          "Fit with undergraduate-focused mission"
+        ]
+      },
+      "unique_insights": [
+        "Princeton's undergraduate focus is distinctive - no professional schools competing for resources",
+        "Independent work (junior papers, senior thesis) is required for all students - admissions looks for research potential",
+        "Precept system (small discussion seminars) means classroom participation is critical",
+        "Residential college system provides tight-knit community - admissions seeks students who will contribute",
+        "Princeton's financial aid is among most generous - no loans in aid packages",
+        "Strong emphasis on public service - Pace Center and service opportunities shape campus culture",
+        "Dean's blog posts offer insights into admissions philosophy and process",
+        "Cross-admit data: 75% choose Harvard over Princeton, 74% choose Stanford over Princeton"
+      ],
+      "common_pitfalls": [
+        "Not understanding Princeton's distinctive features (independent work, undergraduate focus, precepts)",
+        "Weak essays without authentic voice or reflection",
+        "Not demonstrating research potential or intellectual independence",
+        "Activity lists without depth or sustained commitment",
+        "Generic 'Why Princeton' essays",
+        "Missing opportunities to show character and ethical commitment",
+        "Underestimating importance of teacher recommendations",
+        "Not conveying fit with residential community"
+      ],
+      "red_flags": [
+        "Lack of intellectual independence or curiosity",
+        "Shallow extracurricular involvement",
+        "Generic essays without Princeton-specific knowledge",
+        "Below 25th percentile scores without compelling story",
+        "Weak character recommendations",
+        "No evidence of research interest or independent thinking"
+      ]
+    },
+    {
+      "university": "Columbia University",
+      "ranking": 6,
+      "acceptance_rate": "~3.9%",
+      "admissions_office_urls": {
+        "main_admissions": "https://undergrad.admissions.columbia.edu/",
+        "apply": "https://undergrad.admissions.columbia.edu/apply",
+        "content_portal": "https://undergrad.admissions.columbia.edu/content",
+        "contact": "https://undergrad.admissions.columbia.edu/contact",
+        "visiting": "https://undergrad.admissions.columbia.edu/visit"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "Columbia seeks students who are ready to engage with the Core Curriculum and New York City. We look for intellectual curiosity, engagement with big ideas, and students who will thrive in our unique urban environment while building community.",
+        "mission_alignment": "Columbia's Core Curriculum requires all students to engage with foundational texts in literature, philosophy, science, and the arts. Admissions seeks students excited by this rigorous common intellectual experience and ready to contribute to classroom discussions.",
+        "what_they_seek": [
+          "Intellectual engagement with big ideas and texts",
+          "Readiness for Core Curriculum's intensive reading and discussion",
+          "Students who will engage with NYC as an extension of campus",
+          "Diverse perspectives to enrich Core discussions",
+          "Academic excellence and intellectual curiosity",
+          "Students who thrive in structured academic environment",
+          "Community builders despite urban setting",
+          "Initiative and leadership"
+        ],
+        "evaluation_philosophy": "Columbia's holistic review emphasizes fit with the Core Curriculum and urban campus. They seek students who will actively engage in seminar-style classes and take advantage of NYC's cultural and intellectual resources."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Nearly all admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1490-1570 (middle 50%)",
+          "sat_math": "760-800 (middle 50%)",
+          "sat_ebrw": "730-770 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-flexible policy - can submit SAT, ACT, or three AP exam scores",
+          "superscoring": "Yes, Columbia superscores SAT and ACT"
+        },
+        "course_rigor": "Most demanding curriculum available. Strong preparation in humanities, sciences, and mathematics expected for Core success.",
+        "academic_interests": "Values intellectual breadth - Core requires engagement across disciplines"
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application or Coalition Application essay (650 words)",
+        "supplemental_essays": "Multiple Columbia supplements including 'Why Columbia?' and intellectual interest questions; separate essays for Columbia College vs. Engineering",
+        "essay_philosophy": "Columbia wants to see genuine intellectual curiosity and specific understanding of the Core Curriculum and NYC location. Essays should demonstrate readiness for rigorous academic community and urban environment.",
+        "what_makes_strong_essays": [
+          "Specific knowledge of Core Curriculum and genuine enthusiasm for it",
+          "Understanding of how NYC enhances education",
+          "Intellectual depth and engagement with ideas",
+          "Specific courses, professors, or programs at Columbia",
+          "How you'll contribute to classroom discussions",
+          "Balance between intellectual pursuits and community engagement",
+          "Authentic voice and reflection"
+        ],
+        "common_essay_mistakes": [
+          "Generic 'Why Columbia' without mentioning Core Curriculum",
+          "Focusing only on NYC location without academic substance",
+          "Not understanding what Core Curriculum actually entails",
+          "Missing opportunities to show intellectual engagement",
+          "Weak Columbia College vs. Engineering school differentiation",
+          "Listing famous programs without personal connection"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Very high - Columbia evaluates leadership and impact",
+        "depth_vs_breadth": "Depth and sustained commitment preferred over breadth",
+        "leadership_expectations": "Leadership valued, including intellectual leadership and initiative",
+        "impact_demonstration": "Show sustained involvement and measurable outcomes",
+        "recognition_level": "Mix of highly recognized achievements and deep local impact",
+        "unique_preference": "Civic engagement, urban-focused activities, intellectual pursuits, activities showing engagement with diverse communities"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations plus counselor recommendation",
+        "what_reviewers_look_for": [
+          "Contribution to classroom discussions (crucial for Core success)",
+          "Intellectual curiosity and engagement with ideas",
+          "Character and integrity",
+          "Ability to work with diverse perspectives",
+          "Academic excellence and potential",
+          "Specific examples of impact"
+        ],
+        "importance": "Critical - recommendations should demonstrate readiness for discussion-based Core classes"
+      },
+      "demonstrated_interest": {
+        "importance": "Not officially tracked, but 'Why Columbia' essay must show genuine knowledge",
+        "interviews": "Alumni interviews offered when available but not required"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications reviewed by multiple readers. Strong applications discussed in committee.",
+        "committee_review": "Admissions committee makes decisions after holistic review and discussion",
+        "decision_framework": "Evaluation based on academic achievement, fit with Core Curriculum, extracurricular impact, essays, and recommendations",
+        "key_evaluation_points": [
+          "Academic preparation for rigorous Core Curriculum",
+          "Intellectual curiosity and engagement with big ideas",
+          "Fit with Core's discussion-based learning",
+          "Potential to thrive in NYC urban environment",
+          "Extracurricular depth and leadership",
+          "Essay quality and Columbia-specific knowledge",
+          "Recommendations showing classroom engagement",
+          "Contribution to diverse community"
+        ]
+      },
+      "unique_insights": [
+        "Core Curriculum is defining feature - all students read same foundational texts, engage in seminars",
+        "NYC location is both campus and classroom - Columbia seeks students who will engage with city",
+        "Urban campus requires students to build community intentionally - different from traditional campuses",
+        "Test-flexible policy allows three AP scores instead of SAT/ACT",
+        "Columbia College focuses on liberal arts, Engineering school (SEAS) on applied science",
+        "Competition is intense - one of lowest acceptance rates among Ivies (~3.9%)",
+        "Strong emphasis on civic engagement and public service",
+        "Location near Harlem and partnership with community shapes institutional values"
+      ],
+      "common_pitfalls": [
+        "Not understanding or mentioning Core Curriculum in application",
+        "Treating NYC as a tourist attraction rather than educational resource",
+        "Generic essays that could apply to any urban university",
+        "Not differentiating between Columbia College and Engineering school",
+        "Missing opportunities to show intellectual engagement with texts and ideas",
+        "Underestimating importance of classroom discussion skills",
+        "Not demonstrating community-building in urban context",
+        "Weak understanding of Columbia's specific academic structure"
+      ],
+      "red_flags": [
+        "No mention of Core Curriculum or misunderstanding what it is",
+        "Lack of intellectual curiosity or engagement with ideas",
+        "Generic application without Columbia-specific knowledge",
+        "Recommendations that don't show classroom participation",
+        "Essays focused only on location/prestige without academic substance",
+        "Shallow extracurricular involvement"
+      ]
+    },
+    {
+      "university": "University of Pennsylvania",
+      "ranking": 7,
+      "acceptance_rate": "~5.9%",
+      "admissions_office_urls": {
+        "main_admissions": "https://admissions.upenn.edu/",
+        "what_penn_looks_for": "https://admissions.upenn.edu/admissions-and-financial-aid/what-penn-looks-for",
+        "apply": "https://admissions.upenn.edu/apply",
+        "penn_blog": "https://blog.admissions.upenn.edu/",
+        "schools": "https://admissions.upenn.edu/academics/schools"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "Penn seeks students who demonstrate passion for learning, commitment to their community, and desire to make an impact. We value the integration of knowledge across disciplines and putting theory into practice.",
+        "mission_alignment": "Penn's focus on interdisciplinary learning and practical application drives admissions. The university values students who cross traditional boundaries between disciplines and connect classroom learning to real-world impact.",
+        "what_they_seek": [
+          "Academic excellence and intellectual curiosity",
+          "Interdisciplinary interests and thinking",
+          "Practical application of knowledge - 'theory and practice'",
+          "Demonstrated passion and clear interests",
+          "Leadership and initiative",
+          "Engagement with community",
+          "Students who will take advantage of Penn's resources across four undergraduate schools",
+          "Pre-professional mindset combined with liberal arts foundation"
+        ],
+        "evaluation_philosophy": "Penn's holistic review emphasizes fit with specific undergraduate school (College, Wharton, Engineering, Nursing) while valuing interdisciplinary exploration. Demonstrated interest in Penn's unique offerings is important."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Most admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1480-1570 (middle 50%)",
+          "sat_math": "750-800 (middle 50%)",
+          "sat_ebrw": "730-770 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-optional for recent cycles",
+          "superscoring": "Yes, Penn superscores SAT and ACT"
+        },
+        "course_rigor": "Most rigorous curriculum available. Expectations vary by school - Wharton and Engineering expect strong quantitative preparation.",
+        "academic_interests": "Values interdisciplinary interests and ability to cross traditional academic boundaries"
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application or Coalition Application essay (650 words)",
+        "supplemental_essays": "Multiple Penn supplements including school-specific essays for each undergraduate school, 'Why Penn?' essay, and additional short answers",
+        "essay_philosophy": "Penn wants to see specific knowledge of the university's offerings and genuine enthusiasm. Essays should demonstrate interdisciplinary thinking, practical application mindset, and fit with specific undergraduate school.",
+        "what_makes_strong_essays": [
+          "Specific Penn programs, courses, professors, or opportunities mentioned",
+          "Understanding of interdisciplinary resources (dual degrees, minors, coordinated programs)",
+          "Clear fit with specific undergraduate school (College, Wharton, Engineering, Nursing)",
+          "How you'll connect theory to practice",
+          "Genuine passion and clear academic/career interests",
+          "Understanding of Penn's urban Ivy character",
+          "Specific ways you'll engage with Philadelphia community",
+          "Interdisciplinary interests and connections"
+        ],
+        "common_essay_mistakes": [
+          "Generic 'Why Penn' without specific programs or resources",
+          "Not differentiating between undergraduate schools",
+          "Missing interdisciplinary opportunities in essays",
+          "Weak Wharton essays that don't show business interest foundation",
+          "Not connecting classroom learning to real-world application",
+          "Ignoring Philadelphia location and community engagement",
+          "Listing famous programs without personal connection"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Very high - Penn evaluates both achievement and practical application",
+        "depth_vs_breadth": "Depth and sustained leadership strongly preferred",
+        "leadership_expectations": "Leadership highly valued, especially showing initiative and impact",
+        "impact_demonstration": "Must show tangible outcomes and sustained commitment. Penn values practical application of interests.",
+        "recognition_level": "Mix of high-level recognition and deep community impact",
+        "unique_preference": "Business/entrepreneurship, community engagement, interdisciplinary projects, activities showing real-world application of knowledge"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations plus counselor recommendation",
+        "what_reviewers_look_for": [
+          "Intellectual curiosity and classroom engagement",
+          "Leadership and initiative",
+          "Character and integrity",
+          "Collaboration with peers",
+          "Specific examples of impact and achievement",
+          "Interdisciplinary thinking"
+        ],
+        "importance": "Very important - strong recommendations can significantly boost application"
+      },
+      "demonstrated_interest": {
+        "importance": "Considered - Penn values genuine interest demonstrated through campus visits, essays, and engagement",
+        "interviews": "Alumni interviews strongly encouraged when available, evaluative"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications read by regional officers, strong applications get multiple reads and committee discussion",
+        "committee_review": "Admissions committee makes final decisions after holistic review",
+        "decision_framework": "Evaluation based on academic achievement, school-specific fit, interdisciplinary interests, extracurricular impact, and demonstrated interest",
+        "key_evaluation_points": [
+          "Academic excellence and preparation for rigorous curriculum",
+          "Fit with specific undergraduate school (College/Wharton/Engineering/Nursing)",
+          "Interdisciplinary interests and thinking",
+          "Extracurricular depth, leadership, and impact",
+          "Essay quality and Penn-specific knowledge",
+          "Demonstrated interest in Penn",
+          "Recommendations showing classroom excellence and character",
+          "Practical application mindset"
+        ]
+      },
+      "unique_insights": [
+        "Penn is 'urban Ivy' - engaged with Philadelphia community and city resources",
+        "Four undergraduate schools require different preparation: College (liberal arts), Wharton (business), Engineering, Nursing",
+        "Interdisciplinary opportunities are exceptional - dual degrees, coordinated programs, minors across schools",
+        "Pre-professional culture stronger than other Ivies - practical application valued",
+        "Benjamin Franklin's vision of practical education still shapes institutional culture",
+        "Strong entrepreneurship ecosystem and business mindset across schools",
+        "Demonstrated interest matters more at Penn than some other top schools",
+        "Wharton is world's top undergraduate business program - extremely competitive",
+        "Penn has highest percentage of international students among Ivies"
+      ],
+      "common_pitfalls": [
+        "Not understanding differences between Penn's four undergraduate schools",
+        "Weak 'Why Penn' essays without specific knowledge",
+        "Missing Penn's interdisciplinary strengths in application",
+        "Not demonstrating genuine interest through essays and engagement",
+        "Wharton applicants without clear business interest or foundation",
+        "Ignoring Philadelphia location and community engagement opportunities",
+        "Generic essays that could apply to any Ivy",
+        "Not showing practical application mindset",
+        "Underestimating importance of alumni interview"
+      ],
+      "red_flags": [
+        "Lack of specific knowledge about Penn's programs and resources",
+        "No clear fit with chosen undergraduate school",
+        "Missing interdisciplinary interests",
+        "Weak demonstrated interest",
+        "Generic application without Penn-specific research",
+        "Wharton applicants with no business/economics background",
+        "Shallow extracurricular involvement"
+      ]
+    },
+    {
+      "university": "Duke University",
+      "ranking": 8,
+      "acceptance_rate": "~6%",
+      "admissions_office_urls": {
+        "main_admissions": "https://admissions.duke.edu/",
+        "application": "https://admissions.duke.edu/apply",
+        "duke_life": "https://admissions.duke.edu/discover/duke-life",
+        "admissions_blog": "https://admissions.duke.edu/blog",
+        "visit": "https://admissions.duke.edu/visit"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "Duke seeks students who are curious, collaborative, and committed to making a positive impact. We look for students who will engage deeply with their education, contribute to our vibrant community, and connect learning with purpose.",
+        "mission_alignment": "Duke's focus on 'knowledge in service to society' drives admissions. The university values students who combine academic excellence with community engagement and demonstrate how they'll use their Duke education to make a difference.",
+        "what_they_seek": [
+          "Academic excellence and intellectual curiosity",
+          "Connecting learning with purpose - 'knowledge in service to society'",
+          "Collaborative spirit and community engagement",
+          "Leadership and initiative",
+          "Demonstrated impact and service",
+          "Students who will engage with DukeEngage and service opportunities",
+          "Balance between achievement and character",
+          "Diverse perspectives and experiences"
+        ],
+        "evaluation_philosophy": "Duke's holistic review emphasizes both achievement and character. They seek students who show intellectual vitality, commitment to others, and desire to make positive impact."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Most admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1480-1570 (middle 50%)",
+          "sat_math": "750-800 (middle 50%)",
+          "sat_ebrw": "720-770 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-optional for recent cycles",
+          "superscoring": "Yes, Duke superscores SAT and ACT"
+        },
+        "course_rigor": "Most demanding curriculum available. Duke expects strong preparation across disciplines.",
+        "academic_interests": "Values interdisciplinary interests - students explore across Trinity College of Arts & Sciences and Pratt School of Engineering"
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application essay (650 words)",
+        "supplemental_essays": "Multiple Duke supplements including 'Why Duke?' and prompts about community, learning, and purpose",
+        "essay_philosophy": "Duke wants to see genuine connection between your interests and Duke's mission. Essays should demonstrate understanding of 'knowledge in service to society' and how you'll contribute to collaborative community.",
+        "what_makes_strong_essays": [
+          "Specific Duke programs and opportunities (DukeEngage, Bass Connections, etc.)",
+          "Understanding of service and impact orientation",
+          "How you connect learning with purpose",
+          "Genuine enthusiasm for Duke's collaborative culture",
+          "Balance between achievement and character",
+          "Specific examples of community engagement",
+          "Understanding of Trinity vs. Pratt (Engineering)",
+          "Authentic voice and reflection"
+        ],
+        "common_essay_mistakes": [
+          "Generic 'Why Duke' without specific programs",
+          "Not mentioning service or community engagement",
+          "Missing Duke's 'knowledge in service to society' mission",
+          "Weak differentiation between Trinity and Pratt",
+          "Focusing only on basketball/campus beauty without academic substance",
+          "Not demonstrating collaborative spirit",
+          "Listing programs without personal connection"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Very high - Duke evaluates leadership, service, and impact",
+        "depth_vs_breadth": "Depth and sustained commitment strongly preferred",
+        "leadership_expectations": "Leadership highly valued, especially in service-oriented activities",
+        "impact_demonstration": "Must show tangible impact on community. Service and engagement are central to Duke's mission.",
+        "recognition_level": "Mix of high-level achievement and deep community service",
+        "unique_preference": "Service and community engagement, collaborative projects, activities connecting learning with impact"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations plus counselor recommendation; optional additional recommendation",
+        "what_reviewers_look_for": [
+          "Intellectual curiosity and classroom engagement",
+          "Character, integrity, and ethical commitment",
+          "Collaborative spirit and relationship with peers",
+          "Leadership and initiative",
+          "Specific examples of impact",
+          "Service orientation"
+        ],
+        "importance": "Very important - character and community engagement should come through in recommendations"
+      },
+      "demonstrated_interest": {
+        "importance": "Considered - Duke values genuine interest",
+        "interviews": "Alumni interviews offered when available, strongly encouraged"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications read by regional admissions officers, strong applications discussed in committee",
+        "committee_review": "Full committee review for competitive applicants",
+        "decision_framework": "Holistic evaluation of academic achievement, character, service, leadership, and fit with Duke's mission",
+        "key_evaluation_points": [
+          "Academic excellence and intellectual curiosity",
+          "Service and community engagement",
+          "Leadership and initiative",
+          "Character and collaborative spirit",
+          "Connection between learning and purpose",
+          "Essay quality and Duke-specific knowledge",
+          "Recommendations showing character and impact",
+          "Contribution to diverse community"
+        ]
+      },
+      "unique_insights": [
+        "DukeEngage provides funded summer service experiences globally - admissions looks for service-oriented students",
+        "Bass Connections links faculty and students across disciplines for research on societal challenges",
+        "Trinity College (Arts & Sciences) and Pratt School (Engineering) have different cultures but shared values",
+        "Durham location and community engagement are important - Duke partners with local community",
+        "Balance between academic excellence and strong athletics/spirit (Cameron Crazies, Duke basketball)",
+        "'Knowledge in service to society' is not just motto - it shapes curriculum and student culture",
+        "Robertson Scholars Program (Duke-UNC partnership) attracts top students committed to public service",
+        "Gothic architecture and campus beauty mentioned by many students, but substance matters more than aesthetics in admissions"
+      ],
+      "common_pitfalls": [
+        "Not demonstrating service orientation or community engagement",
+        "Weak 'Why Duke' without mentioning service mission or specific programs",
+        "Focusing on basketball/sports culture without academic substance",
+        "Missing connection between learning and purpose",
+        "Generic essays that could apply to any top university",
+        "Not understanding Trinity vs. Pratt differences",
+        "Shallow community service without genuine commitment",
+        "Underestimating importance of character and collaboration"
+      ],
+      "red_flags": [
+        "No evidence of service or community engagement",
+        "Lack of specific Duke knowledge in application",
+        "Generic application without connection to Duke's mission",
+        "Recommendations that don't show character or collaborative spirit",
+        "Essays focused only on prestige/rankings without understanding values",
+        "Shallow extracurricular involvement"
+      ]
+    },
+    {
+      "university": "University of Chicago",
+      "ranking": 9,
+      "acceptance_rate": "~5.4%",
+      "admissions_office_urls": {
+        "main_admissions": "https://collegeadmissions.uchicago.edu/",
+        "apply": "https://collegeadmissions.uchicago.edu/apply",
+        "essays": "https://collegeadmissions.uchicago.edu/apply/uchicago-supplemental-essay-questions",
+        "visit": "https://collegeadmissions.uchicago.edu/visit",
+        "life_of_the_mind": "https://www.uchicago.edu/about/the-uchicago-education/"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "UChicago seeks students who love learning for its own sake and will thrive in our intense intellectual community. We value unconventional thinkers who engage deeply with ideas and aren't afraid to challenge assumptions. The essay is where we see if you'll fit with our 'life of the mind' culture.",
+        "mission_alignment": "UChicago's 'life of the mind' philosophy permeates everything. The university seeks students who are intellectually curious, willing to engage in rigorous debate, comfortable with ambiguity, and excited by ideas themselves - not just their applications.",
+        "what_they_seek": [
+          "Deep intellectual curiosity - 'life of the mind'",
+          "Unconventional thinking and willingness to challenge ideas",
+          "Love of learning for learning's sake",
+          "Engagement with big questions and abstract concepts",
+          "Academic rigor and serious scholarship",
+          "Students who thrive on debate and discussion",
+          "Quirky, authentic individuals",
+          "Comfort with intensity and intellectual challenge"
+        ],
+        "evaluation_philosophy": "UChicago's essays are legendarily unique and quirky - they're designed to identify students who will engage with UChicago's intellectual intensity. The admissions committee wants to see creative, thoughtful responses that reveal how you think, not just what you've achieved."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Most admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1500-1570 (middle 50%)",
+          "sat_math": "760-800 (middle 50%)",
+          "sat_ebrw": "740-780 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-optional",
+          "superscoring": "Yes, UChicago superscores SAT and ACT"
+        },
+        "course_rigor": "Most demanding curriculum available. UChicago expects serious academic preparation and intellectual rigor.",
+        "academic_interests": "Values deep engagement with ideas across disciplines. Core Curriculum requires breadth of study."
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application or Coalition Application essay (650 words)",
+        "supplemental_essays": "Extended essay responding to one of UChicago's unique prompts (can be from current year or past prompts), plus 'Why UChicago?' and other short responses",
+        "essay_philosophy": "UChicago's essays are famous for being quirky, unconventional, and intellectually challenging. They want to see creative thinking, intellectual playfulness, deep engagement with ideas, and authentic voice. The extended essay is the heart of the application.",
+        "what_makes_strong_essays": [
+          "Intellectual creativity and original thinking",
+          "Deep engagement with the prompt - not superficial treatment",
+          "Authentic voice - being genuinely yourself, even if quirky",
+          "Intellectual playfulness and willingness to take creative risks",
+          "Demonstrating how you think, not just what you know",
+          "Love of ideas and learning for their own sake",
+          "Specific understanding of UChicago's 'life of the mind' culture",
+          "Comfort with ambiguity and complexity"
+        ],
+        "unique_essay_prompts_examples": [
+          "Find X (past prompt - can involve math, philosophy, treasure hunts, variables)",
+          "What's so odd about odd numbers?",
+          "Due to a series of clerical errors, there is exactly one typo in the name of every department at UChicago...",
+          "The mantis shrimp can perceive both polarized light and multispectral images; they have the most complex eyes in the animal kingdom. Human eyes have color receptors for three colors... What might we be missing, and what are we missing out on?",
+          "Joan of Arkansas. Queen Elizabeth Cady Stanton. Babe Ruth Bader Ginsburg. Mash up a historical figure with a new time period, environment, location, or occupation, and tell us their story."
+        ],
+        "common_essay_mistakes": [
+          "Treating unique prompts as standard college essays",
+          "Being too safe or conventional in response to creative prompts",
+          "Not showing genuine intellectual curiosity",
+          "Generic 'Why UChicago' without understanding 'life of the mind'",
+          "Trying to sound smart rather than being authentic",
+          "Surface-level engagement with deep prompts",
+          "Missing opportunities to show intellectual playfulness",
+          "Not understanding UChicago's quirky, intense culture"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "High, but less emphasized than intellectual curiosity and essays",
+        "depth_vs_breadth": "Depth and intellectual engagement matter more than impressive titles",
+        "leadership_expectations": "Leadership valued but intellectual leadership and independent pursuits equally important",
+        "impact_demonstration": "Impact matters, but intellectual pursuits and genuine interests valued over resume building",
+        "recognition_level": "Mix of recognition and deep intellectual engagement",
+        "unique_preference": "Intellectual activities, research, debate, academic competitions, quirky independent projects, activities showing genuine curiosity"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations plus counselor recommendation",
+        "what_reviewers_look_for": [
+          "Intellectual curiosity and love of learning",
+          "Contribution to classroom discussions and debate",
+          "Ability to engage with complex ideas",
+          "Asking deep questions",
+          "Independent thinking",
+          "Character and integrity",
+          "Specific examples of intellectual engagement"
+        ],
+        "importance": "Very important - should demonstrate intellectual engagement and 'life of the mind' qualities"
+      },
+      "demonstrated_interest": {
+        "importance": "Not tracked - UChicago doesn't consider demonstrated interest",
+        "interviews": "Optional interviews with alumni when available"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications read by multiple officers with heavy emphasis on essays. Extended essay is critical differentiator.",
+        "committee_review": "Committee discusses competitive applications, with essays playing central role in decisions",
+        "decision_framework": "Holistic review with exceptional weight on essay quality, intellectual curiosity, and fit with UChicago's intense academic culture",
+        "key_evaluation_points": [
+          "Essay quality - creativity, depth, authentic voice",
+          "Intellectual curiosity and love of learning",
+          "Fit with 'life of the mind' culture",
+          "Academic preparation for rigorous Core Curriculum",
+          "Ability to engage with complex ideas",
+          "Independent thinking and unconventional perspectives",
+          "Character and authentic self-presentation",
+          "Contribution to intellectual community"
+        ]
+      },
+      "unique_insights": [
+        "UChicago's extended essay prompts are legendary - quirky, intellectual, designed to find unconventional thinkers",
+        "'Where fun comes to die' is a self-aware joke about academic intensity - students are seriously intellectual",
+        "Core Curriculum is one of most rigorous - extensive requirements in humanities, sciences, social sciences",
+        "Scav Hunt (annual scavenger hunt) exemplifies combination of intellectual intensity and playfulness",
+        "House system provides community within intense academic environment",
+        "Location in Hyde Park, Chicago provides urban resources while maintaining campus community",
+        "UChicago students genuinely enjoy intellectual debate and learning - not just grade-focused",
+        "The essay is the most important part of the application - shows if you'll thrive in UChicago's unique culture"
+      ],
+      "common_pitfalls": [
+        "Safe, conventional essays that don't engage with UChicago's quirky prompts",
+        "Not understanding or embracing 'life of the mind' culture",
+        "Generic 'Why UChicago' essays",
+        "Treating extended essay as typical college essay",
+        "Not showing genuine love of learning and ideas",
+        "Trying to appear perfect rather than authentic and quirky",
+        "Missing intellectual playfulness in essays",
+        "Not demonstrating fit with intense academic culture",
+        "Underestimating importance of creative, thoughtful essay responses"
+      ],
+      "red_flags": [
+        "Generic or superficial extended essay responses",
+        "No evidence of intellectual curiosity beyond grades",
+        "Essays that don't show authentic voice or creative thinking",
+        "Missing understanding of UChicago's distinctive culture",
+        "Lack of engagement with ideas for their own sake",
+        "Too focused on practical applications without intellectual foundation",
+        "Conventional thinking without questioning assumptions"
+      ]
+    },
+    {
+      "university": "Northwestern University",
+      "ranking": 10,
+      "acceptance_rate": "~7%",
+      "admissions_office_urls": {
+        "main_admissions": "https://www.northwestern.edu/admissions/",
+        "undergraduate_admissions": "https://admissions.northwestern.edu/",
+        "apply": "https://admissions.northwestern.edu/apply/",
+        "schools_colleges": "https://www.northwestern.edu/academics/schools-and-colleges.html",
+        "visit": "https://admissions.northwestern.edu/visit/"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "Northwestern seeks students who are intellectually curious, ambitious, and collaborative. We value students who pursue their passions with purpose and will take advantage of our unique combination of academic rigor, pre-professional opportunities, and Big Ten spirit.",
+        "mission_alignment": "Northwestern combines academic excellence with practical, pre-professional focus. The university values students who integrate learning across disciplines, engage with real-world applications, and contribute to vibrant campus community.",
+        "what_they_seek": [
+          "Academic excellence and intellectual curiosity",
+          "Clear passions and sense of purpose",
+          "Pre-professional ambition combined with liberal arts foundation",
+          "Collaborative spirit and community engagement",
+          "Students who will engage across Northwestern's schools and programs",
+          "Leadership and initiative",
+          "Balance of achievement and well-roundedness",
+          "Fit with specific undergraduate school"
+        ],
+        "evaluation_philosophy": "Northwestern's holistic review emphasizes fit with specific undergraduate school while valuing interdisciplinary exploration. The university seeks students who show both focused passion and breadth of interests."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Most admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1460-1560 (middle 50%)",
+          "sat_math": "740-800 (middle 50%)",
+          "sat_ebrw": "720-770 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-optional for recent cycles",
+          "superscoring": "Yes, Northwestern superscores SAT and ACT"
+        },
+        "course_rigor": "Most demanding curriculum available. Expectations vary by school - Engineering (McCormick) expects strong STEM preparation, Journalism (Medill) expects writing/communication background.",
+        "academic_interests": "Values focused interests combined with interdisciplinary exploration"
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application or Coalition Application essay (650 words)",
+        "supplemental_essays": "Multiple Northwestern supplements including 'Why Northwestern?' and school-specific questions for each undergraduate school",
+        "essay_philosophy": "Northwestern wants to see specific knowledge of the university's offerings and genuine fit with chosen school. Essays should demonstrate clear academic interests, understanding of interdisciplinary opportunities, and excitement about Northwestern's unique combination of rigor and spirit.",
+        "what_makes_strong_essays": [
+          "Specific Northwestern programs, courses, or opportunities",
+          "Understanding of chosen undergraduate school's unique features",
+          "How you'll take advantage of interdisciplinary resources",
+          "Balance of academic focus and campus engagement",
+          "Genuine enthusiasm for Northwestern's culture",
+          "Clear academic and career goals",
+          "Understanding of quarter system and its benefits",
+          "Connection to Chicago location and opportunities"
+        ],
+        "common_essay_mistakes": [
+          "Generic 'Why Northwestern' without specific programs",
+          "Not differentiating between Northwestern's six undergraduate schools",
+          "Missing interdisciplinary opportunities",
+          "Focusing only on location or rankings without academic substance",
+          "Weak school-specific essays (especially for Medill, McCormick, or Bienen)",
+          "Not showing understanding of quarter system",
+          "Listing famous programs without personal connection"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Very high - Northwestern evaluates depth, leadership, and passion",
+        "depth_vs_breadth": "Depth and leadership strongly preferred, but Northwestern also values well-roundedness",
+        "leadership_expectations": "Leadership highly valued across activities",
+        "impact_demonstration": "Must show sustained commitment and measurable impact",
+        "recognition_level": "Mix of high-level achievement and deep engagement",
+        "unique_preference": "Pre-professional activities (journalism, business, theater, music), research, community engagement, activities aligned with chosen school"
+      },
+      "letters_of_recommendation": {
+        "requirements": "One counselor recommendation plus one teacher recommendation",
+        "what_reviewers_look_for": [
+          "Academic excellence and classroom contribution",
+          "Leadership and initiative",
+          "Character and integrity",
+          "Collaborative spirit",
+          "Specific examples of achievement and impact",
+          "Intellectual curiosity"
+        ],
+        "importance": "Important - should support academic excellence and character"
+      },
+      "demonstrated_interest": {
+        "importance": "Not officially tracked, but 'Why Northwestern' essay must show genuine knowledge and interest",
+        "interviews": "Not offered"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications read by regional admissions officers, strong applications discussed in committee",
+        "committee_review": "Committee makes decisions after holistic review",
+        "decision_framework": "Evaluation based on academic achievement, school-specific fit, extracurricular depth, essays, and recommendations",
+        "key_evaluation_points": [
+          "Academic excellence and preparation",
+          "Fit with specific undergraduate school",
+          "Extracurricular depth and leadership",
+          "Essay quality and Northwestern-specific knowledge",
+          "Clear academic and career interests",
+          "Recommendations showing excellence and character",
+          "Balance of focus and breadth",
+          "Contribution to diverse community"
+        ]
+      },
+      "undergraduate_schools": {
+        "weinberg_college": "College of Arts and Sciences - liberal arts foundation",
+        "mccormick_engineering": "Engineering and Applied Science - requires strong STEM background",
+        "medill_journalism": "Journalism, Media, Integrated Marketing Communications - highly selective, requires demonstrated interest in journalism/communications",
+        "bienen_music": "Music school - requires audition, combines conservatory training with liberal arts",
+        "communication": "School of Communication - theater, performance, communication studies",
+        "education_social_policy": "School of Education and Social Policy - smaller, specialized programs"
+      },
+      "unique_insights": [
+        "Northwestern combines academic rigor of top university with Big Ten athletics and school spirit",
+        "Six undergraduate schools offer pre-professional focus unusual for research university",
+        "Medill School of Journalism is one of best in world - extremely competitive and requires clear journalism interest",
+        "Quarter system (three 10-week quarters) allows students to take more courses and explore broadly",
+        "Location in Evanston provides both campus community and easy access to Chicago",
+        "Strong theater and performance programs attract creative, talented students",
+        "Interdisciplinary opportunities - many students pursue dual degrees or minors across schools",
+        "Collaborative rather than cutthroat culture despite academic rigor",
+        "NU alumni network is particularly strong and engaged",
+        "Balance of academic excellence, pre-professional opportunities, and traditional college experience"
+      ],
+      "common_pitfalls": [
+        "Not understanding differences between Northwestern's six undergraduate schools",
+        "Weak 'Why Northwestern' without specific programs or knowledge",
+        "Missing Northwestern's unique combination of rigor and spirit",
+        "Not demonstrating clear fit with chosen school",
+        "Generic essays that could apply to any top university",
+        "Medill applicants without demonstrated journalism/communications interest",
+        "McCormick (Engineering) applicants without strong STEM background",
+        "Ignoring quarter system and its implications",
+        "Not showing understanding of interdisciplinary opportunities",
+        "Underestimating competitiveness of specific schools (especially Medill)"
+      ],
+      "red_flags": [
+        "Lack of specific Northwestern knowledge in essays",
+        "No clear fit with chosen undergraduate school",
+        "Medill applicants with no journalism/communications background",
+        "McCormick applicants with weak STEM preparation",
+        "Generic application without school-specific research",
+        "Missing understanding of Northwestern's distinctive culture",
+        "Shallow extracurricular involvement"
+      ]
+    }
+  ],
+  "additional_universities_for_research": {
+    "tier_1_highly_selective": {
+      "description": "Acceptance rates 5-10%, requires comprehensive deep research",
+      "universities": [
+        {
+          "name": "California Institute of Technology (Caltech)",
+          "acceptance_rate": "~3%",
+          "url_to_research": "caltech.edu/admissions",
+          "specialty": "STEM focus, small student body"
+        },
+        {
+          "name": "Brown University",
+          "acceptance_rate": "~5%",
+          "url_to_research": "brown.edu/admission",
+          "specialty": "Open curriculum, narrative creativity"
+        },
+        {
+          "name": "Dartmouth College",
+          "acceptance_rate": "~6%",
+          "url_to_research": "dartmouth.edu/admissions",
+          "specialty": "Undergraduate focus, liberal arts"
+        },
+        {
+          "name": "Cornell University",
+          "acceptance_rate": "~7.3%",
+          "url_to_research": "admissions.cornell.edu",
+          "specialty": "Largest Ivy, diverse schools, received 72,519 applications for Class of 2029"
+        },
+        {
+          "name": "Johns Hopkins University",
+          "acceptance_rate": "~7%",
+          "url_to_research": "jhu.edu/admissions",
+          "specialty": "Research focus, pre-med strong"
+        },
+        {
+          "name": "Vanderbilt University",
+          "acceptance_rate": "~10-12%",
+          "url_to_research": "vanderbilt.edu/admissions",
+          "specialty": "Southern university, strong across disciplines"
+        },
+        {
+          "name": "Rice University",
+          "acceptance_rate": "~9%",
+          "url_to_research": "rice.edu/admission",
+          "specialty": "Residential college system, Texas location"
+        },
+        {
+          "name": "Washington University in St. Louis (WUSTL)",
+          "acceptance_rate": "~11%",
+          "url_to_research": "wustl.edu/admissions",
+          "specialty": "Merit scholarships, strong pre-professional"
+        }
+      ]
+    },
+    "tier_2_very_selective": {
+      "description": "Acceptance rates 10-20%, important for comprehensive database",
+      "universities": [
+        {
+          "name": "University of Southern California (USC)",
+          "acceptance_rate": "~9%",
+          "url_to_research": "https://www.admissionblog.usc.edu/",
+          "specialty": "Film school, West Coast private, 42,000 Early Action applications"
+        },
+        {
+          "name": "New York University (NYU)",
+          "acceptance_rate": "~9%",
+          "url_to_research": "nyu.edu/admissions",
+          "specialty": "Urban campus, 120,633 applications for Class of 2029 (record-breaking)"
+        },
+        {
+          "name": "Tufts University",
+          "acceptance_rate": "~10%",
+          "url_to_research": "https://admissions.tufts.edu/blogs/inside-admissions/",
+          "specialty": "International relations, active citizenship"
+        },
+        {
+          "name": "Carnegie Mellon University",
+          "acceptance_rate": "~11%",
+          "url_to_research": "cmu.edu/admission",
+          "specialty": "Computer science, engineering, drama"
+        },
+        {
+          "name": "Georgetown University",
+          "acceptance_rate": "~12%",
+          "url_to_research": "georgetown.edu/admissions",
+          "specialty": "International affairs, D.C. location"
+        },
+        {
+          "name": "University of Notre Dame",
+          "acceptance_rate": "~13%",
+          "url_to_research": "nd.edu/admissions",
+          "specialty": "Catholic tradition, strong community"
+        },
+        {
+          "name": "Emory University",
+          "acceptance_rate": "~11%",
+          "url_to_research": "emory.edu/admission",
+          "specialty": "Atlanta location, strong pre-med"
+        },
+        {
+          "name": "University of Michigan",
+          "acceptance_rate": "~18-20%",
+          "url_to_research": "https://admissions.umich.edu/explore-visit/blog",
+          "specialty": "Public Ivy, ~109,000 applications (record), strong all around"
+        },
+        {
+          "name": "University of California - Berkeley",
+          "acceptance_rate": "~11-12%",
+          "url_to_research": "berkeley.edu/admissions",
+          "specialty": "Public university, STEM strong, selective"
+        },
+        {
+          "name": "University of California - Los Angeles (UCLA)",
+          "acceptance_rate": "~9%",
+          "url_to_research": "ucla.edu/admission",
+          "specialty": "Public university, film, diverse programs"
+        }
+      ]
+    },
+    "tier_3_selective_liberal_arts": {
+      "description": "Top liberal arts colleges, acceptance rates 10-20%",
+      "universities": [
+        {
+          "name": "Williams College",
+          "acceptance_rate": "~8%",
+          "url_to_research": "williams.edu/admission"
+        },
+        {
+          "name": "Amherst College",
+          "acceptance_rate": "~7%",
+          "url_to_research": "amherst.edu/admission"
+        },
+        {
+          "name": "Swarthmore College",
+          "acceptance_rate": "~7%",
+          "url_to_research": "swarthmore.edu/admissions"
+        },
+        {
+          "name": "Pomona College",
+          "acceptance_rate": "~7%",
+          "url_to_research": "pomona.edu/admissions"
+        },
+        {
+          "name": "Bowdoin College",
+          "acceptance_rate": "~9%",
+          "url_to_research": "bowdoin.edu/admissions",
+          "note": "~14,000 applications for Class of 2029 (record)"
+        },
+        {
+          "name": "Claremont McKenna College",
+          "acceptance_rate": "~10%",
+          "url_to_research": "cmc.edu/admission"
+        },
+        {
+          "name": "Middlebury College",
+          "acceptance_rate": "~13%",
+          "url_to_research": "middlebury.edu/admissions"
+        },
+        {
+          "name": "Carleton College",
+          "acceptance_rate": "~17%",
+          "url_to_research": "carleton.edu/admissions"
+        },
+        {
+          "name": "Wellesley College",
+          "acceptance_rate": "~13%",
+          "url_to_research": "wellesley.edu/admission"
+        },
+        {
+          "name": "Barnard College",
+          "acceptance_rate": "~9%",
+          "url_to_research": "barnard.edu/admissions"
+        }
+      ]
+    },
+    "tier_4_additional_research_universities": {
+      "description": "Important universities with acceptance rates 15-30%",
+      "universities": [
+        {
+          "name": "Boston College",
+          "url": "bc.edu/admission"
+        },
+        {
+          "name": "Boston University",
+          "url": "bu.edu/admissions"
+        },
+        {
+          "name": "University of Texas at Austin",
+          "url": "https://admissions.utk.edu/blog/",
+          "note": "Early Action with October 15 deadline"
+        },
+        {
+          "name": "Georgia Institute of Technology",
+          "url": "gatech.edu/admission"
+        },
+        {
+          "name": "University of Virginia",
+          "url": "virginia.edu/admission"
+        },
+        {
+          "name": "University of North Carolina - Chapel Hill",
+          "url": "admissions.unc.edu"
+        },
+        {
+          "name": "University of Florida",
+          "url": "admissions.ufl.edu"
+        },
+        {
+          "name": "University of Washington",
+          "url": "washington.edu/admissions"
+        },
+        {
+          "name": "University of Wisconsin-Madison",
+          "url": "wisc.edu/admissions"
+        },
+        {
+          "name": "University of Illinois Urbana-Champaign",
+          "url": "illinois.edu/admissions"
+        },
+        {
+          "name": "Purdue University",
+          "url": "purdue.edu/admissions",
+          "note": "63,000 EA applications (up 8,000 from previous year)"
+        },
+        {
+          "name": "Ohio State University",
+          "url": "osu.edu/admissions"
+        },
+        {
+          "name": "Pennsylvania State University",
+          "url": "psu.edu/admissions"
+        },
+        {
+          "name": "Wake Forest University",
+          "url": "wfu.edu/admissions"
+        },
+        {
+          "name": "Tulane University",
+          "url": "tulane.edu/admission",
+          "acceptance_rate": "~11.5%"
+        },
+        {
+          "name": "Case Western Reserve University",
+          "url": "case.edu/admission"
+        },
+        {
+          "name": "Rochester Institute of Technology",
+          "url": "rit.edu/admissions"
+        },
+        {
+          "name": "Lehigh University",
+          "url": "lehigh.edu/admissions"
+        },
+        {
+          "name": "Northeastern University",
+          "url": "northeastern.edu/admissions"
+        },
+        {
+          "name": "Villanova University",
+          "url": "villanova.edu/admission"
+        }
+      ]
+    },
+    "tier_5_uc_system": {
+      "description": "University of California system schools with unique admissions process",
+      "note": "UC applications have unique essay approach (PIQs), Common App deadline December 1",
+      "universities": [
+        {
+          "name": "UC Berkeley",
+          "acceptance_rate": "~11%"
+        },
+        {
+          "name": "UCLA",
+          "acceptance_rate": "~9%"
+        },
+        {
+          "name": "UC San Diego",
+          "acceptance_rate": "~24%"
+        },
+        {
+          "name": "UC Santa Barbara",
+          "acceptance_rate": "~26%"
+        },
+        {
+          "name": "UC Irvine",
+          "acceptance_rate": "~21%"
+        },
+        {
+          "name": "UC Davis",
+          "acceptance_rate": "~37%"
+        },
+        {
+          "name": "UC Santa Cruz",
+          "acceptance_rate": "~47%"
+        },
+        {
+          "name": "UC Riverside",
+          "acceptance_rate": "~66%"
+        },
+        {
+          "name": "UC Merced",
+          "acceptance_rate": "~89%"
+        }
+      ],
+      "uc_specific_research_needed": [
+        "Personal Insight Questions (PIQs) vs Common App essays",
+        "Holistic review specific to UC system",
+        "Comprehensive review process",
+        "How each UC campus differs in priorities"
+      ]
+    },
+    "tier_6_state_flagships": {
+      "description": "Major state universities with varying selectivity",
+      "universities": [
+        {
+          "name": "University of Maryland - College Park",
+          "note": "60,000 applicants per year"
+        },
+        {
+          "name": "University of Georgia",
+          "url": "uga.edu/admissions"
+        },
+        {
+          "name": "University of Colorado Boulder",
+          "url": "colorado.edu/admissions"
+        },
+        {
+          "name": "University of Minnesota Twin Cities",
+          "url": "umn.edu/admissions"
+        },
+        {
+          "name": "University of Pittsburgh",
+          "url": "pitt.edu/admissions"
+        },
+        {
+          "name": "Rutgers University",
+          "url": "rutgers.edu/admissions"
+        },
+        {
+          "name": "Indiana University Bloomington",
+          "url": "indiana.edu/admissions"
+        },
+        {
+          "name": "Arizona State University",
+          "acceptance_rate": "~89.8%",
+          "url": "asu.edu/admissions"
+        },
+        {
+          "name": "University of Arizona",
+          "url": "arizona.edu/admissions"
+        },
+        {
+          "name": "North Carolina State University",
+          "url": "ncsu.edu/admissions"
+        }
+      ]
+    }
+  },
+  "research_methodology": {
+    "phase_1_complete": {
+      "consulting_resources": 10,
+      "database_resources": 5,
+      "official_university_blogs_identified": 10
+    },
+    "phase_2_partial": {
+      "universities_with_deep_research": 2,
+      "universities_with_partial_research": 8,
+      "universities_catalogued_for_future_research": 80
+    },
+    "total_resources_identified": 100
+  },
+  "next_steps_for_expansion": [
+    "Complete deep research on Stanford (Priority 1)",
+    "Complete deep research on Yale (Priority 1)",
+    "Complete deep research on Princeton (Priority 1)",
+    "Complete deep research on Columbia, Penn, Duke, UChicago, Northwestern (Priority 2)",
+    "Begin systematic research on Tier 1 highly selective (Caltech, Brown, Dartmouth, etc.)",
+    "Expand to Tier 2 very selective universities",
+    "Research top liberal arts colleges",
+    "Map out UC system specific admissions criteria",
+    "Include state flagship universities for comprehensive coverage"
+  ],
+  "key_insights_from_initial_research": {
+    "common_themes_across_top_universities": [
+      "Holistic review is universal - academics alone insufficient",
+      "Demonstrated passion and depth matter more than breadth",
+      "Impact and contribution to community highly valued",
+      "Authentic voice in essays critical",
+      "Letters of recommendation from people who truly know applicant",
+      "Most want students who will contribute to their specific mission/culture",
+      "Testing requirements being reinstated at many schools after brief test-optional period",
+      "Early action/decision showing increasing importance"
+    ],
+    "differentiators_between_schools": [
+      "MIT: Hands-on makers, 'Mens et Manus', collaborative spirit, STEM preparation",
+      "Harvard: Clear narrative arc, world-class achievement, leadership",
+      "Stanford: Intellectual ethos, essays weighted heavily, innovation focus",
+      "Yale: Humanities-driven curiosity, intellectual life",
+      "Princeton: Undergraduate focus, particularly competitive for STEM/policy",
+      "Each school has unique culture that drives evaluation"
+    ],
+    "evaluation_processes": [
+      "Multiple readers review each application",
+      "Committee discussions for competitive applicants",
+      "At least dozen people discuss applications at MIT",
+      "Holistic review considers context of opportunities available",
+      "First-generation status, economic background considered",
+      "Interviews where available provide additional data points"
+    ]
+  },
+  "application_for_synthetic_counselor": {
+    "scoring_framework_considerations": [
+      "Academic strength (GPA, test scores, rigor) - baseline filter",
+      "Depth and impact of extracurriculars - major differentiator",
+      "Quality of essays and authentic voice - critical for top schools",
+      "Letters of recommendation strength - reveals character",
+      "Alignment with specific university culture/mission - fit assessment",
+      "Demonstrated leadership and community contribution - values alignment",
+      "Overcoming adversity and resilience - personal qualities",
+      "Unique hook or distinguishing characteristic - memorability"
+    ],
+    "common_weaknesses_to_flag": [
+      "Well-rounded but not distinguished in any area",
+      "Activities chosen for resume building rather than genuine interest",
+      "Generic essays without authentic voice or specific examples",
+      "Lack of depth in extracurriculars (too many shallow involvements)",
+      "Missing clear narrative or story arc in application",
+      "Not demonstrating specific fit with university",
+      "Weak or generic letters of recommendation",
+      "No evidence of initiative, impact, or leadership"
+    ],
+    "red_flags_that_predict_rejection": [
+      "Below 25th percentile test scores without compelling story",
+      "No academic rigor or course challenge",
+      "Plagiarized or inauthentic essay voice",
+      "Disciplinary issues without context or growth",
+      "Activities list that doesn't match narrative",
+      "Letters of recommendation that are lukewarm or template-based",
+      "No demonstrated interest or understanding of university",
+      "Application feels assembled rather than authentic"
+    ]
+  }
+}
