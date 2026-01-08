@@ -927,6 +927,166 @@ function useMockReview() {
 
 // Render results from API response
 function renderResultsFromAPI(review) {
+  // Check if this is the new comprehensive v2 format
+  if (review.target_school_analysis && review.component_scores) {
+    renderResultsV2(review);
+    return;
+  }
+
+  // Otherwise use legacy rendering
+  renderResultsLegacy(review);
+}
+
+// Enhanced rendering for comprehensive v2 reviews with university-specific feedback
+function renderResultsV2(review) {
+  const resultsContainer = document.querySelector('.results-container');
+  const schoolAnalysis = review.target_school_analysis || {};
+  const overall = review.overall_assessment || {};
+  const components = review.component_scores || {};
+  const narrative = review.narrative_assessment || {};
+  const weaknesses = review.weaknesses || [];
+  const redFlags = review.red_flags || [];
+  const finalAssessment = review.final_assessment || '';
+
+  // Build fit analysis section
+  const fitData = components.university_fit || {};
+  const alignmentItems = fitData.alignment_with_what_school_seeks || [];
+
+  const fitAnalysisHTML = alignmentItems.length > 0 ? `
+    <div class="fit-analysis-section" style="margin-top: var(--space-8); padding: var(--space-6); background: var(--color-surface); border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
+      <h3 style="margin-bottom: var(--space-4);">🎯 Fit Analysis: Alignment with ${schoolAnalysis.school}</h3>
+      <p style="color: var(--color-text-secondary); margin-bottom: var(--space-6);">How well does this applicant match what ${schoolAnalysis.school} specifically seeks?</p>
+      <div style="display: grid; gap: var(--space-4);">
+        ${alignmentItems.map(item => `
+          <div style="padding: var(--space-4); background: ${item.demonstrated ? 'rgba(34, 197, 94, 0.1)' : 'rgba(239, 68, 68, 0.1)'}; border-left: 3px solid ${item.demonstrated ? '#22c55e' : '#ef4444'}; border-radius: var(--radius-md);">
+            <div style="display: flex; align-items: start; gap: var(--space-3);">
+              <span style="font-size: 1.5rem;">${item.demonstrated ? '✅' : '❌'}</span>
+              <div style="flex: 1;">
+                <strong>${item.criterion}</strong>
+                <p style="color: var(--color-text-secondary); margin-top: var(--space-2); font-size: 0.95rem;">${item.evidence}</p>
+              </div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+      <div style="margin-top: var(--space-6); padding-top: var(--space-4); border-top: 1px solid var(--color-border);">
+        <p><strong>Cultural Fit:</strong> ${fitData.cultural_fit_assessment || 'Not assessed'}</p>
+        <p style="margin-top: var(--space-3);"><strong>Knowledge of School:</strong> ${fitData.knowledge_of_school || 'Not assessed'}</p>
+        <p style="margin-top: var(--space-3);"><strong>Values Alignment:</strong> ${fitData.values_alignment || 'Not assessed'}</p>
+      </div>
+    </div>
+  ` : '';
+
+  // Build weaknesses section with common pitfalls highlighted
+  const weaknessesHTML = weaknesses.length > 0 ? `
+    <div class="weaknesses-section" style="margin-top: var(--space-8); padding: var(--space-6); background: var(--color-surface); border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
+      <h3 style="margin-bottom: var(--space-4);">⚠️ Identified Weaknesses</h3>
+      <p style="color: var(--color-text-secondary); margin-bottom: var(--space-6);">Areas where this application falls short of ${schoolAnalysis.school}'s expectations:</p>
+      <div style="display: grid; gap: var(--space-4);">
+        ${weaknesses.map(w => {
+          const priorityColor = w.priority === 'HIGH' ? '#ef4444' : w.priority === 'MEDIUM' ? '#f59e0b' : '#6b7280';
+          const priorityBg = w.priority === 'HIGH' ? 'rgba(239, 68, 68, 0.1)' : w.priority === 'MEDIUM' ? 'rgba(245, 158, 11, 0.1)' : 'rgba(107, 114, 128, 0.1)';
+          return `
+            <div style="padding: var(--space-4); background: ${priorityBg}; border-left: 3px solid ${priorityColor}; border-radius: var(--radius-md);">
+              <div style="display: flex; align-items: start; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-2);">
+                <strong style="color: ${priorityColor};">${w.category}</strong>
+                <span style="font-size: 0.85rem; padding: 2px 8px; background: ${priorityColor}; color: white; border-radius: 4px;">${w.priority}</span>
+              </div>
+              <p style="margin: var(--space-2) 0;"><strong>Issue:</strong> ${w.weakness}</p>
+              <p style="color: var(--color-text-secondary); font-size: 0.95rem; margin: var(--space-2) 0;"><strong>Evidence:</strong> ${w.evidence}</p>
+              <p style="color: var(--color-text-secondary); font-size: 0.95rem; margin-top: var(--space-2);"><strong>What ${schoolAnalysis.school} Expects:</strong> ${w.school_expectation}</p>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  ` : '';
+
+  // Build red flags section
+  const redFlagsHTML = redFlags.length > 0 ? `
+    <div class="red-flags-section" style="margin-top: var(--space-8); padding: var(--space-6); background: rgba(239, 68, 68, 0.05); border-radius: var(--radius-lg); border: 2px solid #ef4444;">
+      <h3 style="margin-bottom: var(--space-4); color: #dc2626;">🚨 Red Flags Detected</h3>
+      <p style="color: var(--color-text-secondary); margin-bottom: var(--space-6);"><strong>Warning:</strong> These are serious issues that often lead to rejection at ${schoolAnalysis.school}:</p>
+      <div style="display: grid; gap: var(--space-4);">
+        ${redFlags.map(flag => {
+          const severityColor = flag.severity === 'critical' ? '#dc2626' : flag.severity === 'high' ? '#ea580c' : '#f59e0b';
+          return `
+            <div style="padding: var(--space-4); background: white; border-left: 4px solid ${severityColor}; border-radius: var(--radius-md);">
+              <div style="display: flex; align-items: start; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-2);">
+                <strong style="color: ${severityColor};">${flag.flag}</strong>
+                <span style="font-size: 0.85rem; padding: 2px 8px; background: ${severityColor}; color: white; border-radius: 4px; text-transform: uppercase;">${flag.severity}</span>
+              </div>
+              <p style="margin: var(--space-2) 0;"><strong>Evidence:</strong> ${flag.evidence}</p>
+              <p style="color: var(--color-text-secondary); margin-top: var(--space-2);"><strong>Impact:</strong> ${flag.impact}</p>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  ` : '';
+
+  // Render complete results
+  resultsContainer.innerHTML = `
+    <div class="results-header">
+      <div class="decision-badge">
+        ${overall.rating || 'Assessment Complete'}
+      </div>
+      <h1>Application Review for ${schoolAnalysis.school}</h1>
+      <p style="font-size: 1.1rem; color: var(--color-text-secondary);">
+        <strong>Tier:</strong> ${schoolAnalysis.tier} |
+        <strong>Acceptance Rate:</strong> ${schoolAnalysis.acceptance_rate}
+      </p>
+    </div>
+
+    <div class="overall-score">
+      <div class="score-circle" style="--score-percent: ${overall.score || 0}%;">
+        <span class="score-value">${overall.score || 0}</span>
+        <span class="score-label">/ 100</span>
+      </div>
+      <h3>Overall Application Score</h3>
+      <p style="color: var(--color-text-secondary); max-width: 600px; margin: var(--space-4) auto 0;">
+        ${overall.admission_likelihood || 'Assessment of realistic chances'}
+      </p>
+    </div>
+
+    <h2 style="font-family: var(--font-display); margin-bottom: var(--space-4);">What ${schoolAnalysis.school} Seeks</h2>
+    <div style="padding: var(--space-4); background: var(--color-surface); border-radius: var(--radius-lg); margin-bottom: var(--space-6);">
+      <ul style="list-style: none; padding: 0; display: grid; gap: var(--space-2);">
+        ${(schoolAnalysis.what_this_school_seeks || []).map(item => `
+          <li style="padding-left: var(--space-6); position: relative;">
+            <span style="position: absolute; left: 0;">✓</span>
+            ${item}
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+
+    ${fitAnalysisHTML}
+    ${weaknessesHTML}
+    ${redFlagsHTML}
+
+    ${finalAssessment ? `
+      <div style="margin-top: var(--space-8); padding: var(--space-6); background: var(--color-surface); border-radius: var(--radius-lg);">
+        <h3 style="margin-bottom: var(--space-4);">📝 Final Assessment</h3>
+        <p style="white-space: pre-wrap; line-height: 1.6;">${finalAssessment}</p>
+      </div>
+    ` : ''}
+
+    <div class="results-actions" style="margin-top: var(--space-8);">
+      <button class="btn btn-primary btn-lg" onclick="showLandingPage()">
+        Start New Review
+      </button>
+      <button class="btn btn-outline btn-lg" onclick="window.print()">
+        Print Results
+      </button>
+    </div>
+  `;
+
+  window.scrollTo(0, 0);
+}
+
+// Legacy rendering for old format reviews
+function renderResultsLegacy(review) {
   const resultsContainer = document.querySelector('.results-container');
   const program = PROGRAM_DATA[appState.currentProgram];
   
