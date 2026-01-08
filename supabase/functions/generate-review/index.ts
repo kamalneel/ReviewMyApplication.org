@@ -1700,6 +1700,18 @@ ${schoolData.extracurricular_expectations?.unique_preferences?.map(item => `  - 
 - **Process**: ${schoolData.evaluation_notes?.process}
 - **Committee**: ${schoolData.evaluation_notes?.committee_info}
 - **Key Insight**: ${schoolData.evaluation_notes?.key_insight}
+${schoolData.letters_of_recommendation ? `
+### Letters of Recommendation (${schoolData.name}-Specific)
+- **Requirements**: ${schoolData.letters_of_recommendation.requirements}
+- **Importance**: ${schoolData.letters_of_recommendation.importance}
+- **What Reviewers Look For**:
+${schoolData.letters_of_recommendation.what_reviewers_look_for.map(item => `  - ${item}`).join('\n')}
+` : ''}
+${schoolData.demonstrated_interest ? `
+### Demonstrated Interest at ${schoolData.name}
+- **Tracked**: ${schoolData.demonstrated_interest.tracked ? 'Yes - showing interest helps' : 'No - pure merit-based'}
+- **Interviews**: ${schoolData.demonstrated_interest.interviews}
+` : ''}
 ` : `
 ## TARGET SCHOOL: ${schoolData.name}
 - Tier: ${schoolData.tier}
@@ -1795,11 +1807,11 @@ MEDIUM PRIORITY WEAKNESSES:
 7. Generic "Why ${schoolData.name}" response that could apply to any school
 8. Activities don't support stated interests or intended major
 
-RED FLAGS:
-9. Essay sounds adult-written or consultant-polished
+RED FLAGS (${schoolData.name}-Specific):
+${schoolData.red_flags && schoolData.red_flags.length > 0 ? schoolData.red_flags.map((flag, i) => `${i + 9}. ${flag}`).join('\n') : `9. Essay sounds adult-written or consultant-polished
 10. Inflated or unverifiable achievements
 11. Avoided academic rigor when challenging courses were available
-12. Application feels assembled rather than authentic
+12. Application feels assembled rather than authentic`}
 
 ## Output Format
 
