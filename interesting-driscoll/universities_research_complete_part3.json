@@ -1,0 +1,289 @@
+{
+  "university_of_chicago": {
+    "university": "University of Chicago",
+    "ranking": 9,
+    "acceptance_rate": "~5.4%",
+    "admissions_office_urls": {
+      "main_admissions": "https://collegeadmissions.uchicago.edu/",
+      "apply": "https://collegeadmissions.uchicago.edu/apply",
+      "essays": "https://collegeadmissions.uchicago.edu/apply/uchicago-supplemental-essay-questions",
+      "visit": "https://collegeadmissions.uchicago.edu/visit",
+      "life_of_the_mind": "https://www.uchicago.edu/about/the-uchicago-education/"
+    },
+    "counselor_perspectives": {
+      "overall_philosophy": "UChicago seeks students who love learning for its own sake and will thrive in our intense intellectual community. We value unconventional thinkers who engage deeply with ideas and aren't afraid to challenge assumptions. The essay is where we see if you'll fit with our 'life of the mind' culture.",
+      "mission_alignment": "UChicago's 'life of the mind' philosophy permeates everything. The university seeks students who are intellectually curious, willing to engage in rigorous debate, comfortable with ambiguity, and excited by ideas themselves - not just their applications.",
+      "what_they_seek": [
+        "Deep intellectual curiosity - 'life of the mind'",
+        "Unconventional thinking and willingness to challenge ideas",
+        "Love of learning for learning's sake",
+        "Engagement with big questions and abstract concepts",
+        "Academic rigor and serious scholarship",
+        "Students who thrive on debate and discussion",
+        "Quirky, authentic individuals",
+        "Comfort with intensity and intellectual challenge"
+      ],
+      "evaluation_philosophy": "UChicago's essays are legendarily unique and quirky - they're designed to identify students who will engage with UChicago's intellectual intensity. The admissions committee wants to see creative, thoughtful responses that reveal how you think, not just what you've achieved."
+    },
+    "academic_criteria": {
+      "gpa_expectations": "Most admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+      "test_scores": {
+        "sat_range": "1500-1570 (middle 50%)",
+        "sat_math": "760-800 (middle 50%)",
+        "sat_ebrw": "740-780 (middle 50%)",
+        "act_range": "33-35 (middle 50%)",
+        "testing_requirement": "Test-optional",
+        "superscoring": "Yes, UChicago superscores SAT and ACT"
+      },
+      "course_rigor": "Most demanding curriculum available. UChicago expects serious academic preparation and intellectual rigor.",
+      "academic_interests": "Values deep engagement with ideas across disciplines. Core Curriculum requires breadth of study."
+    },
+    "essay_requirements": {
+      "personal_statement": "Common Application or Coalition Application essay (650 words)",
+      "supplemental_essays": "Extended essay responding to one of UChicago's unique prompts (can be from current year or past prompts), plus 'Why UChicago?' and other short responses",
+      "essay_philosophy": "UChicago's essays are famous for being quirky, unconventional, and intellectually challenging. They want to see creative thinking, intellectual playfulness, deep engagement with ideas, and authentic voice. The extended essay is the heart of the application.",
+      "what_makes_strong_essays": [
+        "Intellectual creativity and original thinking",
+        "Deep engagement with the prompt - not superficial treatment",
+        "Authentic voice - being genuinely yourself, even if quirky",
+        "Intellectual playfulness and willingness to take creative risks",
+        "Demonstrating how you think, not just what you know",
+        "Love of ideas and learning for their own sake",
+        "Specific understanding of UChicago's 'life of the mind' culture",
+        "Comfort with ambiguity and complexity"
+      ],
+      "unique_essay_prompts_examples": [
+        "Find X (past prompt - can involve math, philosophy, treasure hunts, variables)",
+        "What's so odd about odd numbers?",
+        "Due to a series of clerical errors, there is exactly one typo in the name of every department at UChicago...",
+        "The mantis shrimp can perceive both polarized light and multispectral images; they have the most complex eyes in the animal kingdom. Human eyes have color receptors for three colors... What might we be missing, and what are we missing out on?",
+        "Joan of Arkansas. Queen Elizabeth Cady Stanton. Babe Ruth Bader Ginsburg. Mash up a historical figure with a new time period, environment, location, or occupation, and tell us their story."
+      ],
+      "common_essay_mistakes": [
+        "Treating unique prompts as standard college essays",
+        "Being too safe or conventional in response to creative prompts",
+        "Not showing genuine intellectual curiosity",
+        "Generic 'Why UChicago' without understanding 'life of the mind'",
+        "Trying to sound smart rather than being authentic",
+        "Surface-level engagement with deep prompts",
+        "Missing opportunities to show intellectual playfulness",
+        "Not understanding UChicago's quirky, intense culture"
+      ]
+    },
+    "extracurriculars": {
+      "importance": "High, but less emphasized than intellectual curiosity and essays",
+      "depth_vs_breadth": "Depth and intellectual engagement matter more than impressive titles",
+      "leadership_expectations": "Leadership valued but intellectual leadership and independent pursuits equally important",
+      "impact_demonstration": "Impact matters, but intellectual pursuits and genuine interests valued over resume building",
+      "recognition_level": "Mix of recognition and deep intellectual engagement",
+      "unique_preference": "Intellectual activities, research, debate, academic competitions, quirky independent projects, activities showing genuine curiosity"
+    },
+    "letters_of_recommendation": {
+      "requirements": "Two teacher recommendations plus counselor recommendation",
+      "what_reviewers_look_for": [
+        "Intellectual curiosity and love of learning",
+        "Contribution to classroom discussions and debate",
+        "Ability to engage with complex ideas",
+        "Asking deep questions",
+        "Independent thinking",
+        "Character and integrity",
+        "Specific examples of intellectual engagement"
+      ],
+      "importance": "Very important - should demonstrate intellectual engagement and 'life of the mind' qualities"
+    },
+    "demonstrated_interest": {
+      "importance": "Not tracked - UChicago doesn't consider demonstrated interest",
+      "interviews": "Optional interviews with alumni when available"
+    },
+    "evaluation_rubrics": {
+      "selection_process": "Applications read by multiple officers with heavy emphasis on essays. Extended essay is critical differentiator.",
+      "committee_review": "Committee discusses competitive applications, with essays playing central role in decisions",
+      "decision_framework": "Holistic review with exceptional weight on essay quality, intellectual curiosity, and fit with UChicago's intense academic culture",
+      "key_evaluation_points": [
+        "Essay quality - creativity, depth, authentic voice",
+        "Intellectual curiosity and love of learning",
+        "Fit with 'life of the mind' culture",
+        "Academic preparation for rigorous Core Curriculum",
+        "Ability to engage with complex ideas",
+        "Independent thinking and unconventional perspectives",
+        "Character and authentic self-presentation",
+        "Contribution to intellectual community"
+      ]
+    },
+    "unique_insights": [
+      "UChicago's extended essay prompts are legendary - quirky, intellectual, designed to find unconventional thinkers",
+      "'Where fun comes to die' is a self-aware joke about academic intensity - students are seriously intellectual",
+      "Core Curriculum is one of most rigorous - extensive requirements in humanities, sciences, social sciences",
+      "Scav Hunt (annual scavenger hunt) exemplifies combination of intellectual intensity and playfulness",
+      "House system provides community within intense academic environment",
+      "Location in Hyde Park, Chicago provides urban resources while maintaining campus community",
+      "UChicago students genuinely enjoy intellectual debate and learning - not just grade-focused",
+      "The essay is the most important part of the application - shows if you'll thrive in UChicago's unique culture"
+    ],
+    "common_pitfalls": [
+      "Safe, conventional essays that don't engage with UChicago's quirky prompts",
+      "Not understanding or embracing 'life of the mind' culture",
+      "Generic 'Why UChicago' essays",
+      "Treating extended essay as typical college essay",
+      "Not showing genuine love of learning and ideas",
+      "Trying to appear perfect rather than authentic and quirky",
+      "Missing intellectual playfulness in essays",
+      "Not demonstrating fit with intense academic culture",
+      "Underestimating importance of creative, thoughtful essay responses"
+    ],
+    "red_flags": [
+      "Generic or superficial extended essay responses",
+      "No evidence of intellectual curiosity beyond grades",
+      "Essays that don't show authentic voice or creative thinking",
+      "Missing understanding of UChicago's distinctive culture",
+      "Lack of engagement with ideas for their own sake",
+      "Too focused on practical applications without intellectual foundation",
+      "Conventional thinking without questioning assumptions"
+    ]
+  },
+
+  "northwestern_university": {
+    "university": "Northwestern University",
+    "ranking": 10,
+    "acceptance_rate": "~7%",
+    "admissions_office_urls": {
+      "main_admissions": "https://www.northwestern.edu/admissions/",
+      "undergraduate_admissions": "https://admissions.northwestern.edu/",
+      "apply": "https://admissions.northwestern.edu/apply/",
+      "schools_colleges": "https://www.northwestern.edu/academics/schools-and-colleges.html",
+      "visit": "https://admissions.northwestern.edu/visit/"
+    },
+    "counselor_perspectives": {
+      "overall_philosophy": "Northwestern seeks students who are intellectually curious, ambitious, and collaborative. We value students who pursue their passions with purpose and will take advantage of our unique combination of academic rigor, pre-professional opportunities, and Big Ten spirit.",
+      "mission_alignment": "Northwestern combines academic excellence with practical, pre-professional focus. The university values students who integrate learning across disciplines, engage with real-world applications, and contribute to vibrant campus community.",
+      "what_they_seek": [
+        "Academic excellence and intellectual curiosity",
+        "Clear passions and sense of purpose",
+        "Pre-professional ambition combined with liberal arts foundation",
+        "Collaborative spirit and community engagement",
+        "Students who will engage across Northwestern's schools and programs",
+        "Leadership and initiative",
+        "Balance of achievement and well-roundedness",
+        "Fit with specific undergraduate school"
+      ],
+      "evaluation_philosophy": "Northwestern's holistic review emphasizes fit with specific undergraduate school while valuing interdisciplinary exploration. The university seeks students who show both focused passion and breadth of interests."
+    },
+    "academic_criteria": {
+      "gpa_expectations": "Most admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+      "test_scores": {
+        "sat_range": "1460-1560 (middle 50%)",
+        "sat_math": "740-800 (middle 50%)",
+        "sat_ebrw": "720-770 (middle 50%)",
+        "act_range": "33-35 (middle 50%)",
+        "testing_requirement": "Test-optional for recent cycles",
+        "superscoring": "Yes, Northwestern superscores SAT and ACT"
+      },
+      "course_rigor": "Most demanding curriculum available. Expectations vary by school - Engineering (McCormick) expects strong STEM preparation, Journalism (Medill) expects writing/communication background.",
+      "academic_interests": "Values focused interests combined with interdisciplinary exploration"
+    },
+    "essay_requirements": {
+      "personal_statement": "Common Application or Coalition Application essay (650 words)",
+      "supplemental_essays": "Multiple Northwestern supplements including 'Why Northwestern?' and school-specific questions for each undergraduate school",
+      "essay_philosophy": "Northwestern wants to see specific knowledge of the university's offerings and genuine fit with chosen school. Essays should demonstrate clear academic interests, understanding of interdisciplinary opportunities, and excitement about Northwestern's unique combination of rigor and spirit.",
+      "what_makes_strong_essays": [
+        "Specific Northwestern programs, courses, or opportunities",
+        "Understanding of chosen undergraduate school's unique features",
+        "How you'll take advantage of interdisciplinary resources",
+        "Balance of academic focus and campus engagement",
+        "Genuine enthusiasm for Northwestern's culture",
+        "Clear academic and career goals",
+        "Understanding of quarter system and its benefits",
+        "Connection to Chicago location and opportunities"
+      ],
+      "common_essay_mistakes": [
+        "Generic 'Why Northwestern' without specific programs",
+        "Not differentiating between Northwestern's six undergraduate schools",
+        "Missing interdisciplinary opportunities",
+        "Focusing only on location or rankings without academic substance",
+        "Weak school-specific essays (especially for Medill, McCormick, or Bienen)",
+        "Not showing understanding of quarter system",
+        "Listing famous programs without personal connection"
+      ]
+    },
+    "extracurriculars": {
+      "importance": "Very high - Northwestern evaluates depth, leadership, and passion",
+      "depth_vs_breadth": "Depth and leadership strongly preferred, but Northwestern also values well-roundedness",
+      "leadership_expectations": "Leadership highly valued across activities",
+      "impact_demonstration": "Must show sustained commitment and measurable impact",
+      "recognition_level": "Mix of high-level achievement and deep engagement",
+      "unique_preference": "Pre-professional activities (journalism, business, theater, music), research, community engagement, activities aligned with chosen school"
+    },
+    "letters_of_recommendation": {
+      "requirements": "One counselor recommendation plus one teacher recommendation",
+      "what_reviewers_look_for": [
+        "Academic excellence and classroom contribution",
+        "Leadership and initiative",
+        "Character and integrity",
+        "Collaborative spirit",
+        "Specific examples of achievement and impact",
+        "Intellectual curiosity"
+      ],
+      "importance": "Important - should support academic excellence and character"
+    },
+    "demonstrated_interest": {
+      "importance": "Not officially tracked, but 'Why Northwestern' essay must show genuine knowledge and interest",
+      "interviews": "Not offered"
+    },
+    "evaluation_rubrics": {
+      "selection_process": "Applications read by regional admissions officers, strong applications discussed in committee",
+      "committee_review": "Committee makes decisions after holistic review",
+      "decision_framework": "Evaluation based on academic achievement, school-specific fit, extracurricular depth, essays, and recommendations",
+      "key_evaluation_points": [
+        "Academic excellence and preparation",
+        "Fit with specific undergraduate school",
+        "Extracurricular depth and leadership",
+        "Essay quality and Northwestern-specific knowledge",
+        "Clear academic and career interests",
+        "Recommendations showing excellence and character",
+        "Balance of focus and breadth",
+        "Contribution to diverse community"
+      ]
+    },
+    "undergraduate_schools": {
+      "weinberg_college": "College of Arts and Sciences - liberal arts foundation",
+      "mccormick_engineering": "Engineering and Applied Science - requires strong STEM background",
+      "medill_journalism": "Journalism, Media, Integrated Marketing Communications - highly selective, requires demonstrated interest in journalism/communications",
+      "bienen_music": "Music school - requires audition, combines conservatory training with liberal arts",
+      "communication": "School of Communication - theater, performance, communication studies",
+      "education_social_policy": "School of Education and Social Policy - smaller, specialized programs"
+    },
+    "unique_insights": [
+      "Northwestern combines academic rigor of top university with Big Ten athletics and school spirit",
+      "Six undergraduate schools offer pre-professional focus unusual for research university",
+      "Medill School of Journalism is one of best in world - extremely competitive and requires clear journalism interest",
+      "Quarter system (three 10-week quarters) allows students to take more courses and explore broadly",
+      "Location in Evanston provides both campus community and easy access to Chicago",
+      "Strong theater and performance programs attract creative, talented students",
+      "Interdisciplinary opportunities - many students pursue dual degrees or minors across schools",
+      "Collaborative rather than cutthroat culture despite academic rigor",
+      "NU alumni network is particularly strong and engaged",
+      "Balance of academic excellence, pre-professional opportunities, and traditional college experience"
+    ],
+    "common_pitfalls": [
+      "Not understanding differences between Northwestern's six undergraduate schools",
+      "Weak 'Why Northwestern' without specific programs or knowledge",
+      "Missing Northwestern's unique combination of rigor and spirit",
+      "Not demonstrating clear fit with chosen school",
+      "Generic essays that could apply to any top university",
+      "Medill applicants without demonstrated journalism/communications interest",
+      "McCormick (Engineering) applicants without strong STEM background",
+      "Ignoring quarter system and its implications",
+      "Not showing understanding of interdisciplinary opportunities",
+      "Underestimating competitiveness of specific schools (especially Medill)"
+    ],
+    "red_flags": [
+      "Lack of specific Northwestern knowledge in essays",
+      "No clear fit with chosen undergraduate school",
+      "Medill applicants with no journalism/communications background",
+      "McCormick applicants with weak STEM preparation",
+      "Generic application without school-specific research",
+      "Missing understanding of Northwestern's distinctive culture",
+      "Shallow extracurricular involvement"
+    ]
+  }
+}

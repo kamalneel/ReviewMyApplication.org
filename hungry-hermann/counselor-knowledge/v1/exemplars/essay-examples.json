@@ -1,0 +1,199 @@
+{
+  "version": "1.0.0",
+  "updated": "2024-12-27",
+  "description": "Annotated essay examples for counselor reference and feedback",
+  
+  "college": {
+    "personal_statement": {
+      "excellent": [
+        {
+          "prompt": "Describe a topic, idea, or concept you find so engaging that it makes you lose all track of time.",
+          "essay": "The first time I truly understood infinity, I was twelve years old, lying on my back in my grandmother's backyard in rural Korea. She had just explained that the universe had no edge—that you could travel forever and never reach a wall. I remember the vertigo, the way my mind kept trying to imagine 'the end' and failing, looping back like a broken record.\n\nThat night, I couldn't sleep. I filled three pages of my notebook with questions: If space is infinite, are there infinite versions of Earth? Of me? If time had a beginning, what was before? My grandmother found me at 2 AM, still writing, and instead of sending me to bed, she made tea and listened.\n\nThat conversation planted something. Now, at seventeen, I've read everything from Brian Greene to obscure physics forums where grad students debate string theory at 3 AM. I've taught myself enough calculus to understand (barely) why E=mc². I've started a 'Big Questions' club at school where we debate everything from consciousness to simulation theory.\n\nBut what I love most isn't finding answers—it's the feeling of standing at the edge of human knowledge, looking into the dark. Every few months, I discover something that breaks my brain again: Gödel's incompleteness theorems, the measurement problem, the fine-tuning argument. Each one is a new form of vertigo, and I've learned to love the falling.\n\nMy grandmother died last spring. At her funeral, I thought about that night in her backyard—how she gave me permission to wonder, to stay up too late asking impossible questions. The universe is still infinite, still edgeless, still more than I can hold in my mind. But now, when I can't sleep because I'm thinking about dark matter or quantum entanglement, I make myself tea and keep a notebook nearby. Just in case.",
+          "word_count": 312,
+          "score": 95,
+          "annotations": {
+            "authenticity": "Deeply personal, specific memories (grandmother, Korean countryside, 2 AM tea). Couldn't be anyone else's essay.",
+            "narrative_structure": "Beautiful arc from childhood moment to present to loss to continuation. The ending circles back to the beginning.",
+            "specificity": "Concrete details: 'three pages of my notebook,' 'Brian Greene,' 'Gödel's incompleteness theorems,' 'Big Questions club'",
+            "insight": "Shows evolution of relationship with curiosity, and how grandmother's death deepened rather than ended it.",
+            "what_makes_it_work": [
+              "Opens with a specific moment, not a general statement",
+              "Intellectual interest tied to emotional core (relationship with grandmother)",
+              "Vulnerability in admitting to 'barely' understanding calculus",
+              "Doesn't try to impress—just genuinely shares passion",
+              "Ending is earned and resonant, not forced"
+            ]
+          }
+        }
+      ],
+      "needs_work": [
+        {
+          "prompt": "Describe a topic, idea, or concept you find so engaging that it makes you lose all track of time.",
+          "essay": "From a young age, I have always been passionate about science. I remember watching documentaries about space and being amazed by the vastness of the universe. This passion has only grown over time.\n\nIn high school, I took every science class available to me. I particularly enjoyed AP Physics and AP Chemistry, where I learned about the fundamental laws that govern our world. I also joined the Science Olympiad team, where I competed in events like Astronomy and Physics Lab.\n\nWhat I love most about science is how it explains everything around us. From the device I'm typing this on to the stars in the sky, science provides answers to our biggest questions. I believe that through scientific research, we can solve the world's most pressing problems, from climate change to disease.\n\nLooking forward, I hope to major in physics and eventually pursue a PhD. I want to contribute to our understanding of the universe and perhaps make discoveries that will benefit humanity. Science is not just a subject to me—it's a way of life and a lens through which I see the world.\n\nI am excited to continue my scientific journey in college and to surround myself with others who share my passion for discovery.",
+          "word_count": 214,
+          "score": 45,
+          "annotations": {
+            "problems": {
+              "authenticity": "Generic voice—could be any student interested in science. No personal details or specific moments.",
+              "narrative_structure": "Chronological list (childhood → high school → future) without a real story or arc.",
+              "specificity": "Vague references (documentaries about space, science classes). No concrete moments or examples.",
+              "insight": "Surface-level statements about science ('explains everything,' 'way of life') without genuine reflection."
+            },
+            "specific_issues": [
+              "'From a young age' is a cliché opening",
+              "Lists achievements (AP classes, Science Olympiad) instead of telling a story",
+              "Reads like a resume summary, not a personal essay",
+              "Conclusion is generic future aspiration, not meaningful reflection",
+              "No vulnerability, humor, or distinctive personality"
+            ],
+            "how_to_improve": [
+              "Find ONE specific moment when science captivated you—describe it in detail",
+              "What question keeps you up at night? What problem obsesses you?",
+              "Show us your curiosity in action, not just tell us it exists",
+              "Include a setback, confusion, or moment of doubt—makes you human",
+              "Let your actual personality come through"
+            ]
+          }
+        }
+      ]
+    },
+    
+    "why_us": {
+      "excellent": [
+        {
+          "school": "[Example University]",
+          "essay": "Last October, I spent four hours on Professor Chen's faculty page, clicking through every link until I'd read three of her papers on topological insulators. I didn't understand most of it, but I understood enough to know that her work on edge states in 2D materials connected directly to the quantum questions that have consumed me since eighth grade.\n\nThen I found her course description for PHYS 371: 'We will break things. We will build things. We will argue.' That's when I knew.\n\n[University] keeps showing up in my research. The Experimental Physics for Undergraduates program, where students build actual detector components for the Large Hadron Collider. The 'Physics and Philosophy' house, where I imagine debating free will at midnight with people who also can't stop thinking about the measurement problem. The tradition of the Primal Scream before finals—because a school that builds in time for collective stress relief understands something about being human.\n\nBut mostly, it's the culture I've glimpsed through student blogs and Reddit threads: intense intellectual engagement combined with genuine weirdness. Someone described [University] as 'aggressively curious,' and I felt seen.\n\nI want to take PHYS 371 and argue about symmetry breaking. I want to work in Professor Chen's lab and contribute, even if it's just cleaning equipment at first. I want to find my people at the Physics and Philosophy house and stay up too late asking questions no one can answer.\n\nI want to be aggressively curious, surrounded by others who are too.",
+          "word_count": 258,
+          "score": 92,
+          "annotations": {
+            "what_works": [
+              "SPECIFIC professor, paper, course number—clearly researched",
+              "Shows genuine intellectual curiosity (read papers, even if didn't understand)",
+              "Includes quirky details (Primal Scream, 'Physics and Philosophy' house)",
+              "Connects school offerings to personal interests and identity",
+              "Voice is distinctive and authentic",
+              "Ends with memorable phrase that ties everything together"
+            ],
+            "techniques": [
+              "Opens with a story, not 'I want to attend [University] because...'",
+              "Uses specific names, numbers, and programs",
+              "Shows personality through word choice ('aggressively curious,' 'genuine weirdness')",
+              "Demonstrates cultural fit, not just academic interest",
+              "Avoids generic phrases like 'world-class' or 'diverse community'"
+            ]
+          }
+        }
+      ],
+      "needs_work": [
+        {
+          "school": "[Example University]",
+          "essay": "I am excited to apply to [University] because of its world-renowned physics program and diverse community. [University] offers everything I am looking for in a college: academic excellence, research opportunities, and a vibrant campus life.\n\n[University]'s physics department is ranked among the top in the nation, and I would be honored to learn from its distinguished faculty. The research opportunities available to undergraduates are impressive, and I hope to contribute to groundbreaking discoveries during my time there.\n\nBeyond academics, I am drawn to [University]'s commitment to diversity and inclusion. I believe that learning from people with different backgrounds and perspectives will make me a better scientist and person.\n\nI also look forward to participating in clubs and activities on campus. [University] has so many options, and I am excited to find my community.\n\nI know that [University] will challenge me and help me grow. I cannot wait to contribute to the [University] community and make the most of this incredible opportunity.",
+          "word_count": 169,
+          "score": 35,
+          "annotations": {
+            "problems": [
+              "Generic—could be about ANY university. No specific names, programs, or details.",
+              "'World-renowned,' 'top in the nation,' 'diverse community' are empty phrases",
+              "No evidence of actual research into the school",
+              "Reads like a template with [University] as a placeholder",
+              "No personality or voice—sounds like anyone"
+            ],
+            "how_to_improve": [
+              "Name specific professors whose work interests you",
+              "Reference specific courses by name/number",
+              "Mention unique programs, traditions, or opportunities",
+              "Show that you understand the school's culture, not just its rankings",
+              "Connect YOUR specific interests to THEIR specific offerings"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  
+  "high_school": {
+    "personal_essay": {
+      "excellent": [
+        {
+          "prompt": "Tell us about a challenge you've faced and how you handled it.",
+          "essay": "The first week of robotics club, I broke our team's only working motor. It was an accident—I was trying to help attach a wheel and stripped the gears completely. Everyone went silent. Marcus, our team captain, just stared at me.\n\nWe had regionals in three weeks and no budget for new parts. I wanted to quit right there. Instead, I spent that weekend watching YouTube tutorials on gear repair. On Monday, I came back with an idea: what if we could 3D print replacement gears?\n\nIt didn't work the first time. Or the second. The third attempt held together for about ten seconds before crumbling. But by the fourth try, we had gears that actually spun. They weren't as smooth as the originals, but they worked.\n\nWe didn't win regionals. We placed seventh out of twelve teams. But Marcus high-fived me anyway because our robot actually moved—something that seemed impossible three weeks earlier.\n\nI learned that messing up isn't the end of the story. It's just the part where you decide what happens next.",
+          "word_count": 178,
+          "score": 88,
+          "annotations": {
+            "what_works": [
+              "Specific, relatable story (not saving lives, just breaking a motor)",
+              "Shows actual problem-solving process, including failures",
+              "Age-appropriate voice—sounds like a 13-14 year old",
+              "Honest about outcome (7th place) rather than manufacturing a perfect ending",
+              "Final reflection is earned, not generic"
+            ],
+            "age_appropriate": [
+              "Challenge is school-level, not world-changing",
+              "Emotions are genuine but not overdramatic",
+              "Lesson is clear but not preachy",
+              "Length is appropriate—doesn't overexplain"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  
+  "middle_school": {
+    "why_school": {
+      "excellent": [
+        {
+          "prompt": "Why do you want to attend [School]?",
+          "essay": "When we visited [School] last month, I saw something cool in the science building: a group of 7th graders building a robot that could sort recycling. They weren't doing it for a grade—it was just their 'passion project.' One of them, a girl named Sophia, explained how they were trying to help the school reduce waste.\n\nI want to go to a school where kids do projects like that. At my current school, we mostly do worksheets and read from textbooks. I learn stuff, but I don't get to make anything.\n\nI also really liked the art room. It had actual pottery wheels! My mom says I go through more sketchbooks than anyone she knows, and I would love to learn how to make bowls and mugs that people can actually use.\n\nI think I would be a good fit for [School] because I like learning new things and I'm not scared to try stuff even if I'm not good at it yet. The recycling robot kids said their first prototype didn't even turn on. That would have been me too—but I would have kept trying.",
+          "word_count": 189,
+          "score": 85,
+          "annotations": {
+            "what_works": [
+              "References specific observation from campus visit",
+              "Sounds like an actual 10-11 year old wrote it",
+              "Shows genuine interests (art, making things)",
+              "Connects observations to personal fit",
+              "Personality comes through (sketchbooks, pottery wheels)"
+            ],
+            "child_voice_indicators": [
+              "'I saw something cool'",
+              "'That would have been me too'",
+              "'My mom says I go through more sketchbooks than anyone'",
+              "Natural, unpolished phrasing"
+            ]
+          }
+        }
+      ],
+      "needs_work": [
+        {
+          "prompt": "Why do you want to attend [School]?",
+          "essay": "[School] is renowned for its academic excellence and commitment to developing well-rounded students. The rigorous curriculum and outstanding faculty will provide me with the foundation I need to achieve my goals.\n\nI am particularly interested in [School]'s STEM program, which will allow me to explore my passion for science and technology. The state-of-the-art facilities and hands-on learning opportunities align perfectly with my learning style.\n\nFurthermore, I am drawn to [School]'s emphasis on character development and community service. I believe that education should extend beyond the classroom, and I am eager to participate in service projects that will allow me to give back to the community.\n\nI am confident that [School] will challenge me to reach my full potential while nurturing my intellectual curiosity and personal growth.",
+          "word_count": 135,
+          "score": 30,
+          "annotations": {
+            "problems": [
+              "Does NOT sound like a 10-12 year old wrote this",
+              "Adult vocabulary: 'renowned,' 'rigorous,' 'state-of-the-art,' 'nurturing'",
+              "Generic phrases that could describe any school",
+              "No specific details from visiting the school",
+              "No personality—sounds like a press release"
+            ],
+            "red_flags": [
+              "Parent or tutor clearly wrote or heavily edited this",
+              "Admissions officers see this immediately",
+              "Shows what parent wants, not what child thinks"
+            ],
+            "how_to_fix": [
+              "Have the child describe their campus visit in their own words",
+              "Ask: 'What was one thing you liked?' Let them answer naturally",
+              "Keep the child's grammar quirks—it's more authentic",
+              "Let them mention kid things (cool robots, art room, lunch options)",
+              "The essay should sound like the interview will"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+

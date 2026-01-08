@@ -1,0 +1,262 @@
+{
+  "version": "1.0.0",
+  "updated": "2024-12-27",
+  "description": "Evaluation rubric for academic profile assessment across all program types",
+  
+  "categories": {
+    "gpa_strength": {
+      "weight": 0.30,
+      "description": "How strong is the GPA relative to program expectations?",
+      "applies_to": ["middle-school", "high-school", "college"],
+      "scoring": {
+        "middle-school": {
+          "excellent": {"range": [90, 100], "gpa_range": "3.8-4.0 or equivalent"},
+          "good": {"range": [75, 89], "gpa_range": "3.5-3.79"},
+          "adequate": {"range": [60, 74], "gpa_range": "3.0-3.49"},
+          "needs_work": {"range": [40, 59], "gpa_range": "2.5-2.99"},
+          "poor": {"range": [0, 39], "gpa_range": "Below 2.5"}
+        },
+        "high-school": {
+          "excellent": {"range": [90, 100], "gpa_range": "3.9-4.0+ (weighted may be higher)"},
+          "good": {"range": [75, 89], "gpa_range": "3.7-3.89"},
+          "adequate": {"range": [60, 74], "gpa_range": "3.3-3.69"},
+          "needs_work": {"range": [40, 59], "gpa_range": "2.8-3.29"},
+          "poor": {"range": [0, 39], "gpa_range": "Below 2.8"}
+        },
+        "college": {
+          "context": "Evaluated against target school expectations",
+          "ivy_tier": {
+            "excellent": {"range": [90, 100], "gpa_range": "3.95-4.0 UW, top of class"},
+            "good": {"range": [75, 89], "gpa_range": "3.85-3.94 UW"},
+            "adequate": {"range": [60, 74], "gpa_range": "3.7-3.84 UW"},
+            "needs_work": {"range": [40, 59], "gpa_range": "3.5-3.69 UW"},
+            "poor": {"range": [0, 39], "gpa_range": "Below 3.5 UW"}
+          },
+          "competitive": {
+            "excellent": {"range": [90, 100], "gpa_range": "3.9-4.0 UW"},
+            "good": {"range": [75, 89], "gpa_range": "3.7-3.89 UW"},
+            "adequate": {"range": [60, 74], "gpa_range": "3.5-3.69 UW"},
+            "needs_work": {"range": [40, 59], "gpa_range": "3.2-3.49 UW"},
+            "poor": {"range": [0, 39], "gpa_range": "Below 3.2 UW"}
+          }
+        }
+      }
+    },
+    
+    "course_rigor": {
+      "weight": 0.30,
+      "description": "Is the student taking the most challenging courses available to them?",
+      "applies_to": ["high-school", "college"],
+      "weight_override": {
+        "middle-school": 0.15
+      },
+      "scoring": {
+        "excellent": {
+          "range": [90, 100],
+          "criteria": [
+            "Taking most rigorous courses available at their school",
+            "Multiple AP/IB/Honors courses in core subjects",
+            "Course selection shows academic ambition",
+            "Balance of rigor across subjects, not just strengths"
+          ]
+        },
+        "good": {
+          "range": [75, 89],
+          "criteria": [
+            "Strong course selection with appropriate challenge",
+            "Several advanced courses in areas of strength",
+            "Shows willingness to challenge themselves",
+            "Some areas could have more rigor but overall strong"
+          ]
+        },
+        "adequate": {
+          "range": [60, 74],
+          "criteria": [
+            "Mix of regular and advanced courses",
+            "Some rigor in areas of interest",
+            "Room for more challenge in certain areas",
+            "Meets basic expectations but doesn't exceed"
+          ]
+        },
+        "needs_work": {
+          "range": [40, 59],
+          "criteria": [
+            "Limited advanced coursework",
+            "Avoiding challenging courses when available",
+            "Course selection suggests playing it safe",
+            "Rigor doesn't match stated academic interests"
+          ]
+        },
+        "poor": {
+          "range": [0, 39],
+          "criteria": [
+            "No advanced coursework despite availability",
+            "Minimal academic challenge",
+            "Course selection raises questions about academic readiness"
+          ]
+        }
+      }
+    },
+    
+    "grade_trend": {
+      "weight": 0.15,
+      "description": "Is the student's academic performance improving, stable, or declining?",
+      "applies_to": ["middle-school", "high-school", "college"],
+      "scoring": {
+        "excellent": {
+          "range": [90, 100],
+          "criteria": [
+            "Strong upward trend showing growth",
+            "Consistent high performance throughout",
+            "Recovery from any early struggles with significant improvement"
+          ]
+        },
+        "good": {
+          "range": [75, 89],
+          "criteria": [
+            "Stable strong performance",
+            "Slight upward trend",
+            "Any dips are minor and explained"
+          ]
+        },
+        "adequate": {
+          "range": [60, 74],
+          "criteria": [
+            "Generally stable performance",
+            "Some fluctuation but no concerning patterns",
+            "Maintains acceptable standing"
+          ]
+        },
+        "needs_work": {
+          "range": [40, 59],
+          "criteria": [
+            "Declining trend is concerning",
+            "Inconsistent performance",
+            "Recent grades lower than earlier grades"
+          ]
+        },
+        "poor": {
+          "range": [0, 39],
+          "criteria": [
+            "Significant downward trend",
+            "Erratic performance with no recovery",
+            "Most recent grades are lowest"
+          ]
+        }
+      }
+    },
+    
+    "academic_context": {
+      "weight": 0.15,
+      "description": "How do we evaluate the student's achievements given their circumstances?",
+      "applies_to": ["middle-school", "high-school", "college"],
+      "scoring": {
+        "considerations": [
+          "School's available course offerings",
+          "Class rank (if provided)",
+          "First-generation status",
+          "Socioeconomic factors",
+          "School resources and environment",
+          "Geographic limitations"
+        ],
+        "bonus_factors": [
+          {"factor": "first_generation", "bonus": 5, "description": "First in family to attend college"},
+          {"factor": "limited_resources", "bonus": 5, "description": "School has limited AP/advanced offerings"},
+          {"factor": "work_obligations", "bonus": 5, "description": "Significant work/family obligations"},
+          {"factor": "overcame_adversity", "bonus": 5, "description": "Documented challenges overcome"}
+        ]
+      }
+    },
+    
+    "test_scores": {
+      "weight": 0.10,
+      "description": "How do standardized test scores (if provided) complement the academic profile?",
+      "applies_to": ["high-school", "college"],
+      "weight_override": {
+        "middle-school": 0.05
+      },
+      "notes": [
+        "Many schools are now test-optional",
+        "Scores should be evaluated in context",
+        "Strong scores can boost, weak scores shouldn't necessarily hurt if optional",
+        "Look at score trends if multiple attempts"
+      ],
+      "scoring": {
+        "college": {
+          "sat": {
+            "excellent": "1500+",
+            "good": "1400-1499",
+            "adequate": "1300-1399",
+            "needs_work": "1200-1299",
+            "poor": "Below 1200"
+          },
+          "act": {
+            "excellent": "34+",
+            "good": "31-33",
+            "adequate": "27-30",
+            "needs_work": "23-26",
+            "poor": "Below 23"
+          }
+        },
+        "high-school": {
+          "ssat_percentile": {
+            "excellent": "90th+",
+            "good": "75th-89th",
+            "adequate": "50th-74th",
+            "needs_work": "25th-49th",
+            "poor": "Below 25th"
+          }
+        }
+      }
+    }
+  },
+  
+  "subject_specific_expectations": {
+    "stem_focus": {
+      "required_rigor": ["AP Calculus or higher", "AP Physics or Chemistry", "AP Computer Science"],
+      "valued_courses": ["Linear Algebra", "Multivariable Calculus", "Research courses"]
+    },
+    "humanities_focus": {
+      "required_rigor": ["AP English Language and/or Literature", "AP History courses", "Foreign Language (3+ years)"],
+      "valued_courses": ["AP Art History", "Philosophy", "Creative Writing"]
+    },
+    "pre_med": {
+      "required_rigor": ["AP Biology", "AP Chemistry", "AP Calculus"],
+      "valued_courses": ["Anatomy", "Research", "Psychology"]
+    }
+  },
+  
+  "red_flags": [
+    {
+      "flag": "unexplained_gap",
+      "description": "Significant unexplained drop in grades",
+      "severity": "medium",
+      "score_penalty": 10
+    },
+    {
+      "flag": "avoiding_rigor",
+      "description": "Clearly avoiding available challenging courses",
+      "severity": "medium",
+      "score_penalty": 10
+    },
+    {
+      "flag": "inconsistent_with_goals",
+      "description": "Academic record doesn't support stated goals (e.g., wants STEM but no advanced math)",
+      "severity": "medium",
+      "score_penalty": 10
+    },
+    {
+      "flag": "senior_slump",
+      "description": "Significant grade drop in senior year",
+      "severity": "high",
+      "score_penalty": 15
+    }
+  ],
+  
+  "feedback_templates": {
+    "strength": "Your academic profile demonstrates {specific_strength}. This positions you well for {implication}.",
+    "growth_area": "Consider strengthening your academic profile by {specific_suggestion}. This would help because {reason}.",
+    "context": "Given {context_factor}, your academic achievement is {evaluation}."
+  }
+}
+

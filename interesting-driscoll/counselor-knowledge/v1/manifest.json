@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "name": "XCounselor Generic",
+  "description": "Generic admission counselor for middle school, high school, and college applications",
+  "created": "2024-12-27",
+  "updated": "2024-12-27",
+  "author": "ReviewMyApplication.org",
+  "programs": ["middle-school", "high-school", "college"],
+  "models_tested": ["gpt-4", "gpt-4-turbo", "claude-3-opus", "claude-3-sonnet"],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2024-12-27",
+      "changes": [
+        "Initial release",
+        "Support for middle school, high school, and college applications",
+        "Generic evaluation rubrics",
+        "Bay Area private school focus for middle/high school",
+        "Top college focus for undergraduate applications"
+      ]
+    }
+  ],
+  "files": {
+    "requirements": {
+      "middle-school": "requirements/middle-school.md",
+      "high-school": "requirements/high-school.md",
+      "college": "requirements/college.md"
+    },
+    "rubrics": {
+      "essay": "rubrics/essay-evaluation.json",
+      "academics": "rubrics/academic-evaluation.json",
+      "activities": "rubrics/activity-evaluation.json",
+      "overall": "rubrics/overall-evaluation.json"
+    },
+    "prompts": {
+      "middle-school": "prompts/middle-school-counselor.md",
+      "high-school": "prompts/high-school-counselor.md",
+      "college": "prompts/college-counselor.md"
+    },
+    "exemplars": {
+      "essays": "exemplars/essay-examples.json",
+      "activities": "exemplars/activity-examples.json"
+    }
+  }
+}
+

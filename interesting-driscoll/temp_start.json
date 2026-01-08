@@ -1,0 +1,320 @@
+{
+  "metadata": {
+    "project_name": "College Admissions Counselor Knowledge Base",
+    "version": "1.0",
+    "last_updated": "2025-12-27",
+    "total_colleges_catalogued": 100,
+    "colleges_with_deep_research": 10,
+    "description": "Comprehensive database of college admissions counselor perspectives, preferences, and evaluation criteria"
+  },
+  
+  "consulting_resources": [
+    {
+      "name": "Admissions Madness",
+      "url": "https://www.admissionsmadness.com",
+      "type": "Independent Consultant",
+      "counselor_background": "Kevin Martin, former UT-Austin admissions counselor, Fulbright Fellow",
+      "description": "Fresh perspectives on college admissions process, challenges underlying assumptions in higher education",
+      "specialty": "Holistic approach to admissions, addresses student psychology and systemic issues"
+    },
+    {
+      "name": "College Essay Guy",
+      "url": "https://www.collegeessayguy.com/college-admissions-blog",
+      "type": "Consulting Firm",
+      "description": "Comprehensive resources for college essays, application process, specific university guides",
+      "specialty": "Essay writing, personal narratives, application strategies"
+    },
+    {
+      "name": "Admissions.Blog (Undergraduate Admissions Uncensored)",
+      "url": "https://admissions.blog/",
+      "type": "Independent Analyst",
+      "description": "Uncensored analysis of admissions trends, early decision data, university-specific insights",
+      "specialty": "Data-driven admissions analysis, application statistics"
+    },
+    {
+      "name": "IvyWise",
+      "url": "https://www.ivywise.com/blog/",
+      "type": "Consulting Firm",
+      "counselor_background": "Dr. Kat Cohen and team of admissions experts",
+      "description": "Comprehensive admissions guidance, financial aid strategies, college rankings analysis",
+      "specialty": "Ivy League and selective college admissions"
+    },
+    {
+      "name": "Top Tier Admissions",
+      "url": "https://toptieradmissions.com/college-admissions-blog-news/",
+      "type": "Consulting Firm",
+      "description": "Expert admissions advice, supplemental essay guides, college-specific strategies",
+      "specialty": "Top university admissions, essay coaching"
+    },
+    {
+      "name": "PrepScholar",
+      "url": "https://blog.prepscholar.com/",
+      "type": "Test Prep & Consulting",
+      "description": "Detailed guides on getting into top schools, personal narratives from accepted students",
+      "specialty": "Academic preparation, standardized testing, Ivy League admissions"
+    },
+    {
+      "name": "Ivy Coach",
+      "url": "https://www.ivycoach.com/the-ivy-coach-blog/",
+      "type": "Consulting Firm",
+      "counselor_background": "Team of former elite college admissions officers",
+      "description": "Premium admissions counseling, 90%+ acceptance rates to Harvard/Stanford for package clients",
+      "specialty": "Early application strategies, singular hooks, elite college admissions"
+    },
+    {
+      "name": "InGenius Prep",
+      "url": "https://insidetheadmissionsoffice.podbean.com/",
+      "type": "Consulting Firm & Podcast",
+      "counselor_background": "Former admissions officers from top universities",
+      "description": "Podcast featuring former admissions officers discussing holistic review, decision-making",
+      "specialty": "Inside perspective on admissions committees"
+    },
+    {
+      "name": "College Transitions",
+      "url": "https://www.collegetransitions.com/blog/",
+      "type": "Consulting Firm",
+      "description": "Data-driven research on college admissions, acceptance rates, trends",
+      "specialty": "Statistical analysis of admissions data"
+    },
+    {
+      "name": "Expert Admissions",
+      "url": "https://expertadmissions.com/resources/blog/",
+      "counselor_background": "Former University Admissions Officers",
+      "description": "Application advice, interview preparation, demonstrated interest strategies",
+      "specialty": "Application process, admissions interviews"
+    }
+  ],
+  
+  "database_resources": [
+    {
+      "name": "College Board BigFuture",
+      "url": "https://bigfuture.collegeboard.org/college-search",
+      "total_colleges": "3000+",
+      "description": "Comprehensive college search with admission, tuition, financial aid data"
+    },
+    {
+      "name": "Common Application",
+      "url": "https://www.commonapp.org/",
+      "total_colleges": "900+",
+      "description": "Platform for applying to colleges, member institutions"
+    },
+    {
+      "name": "CollegeData",
+      "url": "https://www.collegedata.com",
+      "total_colleges": "2600+",
+      "description": "College search, admissions calculator, scholarship finder, Common Data Set info"
+    },
+    {
+      "name": "College Navigator (NCES)",
+      "url": "https://nces.ed.gov/collegenavigator/",
+      "total_colleges": "6000+",
+      "description": "Government database with comprehensive data on all US colleges"
+    },
+    {
+      "name": "Coalition for College",
+      "url": "https://www.coalitionforcollegeaccess.org/",
+      "total_colleges": "150+",
+      "description": "Member schools committed to access, affordability, and graduation"
+    }
+  ],
+  
+  "top_10_universities_deep_research": [
+    {
+      "university": "Harvard University",
+      "ranking": 1,
+      "acceptance_rate": "~3%",
+      "admissions_office_urls": {
+        "main_admissions": "https://college.harvard.edu/admissions",
+        "student_blogs": "https://college.harvard.edu/student-life/student-stories",
+        "crimson_admissions": "https://www.thecrimson.com/admissions/",
+        "hks_blog": "https://www.hks.harvard.edu/admissions-blog",
+        "hds_blog": "https://www.hds.harvard.edu/admissions-aid/admissions-blog"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "No formula for gaining admission. Academic accomplishment is important, but admissions committee considers community involvement, leadership, distinction in extracurricular activities, and personal qualities and character.",
+        "holistic_review": "Relies on teachers, counselors, and alumni to share information about applicant's strength of character, ability to overcome adversity, and other personal qualities.",
+        "what_they_seek": [
+          "Academic accomplishment in high school",
+          "Community involvement",
+          "Leadership and distinction in extracurricular activities",
+          "Personal qualities and character",
+          "Ability to overcome adversity",
+          "Students who will contribute to Harvard's mission"
+        ],
+        "evaluation_process": "Applications discussed after initial review, candidates must stand out beyond just good test scores and grades",
+        "memorable_candidates": "Students with clear arc to their application: notable scientist, future political leader, bridge-builder in times of division"
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Top 10% of graduating class minimum (vast majority)",
+        "test_scores": {
+          "sat_average": 1540,
+          "sat_range": "1470-1600 (25th-75th percentile)",
+          "act_average": 34,
+          "act_range": "32-35 (25th-75th percentile)",
+          "testing_requirement": "SAT or ACT required. In exceptional cases when not accessible: AP, IB, GCSE, or National Leaving Exams accepted"
+        },
+        "course_rigor": "Most rigorous courses available at high school, especially strong academic record",
+        "academic_interests": "Academic accomplishment in high school is important but not sufficient alone"
+      },
+      "essay_requirements": {
+        "supplement_questions": "Five required short-answer questions, 150 word limit each",
+        "essay_philosophy": "Ensure every student has same opportunity to reflect on life experiences, academic/extracurricular activities, how they will engage with others at Harvard, aspirations for future",
+        "what_makes_strong_essays": [
+          "Authenticity and genuine voice",
+          "Reflection on life experiences",
+          "How experiences shaped the applicant",
+          "Clear vision for engagement at Harvard",
+          "Future aspirations"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Critical - distinction in extracurricular activities is key differentiator",
+        "depth_vs_breadth": "Depth and distinction matter more than breadth",
+        "leadership_expectations": "Leadership and community involvement highly valued",
+        "impact_demonstration": "Must show how activities demonstrate character and contribution to community",
+        "recognition_level": "Many admitted students have state or national-level recognition in their craft"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Letters from teachers, counselors, and alumni",
+        "what_reviewers_look_for": [
+          "Strength of character",
+          "Ability to overcome adversity",
+          "Personal qualities",
+          "Academic abilities in specific contexts"
+        ],
+        "importance": "Harvard relies heavily on these to understand applicant beyond scores"
+      },
+      "demonstrated_interest": {
+        "importance": "Not explicitly stated as primary factor",
+        "how_measured": "Through essays, interviews, and engagement with Harvard community"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Discussion of each candidate after initial review, must stand out beyond academics",
+        "decision_framework": "Holistic review considering academics, activities, personal qualities, recommendations",
+        "committee_process": "Applications reviewed by admissions committee, consensus-based decisions"
+      },
+      "unique_insights": [
+        "Harvard admits ~3% of applicants - most competitive in nation",
+        "Students who demonstrate deep passion, grit, and work ethic have best chances",
+        "Clear narrative arc in application is crucial: the notable scientist, the future leader, the bridge-builder",
+        "Test scores and grades are baseline filters, not sufficient for admission",
+        "Many admitted students are first-generation college students from diverse backgrounds",
+        "Cross-admit data: 62% of students admitted to both Harvard and Stanford choose Harvard",
+        "When given choice between Harvard and other top schools: 65% choose Harvard over Yale, 75% choose Harvard over Princeton"
+      ],
+      "common_pitfalls": [
+        "Being 'just' a well-rounded student with good scores",
+        "Lacking clear passion or specialization",
+        "Not demonstrating impact or achievement beyond grades",
+        "Generic essays without authentic voice",
+        "Spreading activities too thin without depth"
+      ]
+    },
+    
+    {
+      "university": "Massachusetts Institute of Technology (MIT)",
+      "ranking": 2,
+      "acceptance_rate": "~4%",
+      "admissions_office_urls": {
+        "main_admissions": "https://mitadmissions.org/",
+        "blogs": "https://mitadmissions.org/blogs/",
+        "what_we_look_for": "https://mitadmissions.org/apply/process/what-we-look-for/",
+        "selection_process": "https://mitadmissions.org/apply/process/selection/"
+      },
+      "counselor_perspectives": {
+        "overall_philosophy": "While grades and scores are important in understanding academic preparedness for MIT, it's really the match between applicant and the Institute that drives our selection process.",
+        "mission_alignment": "MIT's mission is to use science, technology, and other areas of scholarship to make the world better. Community values excellence, openness, and fearless curiosity.",
+        "what_they_seek": [
+          "Alignment with MIT culture",
+          "Hands-on makers and doers",
+          "Initiative and impact-makers",
+          "Collaborative spirit",
+          "Risk-takers and resilient students",
+          "Balance between work and life",
+          "Trailblazers who challenge themselves"
+        ],
+        "evaluation_factors": {
+          "academic_preparedness": "Must demonstrate readiness for fast-paced core curriculum and educational autonomy",
+          "noncognitive_indicators": "Curiosity, initiative, resilience, ability to accept feedback, adaptability",
+          "character_qualities": "Thoughtful people who take care of each other and lift each other up"
+        }
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Top 10% of class (100% of admitted students who submitted class rank)",
+        "test_scores": {
+          "sat_range": "1510-1570 (middle 50%)",
+          "sat_math": "780-800 (middle 50%)",
+          "sat_ebrw": "730-780 (middle 50%)",
+          "act_range": "34-36 (middle 50%)",
+          "testing_requirement": "SAT or ACT required - reinstated after research showed need for students with least resources",
+          "superscoring": "Yes, MIT superscores both SAT and ACT"
+        },
+        "course_rigor": "Most demanding courses available, especially in math and science. All students take foundational math/science regardless of major",
+        "math_science_preparation": "Critical - even humanities majors must take two semesters of physics"
+      },
+      "essay_requirements": {
+        "essay_philosophy": "Show passion, alignment with MIT values, authentic voice",
+        "what_makes_strong_essays": [
+          "Demonstrating hands-on experience and making",
+          "Showing collaborative spirit",
+          "Evidence of taking thoughtful risks",
+          "Balance between academics and personal interests",
+          "Quality over quantity in activities"
+        ],
+        "activity_description": "Balance for the pleasure of it - MIT is NOT all work"
+      },
+      "extracurriculars": {
+        "importance": "Very high - evaluated on tier system",
+        "tier_system": "Tier 1 (exceptional, specialized like conducting prize-winning independent research) most competitive",
+        "depth_vs_breadth": "Quality over quantity - don't expect million things. Put heart into few things you truly care about",
+        "leadership_expectations": "Students apply theoretical knowledge to real-world problems, must show hands-on engagement",
+        "impact_demonstration": "Impact doesn't require curing diseases - tutoring a kid in math changes the world, advocating for change matters",
+        "unique_preference": "Hands-on makers, students who get 'metaphorically or literally' dirty trying something new"
+      },
+      "letters_of_recommendation": {
+        "requirements": "One from math/science teacher, one from humanities/social sciences/languages teacher",
+        "what_reviewers_look_for": [
+          "Recent teacher who knows student well and likes them",
+          "Specific examples of achievements and contributions",
+          "Academic abilities AND character",
+          "Genuine insights into who student truly is"
+        ],
+        "supplemental_recommendations": "Not advised if from someone well-known but doesn't really know the student"
+      },
+      "demonstrated_interest": {
+        "importance": "Lower priority than fit and match",
+        "interviews": "MIT tries to interview all applicants with ~5,500 alumni interviewers, but not required. No campus interviews"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Application read by senior admissions officer holistically, strong applications read by additional officers who summarize for Admissions Committee",
+        "committee_review": "At least a dozen people significantly discuss and debate an application before admit pile",
+        "decision_framework": "Multiple groups of different admissions staff and faculty weigh in",
+        "key_evaluation_points": [
+          "Academic preparedness for fast-paced curriculum",
+          "Match with MIT culture and mission",
+          "Noncognitive indicators (curiosity, resilience, initiative)",
+          "Collaborative mindset",
+          "Balance and well-being"
+        ]
+      },
+      "unique_insights": [
+        "MIT's Latin motto 'Mens et Manus' (Mind and Hand) reflects hands-on philosophy",
+        "Innovation is risky and messy - MIT values students who embrace this",
+        "Community values are critical: thoughtful people who lift each other up",
+        "Reinstated testing requirement based on equity research - helps students with least resources demonstrate preparation",
+        "Students regularly work alongside faculty to shape MIT policies",
+        "Risk-taking can lead to failure, but structural supports help students learn resilience",
+        "MIT has active blogs since 2004, unfiltered student narratives"
+      },
+      "common_pitfalls": [
+        "Focusing solely on academic achievement without showing hands-on making",
+        "Not demonstrating collaborative spirit or community care",
+        "Appearing to do activities just for resume building",
+        "Lacking balance between work and personal interests",
+        "Not showing resilience or willingness to take risks",
+        "Focusing on breadth over depth in activities"
+      ]
+    },
+    
+    {
+      "university": "Stanford University",

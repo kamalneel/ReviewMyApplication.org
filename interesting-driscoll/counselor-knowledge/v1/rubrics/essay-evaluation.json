@@ -1,0 +1,380 @@
+{
+  "version": "1.0.0",
+  "updated": "2024-12-27",
+  "description": "Evaluation rubric for application essays across all program types",
+  
+  "categories": {
+    "authenticity": {
+      "weight": 0.25,
+      "description": "Does the essay reveal the applicant's genuine voice and personality?",
+      "applies_to": ["middle-school", "high-school", "college"],
+      "scoring": {
+        "excellent": {
+          "range": [90, 100],
+          "criteria": [
+            "Distinct, unmistakable voice that could only belong to this applicant",
+            "Specific personal details and anecdotes that feel lived-in",
+            "Emotional honesty without being performative",
+            "Reader feels they've genuinely met the person"
+          ]
+        },
+        "good": {
+          "range": [75, 89],
+          "criteria": [
+            "Generally authentic with personality showing through",
+            "Some specific moments that feel genuine",
+            "Voice is present but not always consistent",
+            "Reader gets a sense of who the person is"
+          ]
+        },
+        "adequate": {
+          "range": [60, 74],
+          "criteria": [
+            "Mostly genuine but with some generic elements",
+            "Some personality present but buried under formal language",
+            "A few specific details but mostly general statements",
+            "Could apply to many applicants with minor changes"
+          ]
+        },
+        "needs_work": {
+          "range": [40, 59],
+          "criteria": [
+            "Reads like a template or heavily coached",
+            "Generic statements that could apply to anyone",
+            "Formal tone that masks personality",
+            "Feels like what applicant thinks admissions wants to hear"
+          ]
+        },
+        "poor": {
+          "range": [0, 39],
+          "criteria": [
+            "No discernible personality or voice",
+            "Entirely generic or clichéd content",
+            "Clearly written by someone else (parent, tutor)",
+            "Disconnected from the actual applicant"
+          ]
+        }
+      }
+    },
+    
+    "narrative_structure": {
+      "weight": 0.20,
+      "description": "Does the essay have a clear arc with engaging storytelling?",
+      "applies_to": ["middle-school", "high-school", "college"],
+      "scoring": {
+        "excellent": {
+          "range": [90, 100],
+          "criteria": [
+            "Compelling hook that draws reader in immediately",
+            "Clear narrative arc with tension, development, and resolution",
+            "Pacing keeps reader engaged throughout",
+            "Satisfying conclusion that resonates",
+            "Sophisticated use of literary techniques (imagery, dialogue, reflection)"
+          ]
+        },
+        "good": {
+          "range": [75, 89],
+          "criteria": [
+            "Engaging opening that establishes context",
+            "Logical flow with clear beginning, middle, and end",
+            "Story moves forward with purpose",
+            "Conclusion connects back to opening or theme",
+            "Some effective use of storytelling techniques"
+          ]
+        },
+        "adequate": {
+          "range": [60, 74],
+          "criteria": [
+            "Functional opening but not particularly grabbing",
+            "Essay flows adequately but may feel choppy",
+            "Story is present but may meander",
+            "Conclusion exists but may feel abrupt or disconnected",
+            "Basic narrative without sophisticated techniques"
+          ]
+        },
+        "needs_work": {
+          "range": [40, 59],
+          "criteria": [
+            "Weak or generic opening",
+            "Disjointed flow, hard to follow",
+            "No clear narrative arc",
+            "Conclusion missing or unsatisfying",
+            "Reads more like a list than a story"
+          ]
+        },
+        "poor": {
+          "range": [0, 39],
+          "criteria": [
+            "No discernible structure",
+            "Incoherent or rambling",
+            "No beginning, middle, or end",
+            "Reader is confused about the point"
+          ]
+        }
+      }
+    },
+    
+    "specificity": {
+      "weight": 0.20,
+      "description": "Does the essay use concrete, specific details rather than vague generalities?",
+      "applies_to": ["middle-school", "high-school", "college"],
+      "scoring": {
+        "excellent": {
+          "range": [90, 100],
+          "criteria": [
+            "Rich, vivid details that paint a clear picture",
+            "Specific names, places, dates, and sensory details",
+            "Examples are concrete and memorable",
+            "'Show don't tell' executed masterfully",
+            "Reader can visualize scenes and moments"
+          ]
+        },
+        "good": {
+          "range": [75, 89],
+          "criteria": [
+            "Good use of specific examples and details",
+            "Some vivid moments that stand out",
+            "More showing than telling",
+            "Concrete examples support claims",
+            "Reader can follow and picture most scenes"
+          ]
+        },
+        "adequate": {
+          "range": [60, 74],
+          "criteria": [
+            "Mix of specific and general content",
+            "Some concrete examples but also vague statements",
+            "Tendency to tell more than show",
+            "Details present but not always vivid",
+            "Reader gets a general sense but not a clear picture"
+          ]
+        },
+        "needs_work": {
+          "range": [40, 59],
+          "criteria": [
+            "Mostly vague and general statements",
+            "Few if any specific examples",
+            "Heavy on telling, light on showing",
+            "Abstract claims without concrete support",
+            "Reader struggles to visualize or connect"
+          ]
+        },
+        "poor": {
+          "range": [0, 39],
+          "criteria": [
+            "Entirely abstract or generic",
+            "No specific details whatsoever",
+            "All telling, no showing",
+            "Reads like a resume summary, not a story"
+          ]
+        }
+      }
+    },
+    
+    "insight_and_reflection": {
+      "weight": 0.20,
+      "description": "Does the essay demonstrate meaningful self-reflection and growth?",
+      "applies_to": ["high-school", "college"],
+      "weight_override": {
+        "middle-school": 0.15
+      },
+      "scoring": {
+        "excellent": {
+          "range": [90, 100],
+          "criteria": [
+            "Deep, nuanced self-awareness",
+            "Genuine reflection on growth and change",
+            "Insight that goes beyond surface-level observations",
+            "Evidence of intellectual or emotional maturity",
+            "Clear sense of how experience shaped the person"
+          ]
+        },
+        "good": {
+          "range": [75, 89],
+          "criteria": [
+            "Good self-awareness with some depth",
+            "Reflection on what was learned or how they grew",
+            "Shows some evolution in thinking",
+            "Connects experience to personal development",
+            "Demonstrates ability to learn from experiences"
+          ]
+        },
+        "adequate": {
+          "range": [60, 74],
+          "criteria": [
+            "Some self-reflection present",
+            "Basic observations about growth",
+            "Surface-level insights",
+            "Lessons learned are stated but not deeply explored",
+            "Some connection between experience and growth"
+          ]
+        },
+        "needs_work": {
+          "range": [40, 59],
+          "criteria": [
+            "Minimal self-reflection",
+            "Observations are obvious or clichéd",
+            "No clear sense of growth or change",
+            "Lessons learned feel tacked on",
+            "Disconnect between story and supposed insight"
+          ]
+        },
+        "poor": {
+          "range": [0, 39],
+          "criteria": [
+            "No self-reflection or insight",
+            "No sense of growth or learning",
+            "Purely descriptive without reflection",
+            "Reader learns nothing about applicant's inner life"
+          ]
+        }
+      }
+    },
+    
+    "prompt_response": {
+      "weight": 0.15,
+      "description": "Does the essay directly address the prompt or question asked?",
+      "applies_to": ["middle-school", "high-school", "college"],
+      "scoring": {
+        "excellent": {
+          "range": [90, 100],
+          "criteria": [
+            "Directly and fully addresses the prompt",
+            "Creative interpretation while staying on topic",
+            "All parts of multi-part prompts addressed",
+            "Clear connection between content and question asked"
+          ]
+        },
+        "good": {
+          "range": [75, 89],
+          "criteria": [
+            "Addresses the prompt well",
+            "May miss minor aspects of multi-part prompts",
+            "Clear effort to respond to what was asked",
+            "Content is relevant to the prompt"
+          ]
+        },
+        "adequate": {
+          "range": [60, 74],
+          "criteria": [
+            "Generally addresses the prompt",
+            "Some tangential content",
+            "May miss some aspects of the prompt",
+            "Connection to prompt is present but could be stronger"
+          ]
+        },
+        "needs_work": {
+          "range": [40, 59],
+          "criteria": [
+            "Only loosely connected to the prompt",
+            "Significant portions are off-topic",
+            "Key aspects of the prompt are ignored",
+            "Feels like a recycled essay for a different prompt"
+          ]
+        },
+        "poor": {
+          "range": [0, 39],
+          "criteria": [
+            "Does not address the prompt at all",
+            "Completely off-topic",
+            "Wrong prompt answered",
+            "Generic essay with no connection to specific prompt"
+          ]
+        }
+      }
+    }
+  },
+  
+  "program_specific_considerations": {
+    "middle-school": {
+      "notes": [
+        "Age-appropriate voice expected (10-12 years old)",
+        "Less sophisticated reflection is acceptable",
+        "Focus on enthusiasm and authenticity over polish",
+        "Parent involvement in editing is more acceptable but should not override student voice",
+        "Shorter essays are typical (150-300 words)"
+      ],
+      "adjusted_weights": {
+        "authenticity": 0.30,
+        "narrative_structure": 0.20,
+        "specificity": 0.25,
+        "insight_and_reflection": 0.10,
+        "prompt_response": 0.15
+      }
+    },
+    "high-school": {
+      "notes": [
+        "Emerging maturity in voice (13-14 years old)",
+        "Growing self-awareness expected",
+        "Balance between polish and authenticity",
+        "Essays typically 250-500 words",
+        "Beginning to show intellectual curiosity"
+      ],
+      "adjusted_weights": {
+        "authenticity": 0.25,
+        "narrative_structure": 0.20,
+        "specificity": 0.20,
+        "insight_and_reflection": 0.20,
+        "prompt_response": 0.15
+      }
+    },
+    "college": {
+      "notes": [
+        "Mature voice expected (17-18 years old)",
+        "Deep self-reflection and insight valued",
+        "Sophisticated writing with personal style",
+        "Essays typically 250-650 words (Common App)",
+        "Strong intellectual engagement expected"
+      ],
+      "adjusted_weights": {
+        "authenticity": 0.25,
+        "narrative_structure": 0.20,
+        "specificity": 0.20,
+        "insight_and_reflection": 0.20,
+        "prompt_response": 0.15
+      }
+    }
+  },
+  
+  "red_flags": [
+    {
+      "flag": "adult_voice",
+      "description": "Essay sounds written by a parent or professional, not the student",
+      "severity": "high",
+      "score_penalty": 20
+    },
+    {
+      "flag": "cliche_overload",
+      "description": "Overuse of clichéd phrases ('I learned so much', 'changed my life', etc.)",
+      "severity": "medium",
+      "score_penalty": 10
+    },
+    {
+      "flag": "resume_repetition",
+      "description": "Essay simply restates achievements already in the application",
+      "severity": "medium",
+      "score_penalty": 10
+    },
+    {
+      "flag": "controversial_content",
+      "description": "Inappropriate topics, offensive content, or poor judgment",
+      "severity": "high",
+      "score_penalty": 25
+    },
+    {
+      "flag": "length_violation",
+      "description": "Significantly over or under word limit",
+      "severity": "low",
+      "score_penalty": 5
+    }
+  ],
+  
+  "feedback_templates": {
+    "excellent": "Your essay demonstrates exceptional {category}. {specific_praise}. This is exactly what admissions committees are looking for.",
+    "good": "Your essay shows strong {category}. {specific_praise}. To elevate it further, consider {specific_suggestion}.",
+    "adequate": "Your essay adequately addresses {category}, but there's room for improvement. {specific_observation}. Try {specific_suggestion}.",
+    "needs_work": "Your essay needs development in {category}. {specific_observation}. I recommend {specific_suggestion}.",
+    "poor": "Your essay requires significant revision in {category}. {specific_observation}. Start by {specific_suggestion}."
+  }
+}
+

@@ -1,0 +1,702 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "created": "2024-12-27",
+    "description": "Comprehensive college admissions knowledge base with university-specific criteria, counselor perspectives, and evaluation frameworks",
+    "sources": ["Harvard Admissions", "MIT Admissions", "PrepScholar", "Ivy Coach", "College Transitions", "Former Admissions Officers"]
+  },
+
+  "universal_themes": {
+    "holistic_review": "No school admits on academics alone. Every top university uses holistic review that considers academics, activities, essays, recommendations, and context together.",
+    "depth_over_breadth": "Passion and impact in focused areas beats being well-rounded. Admissions officers prefer students who show genuine mastery and commitment in 2-3 areas over shallow involvement in 10+ activities.",
+    "authentic_voice": "Essays must reflect genuine student perspective. Over-edited essays that sound like parents or consultants wrote them are easily detected and work against applicants.",
+    "context_matters": "Evaluations consider opportunities available to the student. First-generation, low-income, and students from under-resourced schools are evaluated in context.",
+    "mission_alignment": "Schools seek students who fit their specific culture. MIT wants makers; Harvard wants leaders; Chicago wants intellectuals."
+  },
+
+  "scoring_weights": {
+    "default": {
+      "academics": 0.25,
+      "extracurriculars": 0.30,
+      "essays": 0.25,
+      "recommendations": 0.10,
+      "university_fit": 0.10
+    },
+    "highly_selective": {
+      "academics": 0.20,
+      "extracurriculars": 0.35,
+      "essays": 0.25,
+      "recommendations": 0.10,
+      "university_fit": 0.10,
+      "note": "At highly selective schools, academics are a baseline filter. Extracurriculars and essays differentiate candidates."
+    },
+    "mit": {
+      "academics": 0.25,
+      "extracurriculars": 0.35,
+      "essays": 0.20,
+      "recommendations": 0.10,
+      "university_fit": 0.10,
+      "special_emphasis": "hands_on_projects"
+    },
+    "university_of_chicago": {
+      "academics": 0.25,
+      "extracurriculars": 0.25,
+      "essays": 0.35,
+      "recommendations": 0.10,
+      "university_fit": 0.05,
+      "note": "UChicago is famous for unique essay prompts that heavily influence admission decisions."
+    }
+  },
+
+  "universities": {
+    "harvard": {
+      "name": "Harvard University",
+      "tier": "ivy_league",
+      "acceptance_rate": "3.5%",
+      "academic_expectations": {
+        "gpa_range": "3.9-4.0 unweighted",
+        "sat_range": { "25th": 1470, "50th": 1540, "75th": 1600 },
+        "act_range": { "25th": 33, "50th": 34, "75th": 36 },
+        "course_rigor": "Most rigorous available - AP, IB, or advanced coursework expected"
+      },
+      "what_they_seek": [
+        "Academic accomplishment beyond just grades",
+        "Extracurricular distinction at state/national/international level",
+        "Community involvement with measurable impact",
+        "Leadership and distinction in chosen pursuits",
+        "Personal qualities: maturity, character, leadership, self-confidence",
+        "Potential to contribute to Harvard and society"
+      ],
+      "evaluation_philosophy": "Applications are discussed after initial review and competitive applicants advance to committee, where 40-member committee makes final decisions. No formula for gaining admission.",
+      "common_pitfalls": [
+        "Being 'just' a well-rounded student with good scores",
+        "Lacking clear passion or specialization",
+        "Generic essays without distinctive personal voice",
+        "Activities that look impressive but lack genuine commitment",
+        "No clear narrative arc - application feels assembled rather than authentic"
+      ],
+      "counselor_perspective": "Harvard seeks students who have achieved great things in their primary areas of interest. Candidates are most memorable when they have a clear arc to their application: the notable scientist, the future political and community leader, the bridgebuilder. Test scores and grades are baseline filters - they get you into the discussion but don't get you admitted. What distinguishes admits is world-class achievement or clear potential for it.",
+      "red_flags": [
+        "Below 25th percentile scores without compelling context",
+        "No leadership or initiative demonstrated",
+        "Essays that sound parent-written or over-polished",
+        "Activity list that contradicts stated interests",
+        "No demonstrated interest in contributing to community"
+      ],
+      "source_urls": [
+        "https://college.harvard.edu/admissions/apply/what-we-look-for",
+        "https://www.prepscholar.com/sat/s/colleges/Harvard-admission-requirements"
+      ]
+    },
+
+    "mit": {
+      "name": "Massachusetts Institute of Technology",
+      "tier": "top_10",
+      "acceptance_rate": "4%",
+      "academic_expectations": {
+        "gpa_range": "3.9-4.0 unweighted",
+        "sat_range": { "25th": 1510, "50th": 1560, "75th": 1600 },
+        "act_range": { "25th": 34, "50th": 35, "75th": 36 },
+        "course_rigor": "Most rigorous STEM courses available, calculus and physics expected"
+      },
+      "what_they_seek": [
+        "Hands-on makers and doers (Mens et Manus - Mind and Hand)",
+        "Collaborative problem-solvers, not lone geniuses",
+        "Evidence of building, creating, or making things",
+        "Genuine intellectual curiosity and love of learning",
+        "Balance - not just STEM robots but well-rounded humans",
+        "Resilience and ability to handle rigorous workload"
+      ],
+      "noncognitive_indicators": [
+        "Curiosity - genuine interest in how things work",
+        "Initiative - self-starting, doesn't wait to be told",
+        "Resilience - bounces back from failure",
+        "Ability to accept feedback and iterate",
+        "Adaptability to new challenges"
+      ],
+      "evaluation_philosophy": "Every application is read by at least 12 people through the process. Selection committee makes final decisions. Looking for students who will thrive in MIT's collaborative, hands-on environment.",
+      "activity_tier_system": {
+        "tier_1": "Exceptional/Specialized (prize-winning research, nationally-recognized talent)",
+        "tier_2": "State-level achievement or founded organization with impact",
+        "tier_3": "School leadership or significant commitment",
+        "tier_4": "Commonly-encountered participation activities"
+      },
+      "common_pitfalls": [
+        "Focusing only on academics without showing what you've built",
+        "Presenting as a lone genius rather than collaborative team player",
+        "No evidence of hands-on projects or making things",
+        "Generic STEM interests without depth",
+        "Not showing personality and humor in essays"
+      ],
+      "counselor_perspective": "MIT is looking for makers, not just thinkers. They want to see what you've built, created, or done with your hands. The ideal MIT student has a garage full of half-finished projects, not just a perfect transcript. Show them you tinker, experiment, fail, and learn. Collaboration is huge - MIT is not for lone wolves.",
+      "red_flags": [
+        "No evidence of building or making anything",
+        "STEM focus without demonstrated hands-on experience",
+        "Essays that don't show personality",
+        "Inability to articulate what drives your curiosity",
+        "Activities that show individual achievement but no collaboration"
+      ],
+      "source_urls": [
+        "https://mitadmissions.org/",
+        "https://mitadmissions.org/blogs/"
+      ]
+    },
+
+    "stanford": {
+      "name": "Stanford University",
+      "tier": "top_10",
+      "acceptance_rate": "3.7%",
+      "academic_expectations": {
+        "gpa_range": "3.9-4.0 unweighted",
+        "sat_range": { "25th": 1470, "50th": 1540, "75th": 1580 },
+        "act_range": { "25th": 33, "50th": 35, "75th": 36 },
+        "course_rigor": "Most rigorous available"
+      },
+      "what_they_seek": [
+        "Intellectual vitality - genuine love of learning and ideas",
+        "Evidence of initiative and impact",
+        "Distinctive voice and perspective",
+        "Innovation and creative thinking",
+        "Demonstrated curiosity beyond required coursework"
+      ],
+      "essay_philosophy": "Essays are weighted very heavily at Stanford. They want to hear YOUR voice - authentic, distinctive, memorable.",
+      "common_pitfalls": [
+        "Generic essays that could apply to any school",
+        "Focusing on achievements without showing personality",
+        "Not demonstrating intellectual vitality",
+        "Activities without clear passion or impact"
+      ],
+      "counselor_perspective": "Stanford cares deeply about authenticity. They can spot a consultant-polished application from miles away. Show them what genuinely excites you intellectually, even if it's quirky or unusual.",
+      "source_urls": [
+        "https://admission.stanford.edu/apply/"
+      ]
+    },
+
+    "yale": {
+      "name": "Yale University",
+      "tier": "ivy_league",
+      "acceptance_rate": "4.6%",
+      "academic_expectations": {
+        "gpa_range": "3.9-4.0 unweighted",
+        "sat_range": { "25th": 1470, "50th": 1540, "75th": 1570 },
+        "act_range": { "25th": 33, "50th": 34, "75th": 35 },
+        "course_rigor": "Most rigorous available"
+      },
+      "what_they_seek": [
+        "Intellectual curiosity, especially in humanities",
+        "Contribution to campus community",
+        "Strong sense of ethics and character",
+        "Genuine interest in ideas and learning"
+      ],
+      "common_pitfalls": [
+        "STEM-only focus without humanities interests",
+        "Not showing how you'll contribute to community",
+        "Essays lacking reflection and intellectual depth"
+      ],
+      "counselor_perspective": "Yale values the residential college experience. They want students who will engage deeply with each other and with ideas. Show genuine intellectual curiosity and how you'll contribute to campus life."
+    },
+
+    "princeton": {
+      "name": "Princeton University",
+      "tier": "ivy_league",
+      "acceptance_rate": "4%",
+      "academic_expectations": {
+        "gpa_range": "3.9-4.0 unweighted",
+        "sat_range": { "25th": 1500, "50th": 1550, "75th": 1580 },
+        "act_range": { "25th": 33, "50th": 35, "75th": 36 },
+        "course_rigor": "Most rigorous available"
+      },
+      "what_they_seek": [
+        "Exceptional undergraduate focus",
+        "Service to community and nation",
+        "Intellectual engagement and curiosity",
+        "Strong fit with Princeton's mission"
+      ],
+      "common_pitfalls": [
+        "Not understanding Princeton's focus on undergraduate education",
+        "Generic 'Why Princeton' essay",
+        "Not demonstrating service orientation"
+      ],
+      "counselor_perspective": "Princeton is unusually focused on undergraduates. Show them you understand and value this. Service is huge at Princeton - they want students who will give back."
+    },
+
+    "uchicago": {
+      "name": "University of Chicago",
+      "tier": "top_10",
+      "acceptance_rate": "5%",
+      "academic_expectations": {
+        "gpa_range": "3.9-4.0 unweighted",
+        "sat_range": { "25th": 1480, "50th": 1540, "75th": 1580 },
+        "act_range": { "25th": 33, "50th": 35, "75th": 36 },
+        "course_rigor": "Most rigorous available"
+      },
+      "what_they_seek": [
+        "Intellectual passion - 'life of the mind'",
+        "Love of ideas for their own sake",
+        "Creative and original thinking",
+        "Willingness to engage with difficult questions",
+        "Quirky, distinctive personality"
+      ],
+      "essay_philosophy": "UChicago's famous 'uncommon' essays are crucial. They want to see how you think, not what you think. Creativity, originality, and genuine intellectual engagement matter most.",
+      "common_pitfalls": [
+        "Playing it safe on the quirky essay prompts",
+        "Not showing genuine intellectual curiosity",
+        "Taking yourself too seriously",
+        "Generic answers to unique prompts"
+      ],
+      "counselor_perspective": "UChicago wants intellectual weirdos in the best sense. They value students who love ideas, argue about philosophy at lunch, and get genuinely excited about abstract concepts. Show them you're not afraid to be intellectually playful."
+    }
+  },
+
+  "selectivity_tiers": {
+    "ivy_league": {
+      "schools": ["Harvard", "Yale", "Princeton", "Columbia", "Penn", "Brown", "Dartmouth", "Cornell"],
+      "acceptance_rate": "3-8%",
+      "academic_baseline": {
+        "gpa": "3.9+ unweighted",
+        "sat": "1500+ (ideally 1550+)",
+        "act": "34+"
+      },
+      "what_differentiates": "At this level, academics are table stakes. What matters is world-class achievement, distinctive narrative, and genuine fit with the institution.",
+      "reality_check": "These schools reject 90%+ of applicants. Even perfect stats guarantee nothing."
+    },
+    "top_20": {
+      "schools": ["MIT", "Stanford", "Duke", "Northwestern", "Johns Hopkins", "Caltech", "UChicago"],
+      "acceptance_rate": "5-12%",
+      "academic_baseline": {
+        "gpa": "3.85+ unweighted",
+        "sat": "1450+ (ideally 1500+)",
+        "act": "33+"
+      },
+      "what_differentiates": "Strong achievement in focus areas, clear passion, authentic essays."
+    },
+    "top_50": {
+      "schools": ["USC", "NYU", "Tufts", "Boston College", "Rochester", "Tulane"],
+      "acceptance_rate": "12-25%",
+      "academic_baseline": {
+        "gpa": "3.7+ unweighted",
+        "sat": "1350+ (ideally 1450+)",
+        "act": "30+"
+      },
+      "what_differentiates": "Demonstrated interest, good essays, solid activities."
+    }
+  },
+
+  "evaluation_rubrics": {
+    "academics": {
+      "exceptional": {
+        "score_range": [90, 100],
+        "criteria": [
+          "Top 1-5% of class or valedictorian/salutatorian",
+          "Test scores at or above 75th percentile for target school",
+          "Most rigorous curriculum possible (10+ AP/IB courses)",
+          "Academic awards at state/national level",
+          "Evidence of intellectual pursuit beyond coursework"
+        ]
+      },
+      "strong": {
+        "score_range": [75, 89],
+        "criteria": [
+          "Top 10% of class",
+          "Test scores within 25-75th percentile for target school",
+          "Very rigorous curriculum (7-9 AP/IB courses)",
+          "Some academic awards or recognition"
+        ]
+      },
+      "competitive": {
+        "score_range": [60, 74],
+        "criteria": [
+          "Top 20% of class",
+          "Test scores near 25th percentile for target school",
+          "Rigorous curriculum (4-6 AP/IB courses)",
+          "Solid academic record with few weaknesses"
+        ]
+      },
+      "developing": {
+        "score_range": [45, 59],
+        "criteria": [
+          "Top 30% of class",
+          "Test scores below typical range for target school",
+          "Some rigorous courses",
+          "Academic record has noticeable gaps"
+        ]
+      },
+      "needs_improvement": {
+        "score_range": [0, 44],
+        "criteria": [
+          "Below top 30% of class",
+          "Test scores well below target school range",
+          "Limited course rigor",
+          "Academic record needs significant strengthening"
+        ]
+      }
+    },
+
+    "extracurriculars": {
+      "exceptional": {
+        "score_range": [90, 100],
+        "criteria": [
+          "National/international level recognition (top 1% nationally)",
+          "Founded organization with significant measurable impact",
+          "Published research or professional-level work",
+          "Recruited athlete at D1 level",
+          "Clear 'spike' that makes applicant distinctive"
+        ],
+        "examples": [
+          "Intel Science Fair finalist",
+          "National debate champion",
+          "Founded nonprofit serving 1000+ people",
+          "Published in peer-reviewed journal"
+        ]
+      },
+      "strong": {
+        "score_range": [75, 89],
+        "criteria": [
+          "State-level recognition or achievement",
+          "Significant leadership with measurable outcomes",
+          "Deep commitment (3+ years, 10+ hours/week)",
+          "Clear passion area with substantial depth"
+        ],
+        "examples": [
+          "State competition finalist",
+          "All-State musician/athlete",
+          "Club president with documented impact",
+          "Research with mentor, presented at conference"
+        ]
+      },
+      "competitive": {
+        "score_range": [60, 74],
+        "criteria": [
+          "School-level leadership and recognition",
+          "Consistent commitment to 2-3 activities",
+          "Some measurable impact",
+          "Genuine passion visible"
+        ],
+        "examples": [
+          "Varsity athlete with captain role",
+          "Lead in school musical",
+          "Editor of school publication",
+          "Regular volunteer with 100+ hours"
+        ]
+      },
+      "developing": {
+        "score_range": [45, 59],
+        "criteria": [
+          "Participation without notable achievement",
+          "Breadth over depth - many activities, little commitment",
+          "Limited leadership experience",
+          "Activities feel more resume-building than authentic"
+        ]
+      },
+      "needs_improvement": {
+        "score_range": [0, 44],
+        "criteria": [
+          "Minimal extracurricular involvement",
+          "No clear interests or passions",
+          "Activities are generic or inflated",
+          "No demonstrated impact or growth"
+        ]
+      }
+    },
+
+    "essays": {
+      "exceptional": {
+        "score_range": [90, 100],
+        "criteria": [
+          "Distinct, unmistakable voice - could only belong to this applicant",
+          "Compelling narrative arc with tension and resolution",
+          "Specific, vivid details that bring the story to life",
+          "Deep, nuanced self-reflection and genuine insight",
+          "Reader feels they've met the person"
+        ],
+        "what_it_looks_like": "After reading, the admissions officer can close their eyes and picture exactly who this person is. The essay is memorable days later."
+      },
+      "strong": {
+        "score_range": [75, 89],
+        "criteria": [
+          "Clear authentic voice with personality showing",
+          "Good story structure with engaging moments",
+          "Specific examples and concrete details",
+          "Genuine reflection and self-awareness",
+          "Responds well to the prompt"
+        ]
+      },
+      "competitive": {
+        "score_range": [60, 74],
+        "criteria": [
+          "Personality present but inconsistent",
+          "Narrative is there but may meander",
+          "Mix of specific and general content",
+          "Some reflection but could go deeper",
+          "Addresses prompt but may be predictable"
+        ]
+      },
+      "developing": {
+        "score_range": [45, 59],
+        "criteria": [
+          "Voice feels coached or over-edited",
+          "Structure is unclear or confusing",
+          "Mostly general statements, few specifics",
+          "Minimal reflection or insight",
+          "Feels like what student thinks admissions wants"
+        ]
+      },
+      "needs_improvement": {
+        "score_range": [0, 44],
+        "criteria": [
+          "No discernible personal voice",
+          "Generic content that could apply to anyone",
+          "Reads like a resume or college brochure",
+          "No self-reflection or growth shown",
+          "Clearly written by someone else"
+        ]
+      }
+    },
+
+    "university_fit": {
+      "exceptional": {
+        "score_range": [90, 100],
+        "criteria": [
+          "Demonstrates deep understanding of specific university",
+          "Clear alignment between student's values and school's mission",
+          "Specific programs, professors, or opportunities referenced",
+          "Can articulate unique contribution they'd make",
+          "Application feels tailor-made for this school"
+        ]
+      },
+      "strong": {
+        "score_range": [75, 89],
+        "criteria": [
+          "Good understanding of university culture",
+          "References specific aspects of the school",
+          "Clear reason for choosing this school beyond prestige"
+        ]
+      },
+      "competitive": {
+        "score_range": [60, 74],
+        "criteria": [
+          "Basic understanding of university",
+          "Some specific references but also generic content",
+          "Fit is plausible but not compelling"
+        ]
+      },
+      "developing": {
+        "score_range": [45, 59],
+        "criteria": [
+          "Generic 'Why Us' that could apply anywhere",
+          "Limited research into the university evident",
+          "Fit is unclear or forced"
+        ]
+      },
+      "needs_improvement": {
+        "score_range": [0, 44],
+        "criteria": [
+          "Wrong school name or obvious recycled content",
+          "No understanding of what makes this school unique",
+          "Seems like prestige is the only motivation"
+        ]
+      }
+    }
+  },
+
+  "weakness_detection": {
+    "high_priority": [
+      {
+        "id": "lacks_distinction",
+        "name": "Well-Rounded But Not Distinguished",
+        "description": "Application shows competence in many areas but no standout achievement or clear identity",
+        "detection_signals": [
+          "Many activities listed (8+) with limited depth in any",
+          "No state/national level recognition",
+          "Essays don't reveal clear passion or identity",
+          "High grades but no academic awards or distinctions"
+        ],
+        "counselor_explanation": "At highly selective schools, 'well-rounded' is actually a weakness. They're looking for 'well-lopsided' students - those who are exceptional in one or two areas. Your application shows you're good at many things, but it doesn't answer the question: 'Why THIS student over the other 40,000 applicants?'"
+      },
+      {
+        "id": "no_narrative_arc",
+        "name": "No Clear Narrative Arc",
+        "description": "Application feels assembled rather than authentic - pieces don't tell a cohesive story",
+        "detection_signals": [
+          "Activities don't connect to stated interests",
+          "Essays don't align with rest of application",
+          "No clear thread linking experiences together",
+          "Hard to identify what applicant stands for"
+        ],
+        "counselor_explanation": "The most memorable applicants have a clear story. When admissions officers discuss your file in committee, they need to be able to say 'This is the student who...' Your application makes that difficult. The pieces are there, but they don't form a picture."
+      },
+      {
+        "id": "generic_essays",
+        "name": "Generic Essays Lacking Authentic Voice",
+        "description": "Essays could have been written by many applicants - nothing distinctive or memorable",
+        "detection_signals": [
+          "Heavy use of clichés and common phrases",
+          "Could remove student's name and essay could apply to anyone",
+          "Sounds more like what admissions wants to hear than genuine voice",
+          "Lacks specific, personal details or anecdotes"
+        ],
+        "counselor_explanation": "Admissions officers read thousands of essays about 'learning from failure' or 'the life-changing trip abroad.' Yours doesn't stand out. What specific moment, detail, or insight could ONLY come from you? That's what's missing."
+      },
+      {
+        "id": "activity_breadth_not_depth",
+        "name": "Too Many Activities Without Depth",
+        "description": "Long activity list but no evidence of sustained commitment or significant achievement",
+        "detection_signals": [
+          "8+ activities listed",
+          "Most activities are 1-2 years only",
+          "Few or no leadership positions",
+          "Activities feel like resume padding"
+        ],
+        "counselor_explanation": "Listing 15 clubs doesn't impress admissions officers - it worries them. They'd rather see 3 activities where you've invested deeply and made real impact than a checklist of surface-level involvements. Quality over quantity, always."
+      }
+    ],
+    "medium_priority": [
+      {
+        "id": "below_average_scores",
+        "name": "Test Scores Below School Average",
+        "description": "Test scores fall below the typical range for admitted students",
+        "detection_signals": [
+          "SAT/ACT below 25th percentile for target school",
+          "No compelling context (first-gen, low-income, etc.)"
+        ],
+        "counselor_explanation": "Your test scores are below the typical admitted student range for this school. While scores aren't everything, they are filters. Without a compelling hook or exceptional achievement in other areas, this creates a significant hurdle."
+      },
+      {
+        "id": "weak_why_us",
+        "name": "Generic 'Why This School' Response",
+        "description": "The 'Why Us' essay could apply to many schools with minor changes",
+        "detection_signals": [
+          "References to 'prestigious' or 'great programs'",
+          "No mention of specific courses, professors, or opportunities",
+          "Could copy-paste for another similar school"
+        ],
+        "counselor_explanation": "Your 'Why This School' essay doesn't show you've done your homework. Anyone could write 'I want to attend [School] because of its excellent [field] program.' Admissions wants to see specific programs, professors, research opportunities, or campus resources that excite you specifically."
+      },
+      {
+        "id": "activities_contradict_interests",
+        "name": "Activities Don't Match Stated Interests",
+        "description": "Claimed interests or intended major aren't supported by activity record",
+        "detection_signals": [
+          "Says 'passionate about CS' but no coding projects",
+          "Intends to major in Biology but all activities are in humanities",
+          "No connection between activities and stated goals"
+        ],
+        "counselor_explanation": "You say you want to major in [field], but your activities don't support that claim. Admissions officers are skeptical when there's a disconnect between what you say and what you've done. They want evidence of genuine interest, not just stated interest."
+      }
+    ],
+    "red_flags": [
+      {
+        "id": "adult_voice_in_essay",
+        "name": "Essay Sounds Adult-Written",
+        "description": "Writing style, vocabulary, or perspective suggests parent or counselor wrote the essay",
+        "severity": "critical",
+        "detection_signals": [
+          "Vocabulary beyond typical high school level",
+          "References or perspectives unusual for a teenager",
+          "Overly polished writing lacking teenage authenticity",
+          "Voice is inconsistent with other application materials"
+        ],
+        "counselor_explanation": "This essay doesn't sound like a 17-year-old wrote it. Admissions officers read thousands of essays and can spot adult intervention immediately. This is one of the most damaging things that can happen to an application - it suggests inauthenticity and raises questions about the entire file."
+      },
+      {
+        "id": "inflated_achievements",
+        "name": "Clearly Inflated or Exaggerated Achievements",
+        "description": "Claims that seem implausible or aren't verifiable",
+        "severity": "critical",
+        "detection_signals": [
+          "Founded nonprofit that 'served thousands'",
+          "Claims of impact that seem disproportionate to role",
+          "Activities that can't be verified"
+        ],
+        "counselor_explanation": "Some claims in this application raise credibility concerns. Admissions officers are experienced at spotting inflation - and they verify what they can. Exaggeration, if detected, can sink an entire application."
+      },
+      {
+        "id": "no_academic_rigor",
+        "name": "Avoided Course Rigor When Available",
+        "description": "Took easier courses when more challenging options existed",
+        "severity": "high",
+        "detection_signals": [
+          "High grades but few AP/IB/Honors courses",
+          "Dropped down from advanced tracks",
+          "Doesn't challenge themselves academically"
+        ],
+        "counselor_explanation": "Your grades are good, but your course selection suggests you're taking the easy path. Selective colleges want to see you challenge yourself academically. A 3.7 in the most rigorous curriculum is more impressive than a 4.0 in standard classes."
+      }
+    ]
+  },
+
+  "narrative_archetypes": {
+    "description": "Common patterns that help applications stand out positively",
+    "archetypes": {
+      "the_specialist": {
+        "description": "Deep excellence in one area that defines the applicant",
+        "characteristics": [
+          "2000+ hours in focus area",
+          "State/national level achievement",
+          "Clear connection between activity and future goals"
+        ],
+        "strength": "Memorable and distinctive",
+        "risk": "May seem one-dimensional if not balanced"
+      },
+      "the_entrepreneur": {
+        "description": "Started something new that had real impact",
+        "characteristics": [
+          "Founded organization, business, or initiative",
+          "Measurable results and growth",
+          "Demonstrates initiative and leadership"
+        ],
+        "strength": "Shows agency and drive",
+        "risk": "Claims must be verifiable and substantial"
+      },
+      "the_overcomer": {
+        "description": "Achieved despite significant obstacles",
+        "characteristics": [
+          "Clear context of challenges faced",
+          "Evidence of resilience and growth",
+          "Achievement is more impressive given context"
+        ],
+        "strength": "Compelling narrative of growth",
+        "risk": "Must be authentic, not manufactured"
+      },
+      "the_connector": {
+        "description": "Bridges different communities or disciplines",
+        "characteristics": [
+          "Spans different activities/interests meaningfully",
+          "Brings unique perspective from diverse experiences",
+          "Creates connections others don't see"
+        ],
+        "strength": "Distinctive perspective",
+        "risk": "Must be coherent, not scattered"
+      }
+    }
+  },
+
+  "output_format": {
+    "description": "Structure for evaluation output - weakness identification only, NO suggestions",
+    "structure": {
+      "overall_assessment": {
+        "score": "0-100",
+        "rating_category": "HIGHLY COMPETITIVE | COMPETITIVE | POSSIBLE BUT WEAK | UNLIKELY | NOT COMPETITIVE",
+        "admission_likelihood": "Based on school-specific data"
+      },
+      "component_scores": {
+        "academics": { "score": "0-100", "analysis": "string" },
+        "extracurriculars": { "score": "0-100", "analysis": "string", "tier_assessment": "string" },
+        "essays": { "score": "0-100", "analysis": "string", "authenticity_assessment": "string" },
+        "university_fit": { "score": "0-100", "analysis": "string" }
+      },
+      "weakness_identification": [
+        {
+          "priority": "HIGH | MEDIUM | LOW",
+          "category": "string",
+          "weakness": "string",
+          "evidence": "string",
+          "school_context": "What the target school specifically expects"
+        }
+      ],
+      "red_flags": ["List of any detected red flags"],
+      "final_assessment": "Comprehensive paragraph explaining why the application received this rating, referencing specific weaknesses identified. NO SUGGESTIONS FOR IMPROVEMENT."
+    }
+  }
+}
+

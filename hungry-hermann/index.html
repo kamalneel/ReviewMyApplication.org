@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pathfinder - Synthetic Admissions Counselor</title>
+  <meta name="description" content="Get objective feedback based on how top universities evaluate applications. Practice with AI-powered evaluation before the stakes are real.">
+  <meta name="theme-color" content="#0D0D0D">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="/" class="nav-logo">
+        <img src="favicon.png" alt="Pathfinder Logo" class="logo-img">
+        <span class="logo-text">Pathfinder</span>
+      </a>
+      <div class="nav-menu">
+        <a href="#" class="nav-link" onclick="showDemo(); return false;">See Demo</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#admission-types" class="nav-link">Programs</a>
+        <button class="nav-cta" onclick="scrollToPrograms()">Try Practice Review</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main App Container -->
+  <div id="app">
+    <!-- Landing Page -->
+    <div id="landing-page">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>
+              Practice Your <span class="accent">Application</span><br>
+              Before It Matters
+            </h1>
+            <p class="hero-description">
+              Get <strong>objective feedback</strong> based on how top universities evaluate applications.
+            </p>
+            <div class="hero-cta">
+              <button class="btn btn-primary btn-lg" onclick="scrollToPrograms()">
+                Try Practice Review
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </button>
+              <button class="btn btn-outline btn-lg" onclick="showDemo()">
+                👀 See Example Review
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- The Gap Section -->
+      <section class="the-gap" id="the-gap">
+        <div class="container">
+          <div class="gap-content">
+            <div class="gap-intro">
+              <p class="gap-lead">We analyzed the college admissions industry—from online platforms like Kollegio and DreamCollege to private counselors charging <strong>$10,000–$50,000</strong> per student.</p>
+              <h2 class="gap-title">The gap we found:</h2>
+            </div>
+
+            <div class="gap-comparison">
+              <div class="gap-left">
+                <h3>Everyone helps you <span class="accent">CREATE</span> your application:</h3>
+                <ul class="gap-list">
+                  <li><span class="check">✓</span> Your school counselor guides your strategy</li>
+                  <li><span class="check">✓</span> Essay services polish your writing</li>
+                  <li><span class="check">✓</span> Private counselors shape your narrative</li>
+                  <li><span class="check">✓</span> Your parents review everything</li>
+                </ul>
+              </div>
+              <div class="gap-right">
+                <div class="gap-problem">
+                  <h3>But affordable, objective practice evaluation <span class="missing">doesn't exist.</span></h3>
+                  <p>When you submit your application, you're flying blind. You've never tested how it performs under real admissions criteria.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="gap-solution">
+              <h2>We built the practice evaluation tool you've been missing.</h2>
+              <p>Our AI analyzes your mock application using publicly available admissions criteria from top universities. You'll receive specific, objective feedback on weaknesses, strengths, and what to improve—based on patterns from thousands of successful applications.</p>
+              <p class="gap-disclaimer"><em>Not a crystal ball. Not a guarantee. Just honest practice feedback—before the stakes are real.</em></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works -->
+      <section class="how-it-works" id="how-it-works">
+        <div class="container">
+          <div class="section-header">
+            <h2>🚀 How It Works</h2>
+          </div>
+          <div class="steps-grid">
+            <div class="step-card">
+              <div class="step-number">1</div>
+              <div class="step-icon">📝</div>
+              <h3>Choose Your Program</h3>
+              <p>Select Middle School, High School, or College admission review.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">2</div>
+              <div class="step-icon">📋</div>
+              <h3>Complete Checklist</h3>
+              <p>Fill out the application form and upload required documents.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">3</div>
+              <div class="step-icon">🔍</div>
+              <h3>XCounselor Review</h3>
+              <p>Receive detailed feedback with accept/reject prediction.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">4</div>
+              <div class="step-icon">✨</div>
+              <h3>Improve & Retry</h3>
+              <p>Use feedback to strengthen your real application.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Admission Types -->
+      <section class="admission-types" id="admission-types">
+        <div class="container">
+          <div class="section-header">
+            <h2>📚 Choose Your Review Type</h2>
+          </div>
+          <div class="programs-grid">
+            <!-- Middle School -->
+            <div class="program-card">
+              <div class="program-icon">🏫</div>
+              <div class="program-badge">Grades 6-8</div>
+              <h3>Middle School</h3>
+              <p>Private and magnet middle school admission package review with focus on academic potential and extracurriculars.</p>
+              <ul class="program-includes">
+                <li>✓ Student profile & essays</li>
+                <li>✓ Activities & achievements</li>
+                <li>✓ Parent perspective</li>
+                <li>✓ Detailed feedback</li>
+              </ul>
+              <button class="btn btn-primary btn-block" onclick="selectProgram('middle-school')">
+                Start Review
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </button>
+            </div>
+
+            <!-- High School -->
+            <div class="program-card featured">
+              <div class="featured-tag">Most Popular</div>
+              <div class="program-icon">🎓</div>
+              <div class="program-badge">Grades 9-12</div>
+              <h3>High School</h3>
+              <p>Comprehensive review for competitive private schools and specialized public school programs.</p>
+              <ul class="program-includes">
+                <li>✓ Personal essay review</li>
+                <li>✓ Activities & leadership</li>
+                <li>✓ Short answer feedback</li>
+                <li>✓ Detailed evaluation</li>
+              </ul>
+              <button class="btn btn-primary btn-block" onclick="selectProgram('high-school')">
+                Start Review
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </button>
+            </div>
+
+            <!-- College - School-Centric -->
+            <div class="program-card">
+              <div class="program-icon">🎯</div>
+              <div class="program-badge">Undergraduate</div>
+              <h3>College Admissions</h3>
+              <p>Apply to our synthetic admissions officers. Get realistic accept/reject decisions. Unlimited attempts. 100% free.</p>
+              <ul class="program-includes">
+                <li>✓ School-specific supplementals</li>
+                <li>✓ Binary accept/reject decisions</li>
+                <li>✓ Detailed feedback (email required)</li>
+                <li>✓ Version tracking & outcomes</li>
+              </ul>
+              <button class="btn btn-primary btn-block" onclick="showCollegeSelection()">
+                Choose Your College
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- College Selection Page (hidden by default) -->
+    <div id="college-selection-page" class="hidden">
+      <div class="container">
+        <button class="back-button" onclick="showLandingPage()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Back
+        </button>
+
+        <div class="section-header" style="margin-top: 2rem;">
+          <h1>Choose Your Target College</h1>
+          <p style="font-size: 1.1rem; color: var(--color-text-secondary); max-width: 700px; margin: 1rem auto;">
+            Select a college to apply to our <strong>synthetic admissions officer</strong>.
+            Each school has its own supplemental essays and evaluation criteria.
+          </p>
+        </div>
+
+        <!-- Search/Filter Bar -->
+        <div class="school-filters" style="max-width: 800px; margin: 2rem auto; display: flex; gap: 1rem;">
+          <input
+            type="text"
+            id="school-search"
+            placeholder="Search colleges..."
+            style="flex: 1; padding: 0.75rem 1rem; border: 1px solid var(--color-border); border-radius: 8px; background: var(--color-bg-secondary);"
+            oninput="filterSchools()"
+          />
+          <select
+            id="tier-filter"
+            style="padding: 0.75rem 1rem; border: 1px solid var(--color-border); border-radius: 8px; background: var(--color-bg-secondary);"
+            onchange="filterSchools()"
+          >
+            <option value="all">All Schools</option>
+            <option value="ultra_selective">Ultra-Selective (<5%)</option>
+            <option value="highly_selective">Highly Selective (5-15%)</option>
+            <option value="very_selective">Very Selective (15-35%)</option>
+          </select>
+        </div>
+
+        <!-- Schools Grid (populated by JavaScript) -->
+        <div class="schools-grid" id="schools-grid">
+          <!-- Will be populated by renderSchoolGrid() -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Application Page (hidden by default) -->
+    <div id="application-page" class="hidden">
+      <!-- Progress Bar -->
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="progress-steps" id="progress-steps">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Application Content -->
+      <div class="application-container">
+        <div class="application-sidebar">
+          <div class="checklist-panel">
+            <h3>📋 Application Checklist</h3>
+            <div id="checklist-items">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+          <button class="btn btn-outline btn-block" onclick="goBack()">
+            ← Back to Programs
+          </button>
+        </div>
+        
+        <div class="application-main">
+          <div id="application-form">
+            <!-- Populated by JS based on current step -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results Page (hidden by default) -->
+    <div id="results-page" class="hidden">
+      <div class="results-container">
+        <!-- Populated by JS after review -->
+      </div>
+    </div>
+
+    <!-- Demo Page (hidden by default) -->
+    <div id="demo-page" class="hidden">
+      <div class="demo-container">
+        <!-- Demo Header -->
+        <div class="demo-header">
+          <button class="btn btn-outline" onclick="hideDemo()">
+            ← Back to Home
+          </button>
+          <div class="demo-badge">📋 Sample Application Review</div>
+        </div>
+
+        <!-- Demo Level Selector -->
+        <div class="demo-level-selector">
+          <p class="demo-selector-label">Choose an example:</p>
+          <div class="demo-level-tabs">
+            <button class="demo-level-tab active" onclick="switchDemoLevel('middle-school')" id="demo-level-middle">
+              🏫 Middle School
+            </button>
+            <button class="demo-level-tab" onclick="switchDemoLevel('high-school')" id="demo-level-high">
+              🎓 High School
+            </button>
+            <button class="demo-level-tab" onclick="switchDemoLevel('college')" id="demo-level-college">
+              🎯 College
+            </button>
+          </div>
+        </div>
+
+        <!-- MIDDLE SCHOOL DEMO -->
+        <div id="demo-middle-school" class="demo-level-content">
+        <!-- Demo Intro -->
+        <div class="demo-intro">
+          <h1>Meet <span class="accent">Anya</span></h1>
+          <p class="demo-subtitle">See how our XCounselor reviews a real middle school application</p>
+          <p class="demo-description">
+            Anya is a 5th grader applying to competitive Bay Area private middle schools. 
+            Below is her complete application package and the AI-powered feedback she received.
+          </p>
+        </div>
+
+        <!-- Demo Tabs -->
+        <div class="demo-tabs">
+          <button class="demo-tab active" onclick="showDemoTab('application')">
+            📝 Her Application
+          </button>
+          <button class="demo-tab" onclick="showDemoTab('review')">
+            ⭐ XCounselor Review
+          </button>
+        </div>
+
+        <!-- Application Tab Content -->
+        <div id="demo-application" class="demo-content">
+          <!-- Student Profile Card -->
+          <div class="demo-section">
+            <div class="demo-section-header">
+              <span class="demo-section-icon">👧🏽</span>
+              <h2>Student Profile</h2>
+            </div>
+            <div class="demo-profile-card">
+              <div class="demo-profile-main">
+                <div class="demo-avatar">👧🏽</div>
+                <div class="demo-profile-info">
+                  <h3>Anya Sharma</h3>
+                  <p class="demo-tagline">"Curious · Determined · Kind"</p>
+                  <div class="demo-meta">
+                    <span>📚 Grade 5</span>
+                    <span>🏫 Bayside Academy (Private)</span>
+                    <span>📍 San Jose, CA</span>
+                  </div>
+                </div>
+              </div>
+              <div class="demo-profile-stats">
+                <div class="demo-stat">
+                  <span class="demo-stat-value">5</span>
+                  <span class="demo-stat-label">Years Tracked</span>
+                </div>
+                <div class="demo-stat">
+                  <span class="demo-stat-value">7</span>
+                  <span class="demo-stat-label">Activities</span>
+                </div>
+                <div class="demo-stat">
+                  <span class="demo-stat-value">4</span>
+                  <span class="demo-stat-label">Target Schools</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic Snapshot -->
+          <div class="demo-section">
+            <div class="demo-section-header">
+              <span class="demo-section-icon">📚</span>
+              <h2>Academic Profile</h2>
+            </div>
+            <div class="demo-academics">
+              <div class="demo-grades-grid">
+                <div class="demo-grade-card highlight">
+                  <span class="demo-grade-subject">Computer Science</span>
+                  <span class="demo-grade-score">100%</span>
+                </div>
+                <div class="demo-grade-card">
+                  <span class="demo-grade-subject">History & Geography</span>
+                  <span class="demo-grade-score">95%</span>
+                </div>
+                <div class="demo-grade-card">
+                  <span class="demo-grade-subject">Science</span>
+                  <span class="demo-grade-score">92%</span>
+                </div>
+                <div class="demo-grade-card">
+                  <span class="demo-grade-subject">Recitation & Speech</span>
+                  <span class="demo-grade-score">92%</span>
+                </div>
+                <div class="demo-grade-card">
+                  <span class="demo-grade-subject">Writing (Grade 4)</span>
+                  <span class="demo-grade-score">Mastery</span>
+                </div>
+                <div class="demo-grade-card">
+                  <span class="demo-grade-subject">RSM Math (Level 5P)</span>
+                  <span class="demo-grade-score">A+</span>
+                </div>
+              </div>
+              <div class="demo-growth-story">
+                <div class="demo-story-badge">📈 Growth Story</div>
+                <h4>"The Comeback Kid"</h4>
+                <p>Math performance declined in 2nd-3rd grade. Rather than give up, Anya worked incredibly hard—logging 12 hours of math work in one week. By 4th grade, she had jumped <strong>three grade levels</strong> in a single semester. This same resilience showed when transitioning to a new school: 100% in Computer Science, 95% in History.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activities -->
+          <div class="demo-section">
+            <div class="demo-section-header">
+              <span class="demo-section-icon">🏆</span>
+              <h2>Extracurricular Activities</h2>
+              <span class="demo-section-badge">4 Primary + 3 Secondary</span>
+            </div>
+            <div class="demo-activities">
+              <!-- Taekwondo -->
+              <div class="demo-activity-card primary">
+                <div class="demo-activity-header">
+                  <span class="demo-activity-icon">🥋</span>
+                  <div class="demo-activity-title">
+                    <h4>Taekwondo</h4>
+                    <span class="demo-activity-meta">Bay Area Martial Arts · 5 years · 4 hrs/week</span>
+                  </div>
+                  <span class="demo-activity-badge">⭐ Primary</span>
+                </div>
+                <div class="demo-activity-achievements">
+                  <span class="demo-achievement">🏅 Brown Senior Belt (15/16)</span>
+                  <span class="demo-achievement">🏆 AAU Nationals Qualifier</span>
+                  <span class="demo-achievement">👥 Competition Team</span>
+                </div>
+                <div class="demo-activity-meaningful">
+                  <strong>Why it matters:</strong> "Taekwondo taught me that falling down is okay as long as you get back up. When I started, I was shy and unsure of myself. Now I feel confident and strong. Being selected for the Competition Team showed that my hard work was noticed."
+                </div>
+              </div>
+
+              <!-- Bharatanatyam -->
+              <div class="demo-activity-card primary">
+                <div class="demo-activity-header">
+                  <span class="demo-activity-icon">💃</span>
+                  <div class="demo-activity-title">
+                    <h4>Bharatanatyam (Classical Indian Dance)</h4>
+                    <span class="demo-activity-meta">Nrityakala School of Dance · 3 years · 2 hrs/week</span>
+                  </div>
+                  <span class="demo-activity-badge">⭐ Primary</span>
+                </div>
+                <div class="demo-activity-achievements">
+                  <span class="demo-achievement">🎭 Preparing for Arangetram</span>
+                  <span class="demo-achievement">🎪 Diwali Performance 2023</span>
+                </div>
+                <div class="demo-activity-meaningful">
+                  <strong>Why it matters:</strong> "Dancing Bharatanatyam makes me feel connected to my Indian roots. When I dance, I am telling ancient stories through my body. It also connects me to my grandmother, who loves watching me dance."
+                </div>
+              </div>
+
+              <!-- RSM -->
+              <div class="demo-activity-card primary">
+                <div class="demo-activity-header">
+                  <span class="demo-activity-icon">🧮</span>
+                  <div class="demo-activity-title">
+                    <h4>Russian School of Mathematics</h4>
+                    <span class="demo-activity-meta">RSM Mountain View · 1.5 years · 2 hrs/week</span>
+                  </div>
+                  <span class="demo-activity-badge">⭐ Primary</span>
+                </div>
+                <div class="demo-activity-achievements">
+                  <span class="demo-achievement">📊 Level 5P - Final Test: A+</span>
+                  <span class="demo-achievement">📈 Attendance: 77% → 95%</span>
+                </div>
+                <div class="demo-activity-meaningful">
+                  <strong>Why it matters:</strong> "RSM challenges me in ways that regular school math doesn't. At first, it was hard and I missed some classes, but I kept trying. By the end of the year, I got an A+ on my final test! It taught me that being challenged is how you grow."
+                </div>
+              </div>
+
+              <!-- Bollywood -->
+              <div class="demo-activity-card primary">
+                <div class="demo-activity-header">
+                  <span class="demo-activity-icon">🎬</span>
+                  <div class="demo-activity-title">
+                    <h4>Bollywood Dance</h4>
+                    <span class="demo-activity-meta">Self-taught + Academy · 2 years · 2 hrs/week</span>
+                  </div>
+                  <span class="demo-activity-badge">⭐ Primary</span>
+                </div>
+                <div class="demo-activity-achievements">
+                  <span class="demo-achievement">🎂 Choreographed Nani's 70th Birthday</span>
+                  <span class="demo-achievement">🎤 School Talent Shows</span>
+                </div>
+                <div class="demo-activity-meaningful">
+                  <strong>Why it matters:</strong> "Bollywood dance is pure joy for me! When I choreographed a dance for my Nani's birthday, she cried happy tears. That moment made me realize dance is a gift I can share."
+                </div>
+              </div>
+
+              <!-- Secondary Activities -->
+              <div class="demo-secondary-activities">
+                <h5>Other Activities</h5>
+                <div class="demo-secondary-grid">
+                  <div class="demo-secondary-item">
+                    <span>🎹</span> Piano (1 year)
+                  </div>
+                  <div class="demo-secondary-item">
+                    <span>🏊</span> Swimming (Recreational)
+                  </div>
+                  <div class="demo-secondary-item">
+                    <span>🎨</span> Arts & Painting
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Essays -->
+          <div class="demo-section">
+            <div class="demo-section-header">
+              <span class="demo-section-icon">✍️</span>
+              <h2>Student Essays</h2>
+            </div>
+            <div class="demo-essays">
+              <!-- Personal Statement -->
+              <div class="demo-essay-card">
+                <div class="demo-essay-header">
+                  <h4>Personal Statement</h4>
+                  <span class="demo-char-count">1,847 characters</span>
+                </div>
+                <div class="demo-essay-content">
+                  <p class="demo-essay-note"><em>A note before you read: I know you'll be reading many essays, and I want to be honest with you. I used ChatGPT to help me write this - but the thoughts, stories, and feelings are completely mine.</em></p>
+                  <p>Hi, I'm Anya! I'm 11 years old and I'm in 5th grade at Bayside Academy. I just started there this year after being at Westwood School since 1st grade, and even though I was nervous about changing schools, it's going really well!</p>
+                  <p>The things I love most are Taekwondo, dancing, reading, and learning about ancient myths. I've been doing Taekwondo for 5 years and I'm now a Brown Senior Belt - just one belt away from Black Belt! Taekwondo taught me that falling down is okay as long as you get back up...</p>
+                  <p class="demo-essay-truncated">[Essay continues with stories about dance, writing achievements, the math comeback story, and her "superpower" of sensing how others feel...]</p>
+                </div>
+              </div>
+
+              <!-- Challenge Essay -->
+              <div class="demo-essay-card">
+                <div class="demo-essay-header">
+                  <h4>Challenge You Overcame</h4>
+                  <span class="demo-char-count">892 characters</span>
+                </div>
+                <div class="demo-essay-content">
+                  <p>In 2nd and early 3rd grade, my math scores started going down and I felt sad about it. But instead of giving up, I decided to work really hard. There was one week where I spent 12 hours on math!</p>
+                  <p>By the time I was in 4th grade, I had jumped three whole grade levels in math in just one semester. That taught me that struggling doesn't mean failing - it just means you need to try harder...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Parent Perspective -->
+          <div class="demo-section">
+            <div class="demo-section-header">
+              <span class="demo-section-icon">👨‍👩‍👧</span>
+              <h2>Parent Perspective</h2>
+            </div>
+            <div class="demo-parent-statement">
+              <div class="demo-essay-card">
+                <div class="demo-essay-header">
+                  <h4>Tell us about your child at their best</h4>
+                  <span class="demo-char-count">2,156 characters</span>
+                </div>
+                <div class="demo-essay-content">
+                  <p>What strikes us most about Anya is her ability to grow through challenge. In 2nd grade and early 3rd grade, her math performance started declining. When we noticed at the end of 3rd grade's first semester, she was initially sad—but instead of making excuses, something clicked. She said "I can get better."</p>
+                  <p>She worked incredibly hard in the second semester. One week, her teacher recorded 12 hours of math work—unprecedented for any student. By first semester of 4th grade, she had jumped THREE grade levels in math in a single semester. This trajectory tells us more about who Anya is than any single report card ever could...</p>
+                  <p>Beyond her academic resilience, what moves us most is her emotional intelligence. From a young age, Anya has been remarkably attuned to the feelings of others. She calls it her "superpower" - and it genuinely is...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- View Review CTA -->
+          <div class="demo-cta-section">
+            <p>That's Anya's complete application. Now see how XCounselor evaluates it:</p>
+            <button class="btn btn-primary btn-lg" onclick="showDemoTab('review')">
+              See XCounselor Review →
+            </button>
+          </div>
+        </div>
+
+        <!-- Review Tab Content (V2 - More Rigorous) -->
+        <div id="demo-review" class="demo-content hidden">
+          <!-- Version Badge -->
+          <div class="demo-version-badge">
+            <span class="version-tag">XCounselor v2</span>
+            <span class="version-desc">Sophisticated Middle School Assessment</span>
+          </div>
+
+          <!-- Overall Score -->
+          <div class="demo-section">
+            <div class="demo-overall-score">
+              <div class="demo-score-circle">
+                <svg viewBox="0 0 120 120">
+                  <circle class="demo-score-bg" cx="60" cy="60" r="54"/>
+                  <circle class="demo-score-fill" cx="60" cy="60" r="54" style="--score: 76"/>
+                </svg>
+                <div class="demo-score-text">
+                  <span class="demo-score-number">76</span>
+                  <span class="demo-score-max">/100</span>
+                </div>
+              </div>
+              <div class="demo-score-info">
+                <div class="demo-decision-badge competitive">📊 Competitive</div>
+                <h2>Solid Application with Areas to Address</h2>
+                <p>This application shows a genuine child with real interests and compelling growth stories. Strong in sustained commitments (Taekwondo, dance), but the essay voice raises some concerns about authenticity, and there's no community service component.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Narrative Assessment -->
+          <div class="demo-section">
+            <div class="demo-section-header">
+              <span class="demo-section-icon">📖</span>
+              <h2>Narrative Assessment</h2>
+            </div>
+            <div class="demo-narrative-card">
+              <div class="demo-narrative-archetype">
+                <span class="archetype-label">Identified Archetype:</span>
+                <span class="archetype-name">The Resilient Learner</span>
+              </div>
+              <p class="demo-narrative-summary">
+                <strong>This is the child who:</strong> faces challenges head-on and grows from them. The math comeback story and Taekwondo journey both reinforce this narrative effectively.
+              </p>
+              <div class="demo-narrative-verdict">
+                <span class="verdict-icon">✅</span>
+                <span>Has a clear, memorable narrative that admissions officers will remember</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Component Scores -->
+          <div class="demo-section">
+            <div class="demo-section-header">
+              <span class="demo-section-icon">📊</span>
+              <h2>Component Scores</h2>
+            </div>
+            <div class="demo-component-scores">
+              <div class="demo-component-card">
+                <div class="demo-component-header">
+                  <span class="demo-component-icon">✍️</span>
+                  <h4>Student Essays</h4>
+                  <span class="demo-component-score moderate">68/100</span>
+                </div>
+                <div class="demo-component-bar">
+                  <div class="demo-component-fill moderate" style="width: 68%"></div>
+                </div>
+                <p class="demo-component-feedback"><strong>Concern:</strong> Essay acknowledges AI assistance, which is honest—but some phrasing still reads as too polished for an 11-year-old. Phrases like "I want to be honest with you" and the structured approach suggest adult editing. Schools can detect this.</p>
+                <p class="demo-component-feedback"><strong>Positive:</strong> Specific details ("12 hours of math work") and the personal stories about Nani feel genuine.</p>
+              </div>
+
+              <div class="demo-component-card">
+                <div class="demo-component-header">
+                  <span class="demo-component-icon">🏆</span>
+                  <h4>Activities & Interests</h4>
+                  <span class="demo-component-score excellent">85/100</span>
+                </div>
+                <div class="demo-component-bar">
+                  <div class="demo-component-fill" style="width: 85%"></div>
+                </div>
+                <p class="demo-component-feedback"><strong>Strength:</strong> 5-year Taekwondo commitment with AAU Nationals qualification is standout at this age. 3-year Bharatanatyam shows cultural commitment. RSM math progression demonstrates growth.</p>
+                <p class="demo-component-feedback"><strong>Gap:</strong> 7 activities listed approaches over-scheduling territory. No community service or helping-others component.</p>
+              </div>
+
+              <div class="demo-component-card">
+                <div class="demo-component-header">
+                  <span class="demo-component-icon">📚</span>
+                  <h4>Academic Profile</h4>
+                  <span class="demo-component-score good">78/100</span>
+                </div>
+                <div class="demo-component-bar">
+                  <div class="demo-component-fill" style="width: 78%"></div>
+                </div>
+                <p class="demo-component-feedback">Strong grades in CS (100%) and History (95%). The "Comeback Kid" math story is memorable and demonstrates grit. School transition handled well.</p>
+                <p class="demo-component-feedback"><strong>Context:</strong> For middle school, schools look for growth potential more than perfect grades. This profile shows that potential.</p>
+              </div>
+
+              <div class="demo-component-card">
+                <div class="demo-component-header">
+                  <span class="demo-component-icon">👨‍👩‍👧</span>
+                  <h4>Parent Statement</h4>
+                  <span class="demo-component-score good">75/100</span>
+                </div>
+                <div class="demo-component-bar">
+                  <div class="demo-component-fill" style="width: 75%"></div>
+                </div>
+                <p class="demo-component-feedback">The "emotional radar" superpower is memorable and specific. Story about grandmother is touching.</p>
+                <p class="demo-component-feedback"><strong>Concern:</strong> Leans heavily on achievements. Could include more honest reflection on growth areas and who this child is when not performing.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Identified Weaknesses (V2 - No Suggestions) -->
+          <div class="demo-section">
+            <div class="demo-section-header">
+              <span class="demo-section-icon">⚠️</span>
+              <h2>Identified Weaknesses</h2>
+              <span class="demo-section-badge v2-badge">v2: Honest Assessment</span>
+            </div>
+            <div class="demo-weaknesses">
+              <div class="demo-weakness-item high">
+                <div class="demo-weakness-priority">HIGH</div>
+                <div class="demo-weakness-content">
+                  <h4>Essay Voice May Not Be Fully Authentic</h4>
+                  <p class="demo-weakness-evidence"><strong>Evidence:</strong> Despite disclosure of AI assistance, the essay structure and some phrasing ("I want to be honest with you") read as coached or edited beyond what's typical for a 5th grader.</p>
+                  <p class="demo-weakness-expectation"><strong>What Schools Expect:</strong> Middle schools want to hear the CHILD's voice. An imperfect but genuine essay beats a polished essay that sounds like an adult.</p>
+                </div>
+              </div>
+
+              <div class="demo-weakness-item medium">
+                <div class="demo-weakness-priority">MEDIUM</div>
+                <div class="demo-weakness-content">
+                  <h4>No Community Service or Helping-Others Component</h4>
+                  <p class="demo-weakness-evidence"><strong>Evidence:</strong> All 7 activities focus on personal development (martial arts, dance, academics). No tutoring, volunteering, or contribution to community.</p>
+                  <p class="demo-weakness-expectation"><strong>What Schools Expect:</strong> Selective schools value character and service orientation. Evidence of thinking beyond oneself strengthens applications.</p>
+                </div>
+              </div>
+
+              <div class="demo-weakness-item medium">
+                <div class="demo-weakness-priority">MEDIUM</div>
+                <div class="demo-weakness-content">
+                  <h4>Approaching Over-Scheduled Territory</h4>
+                  <p class="demo-weakness-evidence"><strong>Evidence:</strong> 7 activities (4 primary + 3 secondary) is on the high end for a 10-year-old. Piano is listed at only 1 year.</p>
+                  <p class="demo-weakness-expectation"><strong>What Schools Expect:</strong> Schools prefer depth over breadth. At this age, 3-4 genuine interests with commitment is stronger than 7 surface-level activities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- What Stood Out -->
+          <div class="demo-section">
+            <div class="demo-section-header">
+              <span class="demo-section-icon">⭐</span>
+              <h2>What Stood Out (Positively)</h2>
+            </div>
+            <div class="demo-standout-grid">
+              <div class="demo-standout-item">
+                <span class="demo-standout-icon">📈</span>
+                <h4>"The Comeback Kid" Story</h4>
+                <p>The math improvement narrative (declining → 12 hours of work → 3 grade levels jumped) is memorable. This is exactly the kind of growth mindset story that resonates with admissions officers.</p>
+              </div>
+              <div class="demo-standout-item">
+                <span class="demo-standout-icon">🥋</span>
+                <h4>5-Year Taekwondo Journey</h4>
+                <p>AAU Nationals qualifier + Brown Senior Belt = sustained excellence. This level of commitment is rare and impressive at age 11. It's the strongest element of this application.</p>
+              </div>
+              <div class="demo-standout-item">
+                <span class="demo-standout-icon">💃</span>
+                <h4>Cultural Connection</h4>
+                <p>Bharatanatyam + Bollywood dance + grandmother's birthday performance creates an authentic cultural narrative. The emotional connection to heritage comes through clearly.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Final Assessment -->
+          <div class="demo-section">
+            <div class="demo-section-header">
+              <span class="demo-section-icon">📝</span>
+              <h2>Final Assessment</h2>
+            </div>
+            <div class="demo-final-assessment">
+              <p>This middle school application receives a score of <strong>76/100</strong>, placing it in the <strong>"Competitive"</strong> category for selective Bay Area private middle schools.</p>
+              
+              <p>The application's greatest strength is the <strong>coherent narrative</strong>: Anya emerges as "The Resilient Learner" through both her math comeback story and her 5-year Taekwondo journey. The sustained commitments to martial arts (5 years) and classical dance (3 years) demonstrate genuine passion and dedication unusual for a 5th grader.</p>
+              
+              <p>However, the application has <strong>one high-priority concern</strong>: the essay, despite its honest AI disclosure, still reads as too polished in places. Selective middle schools read thousands of essays and can immediately detect adult editing. Additionally, the lack of any service or community contribution is a notable gap at schools that value character alongside achievement.</p>
+              
+              <p><strong>Bottom line:</strong> This is a genuine child with real interests and an authentic growth story. The core is strong. Addressing the authenticity concerns in the essay voice would move this from "Competitive" to "Strong Candidate."</p>
+            </div>
+          </div>
+
+          <!-- Final CTA -->
+          <div class="demo-final-cta">
+            <h2>Ready to get feedback on <span class="accent">your</span> application?</h2>
+            <p>See how XCounselor can help you identify strengths and improve your admission package.</p>
+            <div class="demo-cta-buttons">
+              <button class="btn btn-primary btn-lg" onclick="hideDemo(); scrollToPrograms();">
+                Start Your Free Review
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </button>
+              <button class="btn btn-outline btn-lg" onclick="showDemoTab('application')">
+                ← Review Application Again
+              </button>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- END MIDDLE SCHOOL DEMO -->
+
+        <!-- HIGH SCHOOL DEMO -->
+        <div id="demo-high-school" class="demo-level-content hidden">
+          <div class="demo-intro">
+            <h1>Meet <span class="accent">Arjun</span></h1>
+            <p class="demo-subtitle">See how our XCounselor reviews a high school application</p>
+            <p class="demo-description">
+              Arjun is an 8th grader at JLS Middle School in Palo Alto, applying to competitive Bay Area private high schools like Harker, Bellarmine, and Menlo.
+            </p>
+          </div>
+
+          <div class="demo-tabs">
+            <button class="demo-tab active" onclick="showDemoTab('application', 'high-school')">
+              📝 His Application
+            </button>
+            <button class="demo-tab" onclick="showDemoTab('review', 'high-school')">
+              ⭐ XCounselor Review
+            </button>
+          </div>
+
+          <div id="demo-application-hs" class="demo-content">
+            <!-- Student Profile -->
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">👦🏽</span>
+                <h2>Student Profile</h2>
+              </div>
+              <div class="demo-profile-card">
+                <div class="demo-profile-main">
+                  <div class="demo-avatar">👦🏽</div>
+                  <div class="demo-profile-info">
+                    <h3>Arjun Mehta</h3>
+                    <p class="demo-tagline">"Curious · Competitive · Analytical"</p>
+                    <div class="demo-meta">
+                      <span>📚 Grade 8</span>
+                      <span>🏫 JLS Middle School (Public)</span>
+                      <span>📍 Palo Alto, CA</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="demo-profile-stats">
+                  <div class="demo-stat">
+                    <span class="demo-stat-value">3.96</span>
+                    <span class="demo-stat-label">GPA</span>
+                  </div>
+                  <div class="demo-stat">
+                    <span class="demo-stat-value">99%</span>
+                    <span class="demo-stat-label">ISEE Math</span>
+                  </div>
+                  <div class="demo-stat">
+                    <span class="demo-stat-value">5</span>
+                    <span class="demo-stat-label">Target Schools</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Academic Profile -->
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">📚</span>
+                <h2>Academic Profile</h2>
+              </div>
+              <div class="demo-academics">
+                <div class="demo-grades-grid">
+                  <div class="demo-grade-card highlight">
+                    <span class="demo-grade-subject">Math (Algebra I Honors)</span>
+                    <span class="demo-grade-score">A</span>
+                  </div>
+                  <div class="demo-grade-card">
+                    <span class="demo-grade-subject">English Honors</span>
+                    <span class="demo-grade-score">A</span>
+                  </div>
+                  <div class="demo-grade-card">
+                    <span class="demo-grade-subject">Physical Science Honors</span>
+                    <span class="demo-grade-score">A</span>
+                  </div>
+                  <div class="demo-grade-card">
+                    <span class="demo-grade-subject">ISEE Quantitative</span>
+                    <span class="demo-grade-score">99th %</span>
+                  </div>
+                  <div class="demo-grade-card">
+                    <span class="demo-grade-subject">MATHCOUNTS State</span>
+                    <span class="demo-grade-score">8th Place</span>
+                  </div>
+                  <div class="demo-grade-card">
+                    <span class="demo-grade-subject">AMC 8</span>
+                    <span class="demo-grade-score">Top 5%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Activities -->
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">🏆</span>
+                <h2>Extracurricular Activities</h2>
+              </div>
+              <div class="demo-activities">
+                <div class="demo-activity-card primary">
+                  <div class="demo-activity-header">
+                    <span class="demo-activity-icon">🤖</span>
+                    <div class="demo-activity-title">
+                      <h4>FIRST Tech Challenge Robotics</h4>
+                      <span class="demo-activity-meta">Team 12345 "Cyber Knights" · 3 years · 12 hrs/week</span>
+                    </div>
+                    <span class="demo-activity-badge">⭐ Primary</span>
+                  </div>
+                  <div class="demo-activity-achievements">
+                    <span class="demo-achievement">🏆 NorCal Regional Champions</span>
+                    <span class="demo-achievement">💻 Lead Programmer</span>
+                    <span class="demo-achievement">👥 Co-Captain</span>
+                  </div>
+                  <div class="demo-activity-meaningful">
+                    <strong>Why it matters:</strong> "Robotics taught me that the best solutions come from collaboration. When our robot failed at regionals in 7th grade, I learned that failure is just data for improvement."
+                  </div>
+                </div>
+
+                <div class="demo-activity-card primary">
+                  <div class="demo-activity-header">
+                    <span class="demo-activity-icon">🎾</span>
+                    <div class="demo-activity-title">
+                      <h4>Competitive Tennis</h4>
+                      <span class="demo-activity-meta">USTA NorCal Junior Circuit · 4 years · 10 hrs/week</span>
+                    </div>
+                    <span class="demo-activity-badge">⭐ Primary</span>
+                  </div>
+                  <div class="demo-activity-achievements">
+                    <span class="demo-achievement">🏅 NorCal Ranking #47</span>
+                    <span class="demo-achievement">👥 JLS Team Captain</span>
+                    <span class="demo-achievement">🏆 Undefeated in League</span>
+                  </div>
+                  <div class="demo-activity-meaningful">
+                    <strong>Why it matters:</strong> "Tennis taught me mental toughness. Unlike team sports, there's no one else to rely on—every point is on me."
+                  </div>
+                </div>
+
+                <div class="demo-activity-card primary">
+                  <div class="demo-activity-header">
+                    <span class="demo-activity-icon">🧮</span>
+                    <div class="demo-activity-title">
+                      <h4>MATHCOUNTS Competition Team</h4>
+                      <span class="demo-activity-meta">JLS Math Team · 3 years · 5 hrs/week</span>
+                    </div>
+                    <span class="demo-activity-badge">⭐ Primary</span>
+                  </div>
+                  <div class="demo-activity-achievements">
+                    <span class="demo-achievement">🥇 8th Place CA State</span>
+                    <span class="demo-achievement">👥 Team Captain</span>
+                    <span class="demo-achievement">📊 AMC 8 Honor Roll</span>
+                  </div>
+                </div>
+
+                <div class="demo-secondary-activities">
+                  <h5>Other Activities</h5>
+                  <div class="demo-secondary-grid">
+                    <div class="demo-secondary-item"><span>🎹</span> Piano - Carnegie Hall (8 years)</div>
+                    <div class="demo-secondary-item"><span>🔭</span> Astronomy Club VP</div>
+                    <div class="demo-secondary-item"><span>📚</span> Volunteer Math Tutor</div>
+                    <div class="demo-secondary-item"><span>🔬</span> Science Olympiad</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Essays -->
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">✍️</span>
+                <h2>Essays</h2>
+              </div>
+              <div class="demo-essays">
+                <div class="demo-essay-card">
+                  <div class="demo-essay-header">
+                    <h4>Personal Statement - "What should we know about you?"</h4>
+                  </div>
+                  <div class="demo-essay-content">
+                    <p>My grandfather in India has a saying: "The engineer sees the bridge. The artist sees the sunset behind it. The wise person sees both."</p>
+                    <p>I think about this when I'm at the piano after a long robotics build session. I'm supposed to fit into a category—STEM kid, athlete, musician—but I don't. And I've stopped trying to.</p>
+                    <p>I cry at movies. Not action scenes, but moments when someone overcomes something quietly. I talk to my grandmother in India every Sunday—she asks the best questions: "Did you help anyone this week?"</p>
+                    <p class="demo-essay-truncated">[Essay continues with the failure journal story and Bellarmine's "Men for Others" connection...]</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-cta-section">
+              <p>That's Arjun's complete application. Now see how XCounselor evaluates it:</p>
+              <button class="btn btn-primary btn-lg" onclick="showDemoTab('review', 'high-school')">
+                See XCounselor Review →
+              </button>
+            </div>
+          </div>
+
+          <!-- High School Review Tab -->
+          <div id="demo-review-hs" class="demo-content hidden">
+            <div class="demo-section">
+              <div class="demo-overall-score">
+                <div class="demo-score-circle">
+                  <svg viewBox="0 0 120 120">
+                    <circle class="demo-score-bg" cx="60" cy="60" r="54"/>
+                    <circle class="demo-score-fill" cx="60" cy="60" r="54" style="--score: 94"/>
+                  </svg>
+                  <div class="demo-score-text">
+                    <span class="demo-score-number">94</span>
+                    <span class="demo-score-max">/100</span>
+                  </div>
+                </div>
+                <div class="demo-score-info">
+                  <div class="demo-decision-badge accept">🎉 Highly Competitive</div>
+                  <h2>Exceptional Application</h2>
+                  <p>This is a standout application with exceptional depth in STEM activities, clear narrative coherence, and demonstrated competitive excellence at state/national levels.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">📊</span>
+                <h2>Component Scores</h2>
+              </div>
+              <div class="demo-component-scores">
+                <div class="demo-component-card">
+                  <div class="demo-component-header">
+                    <span class="demo-component-icon">🏆</span>
+                    <h4>Extracurricular Impact</h4>
+                    <span class="demo-component-score excellent">96/100</span>
+                  </div>
+                  <div class="demo-component-bar">
+                    <div class="demo-component-fill" style="width: 96%"></div>
+                  </div>
+                  <p class="demo-component-feedback">Exceptional profile with Tier 1 achievements: NorCal Robotics Champions, MATHCOUNTS State 8th place, USTA ranked #47. Shows remarkable depth over breadth with 3+ years in primary activities.</p>
+                </div>
+
+                <div class="demo-component-card">
+                  <div class="demo-component-header">
+                    <span class="demo-component-icon">📚</span>
+                    <h4>Academic Profile</h4>
+                    <span class="demo-component-score excellent">95/100</span>
+                  </div>
+                  <div class="demo-component-bar">
+                    <div class="demo-component-fill" style="width: 95%"></div>
+                  </div>
+                  <p class="demo-component-feedback">Near-perfect academics (3.96 GPA) with exceptional test scores (99th percentile ISEE Math). Taking high school level courses in 8th grade demonstrates readiness for rigorous curriculum.</p>
+                </div>
+
+                <div class="demo-component-card">
+                  <div class="demo-component-header">
+                    <span class="demo-component-icon">✍️</span>
+                    <h4>Essay Quality</h4>
+                    <span class="demo-component-score excellent">92/100</span>
+                  </div>
+                  <div class="demo-component-bar">
+                    <div class="demo-component-fill" style="width: 92%"></div>
+                  </div>
+                  <p class="demo-component-feedback">Authentic voice with vulnerability ("I cry at movies"). The grandfather quote frames a compelling theme of bridging multiple worlds. Specific details (failure journal, grandmother calls) make the narrative memorable.</p>
+                </div>
+
+                <div class="demo-component-card">
+                  <div class="demo-component-header">
+                    <span class="demo-component-icon">📖</span>
+                    <h4>Narrative Coherence</h4>
+                    <span class="demo-component-score excellent">93/100</span>
+                  </div>
+                  <div class="demo-component-bar">
+                    <div class="demo-component-fill" style="width: 93%"></div>
+                  </div>
+                  <p class="demo-component-feedback">Clear "Tech Leader" archetype emerges. The story of the failed robot → rewritten code → regional championship is a perfect growth narrative. Activities connect logically to intended interests.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">⭐</span>
+                <h2>What Stood Out</h2>
+              </div>
+              <div class="demo-standout-grid">
+                <div class="demo-standout-item">
+                  <span class="demo-standout-icon">🤖</span>
+                  <h4>Robotics Leadership</h4>
+                  <p>NorCal Regional Champions as Lead Programmer & Co-Captain. Clear technical depth with computer vision autonomous navigation system.</p>
+                </div>
+                <div class="demo-standout-item">
+                  <span class="demo-standout-icon">🧮</span>
+                  <h4>Math Excellence</h4>
+                  <p>MATHCOUNTS State 8th place + AMC 8 Honor Roll. This combination signals genuinely exceptional quantitative ability.</p>
+                </div>
+                <div class="demo-standout-item">
+                  <span class="demo-standout-icon">🎹</span>
+                  <h4>Unexpected Depth</h4>
+                  <p>Carnegie Hall piano performance alongside STEM achievements defies stereotypes. Shows genuine breadth, not resume padding.</p>
+                </div>
+                <div class="demo-standout-item">
+                  <span class="demo-standout-icon">📓</span>
+                  <h4>"Failure Journal" Concept</h4>
+                  <p>This unique detail reveals growth mindset and self-awareness beyond typical middle schoolers.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-final-cta">
+              <h2>Ready to get feedback on <span class="accent">your</span> application?</h2>
+              <p>See how XCounselor can help you identify strengths and improve your admission package.</p>
+              <div class="demo-cta-buttons">
+                <button class="btn btn-primary btn-lg" onclick="hideDemo(); scrollToPrograms();">
+                  Start Your Free Review →
+                </button>
+                <button class="btn btn-outline btn-lg" onclick="showDemoTab('application', 'high-school')">
+                  ← Review Application Again
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END HIGH SCHOOL DEMO -->
+
+        <!-- COLLEGE DEMO -->
+        <div id="demo-college" class="demo-level-content hidden">
+          <div class="demo-intro">
+            <h1>Meet <span class="accent">Maya</span></h1>
+            <p class="demo-subtitle">See how our XCounselor reviews a college application</p>
+            <p class="demo-description">
+              Maya is a senior at Homestead High School applying to Stanford (REA), MIT, Harvard, and UC Berkeley for Biomedical Engineering.
+            </p>
+          </div>
+
+          <div class="demo-tabs">
+            <button class="demo-tab active" onclick="showDemoTab('application', 'college')">
+              📝 Her Application
+            </button>
+            <button class="demo-tab" onclick="showDemoTab('review', 'college')">
+              ⭐ XCounselor Review
+            </button>
+          </div>
+
+          <div id="demo-application-college" class="demo-content">
+            <!-- Student Profile -->
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">👩🏽</span>
+                <h2>Student Profile</h2>
+              </div>
+              <div class="demo-profile-card">
+                <div class="demo-profile-main">
+                  <div class="demo-avatar">👩🏽</div>
+                  <div class="demo-profile-info">
+                    <h3>Maya Chen-Rodriguez</h3>
+                    <p class="demo-tagline">"Bicultural · Impact-Driven · Builder"</p>
+                    <div class="demo-meta">
+                      <span>📚 Grade 12</span>
+                      <span>🏫 Homestead High School (Public)</span>
+                      <span>📍 Cupertino, CA</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="demo-profile-stats">
+                  <div class="demo-stat">
+                    <span class="demo-stat-value">1580</span>
+                    <span class="demo-stat-label">SAT</span>
+                  </div>
+                  <div class="demo-stat">
+                    <span class="demo-stat-value">3.96</span>
+                    <span class="demo-stat-label">GPA (UW)</span>
+                  </div>
+                  <div class="demo-stat">
+                    <span class="demo-stat-value">7</span>
+                    <span class="demo-stat-label">AP 5s</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Academic Profile -->
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">📚</span>
+                <h2>Academic Profile</h2>
+              </div>
+              <div class="demo-academics">
+                <div class="demo-grades-grid">
+                  <div class="demo-grade-card highlight">
+                    <span class="demo-grade-subject">SAT</span>
+                    <span class="demo-grade-score">1580</span>
+                  </div>
+                  <div class="demo-grade-card highlight">
+                    <span class="demo-grade-subject">ACT</span>
+                    <span class="demo-grade-score">36</span>
+                  </div>
+                  <div class="demo-grade-card">
+                    <span class="demo-grade-subject">GPA (Weighted)</span>
+                    <span class="demo-grade-score">4.67</span>
+                  </div>
+                  <div class="demo-grade-card">
+                    <span class="demo-grade-subject">AP Exams</span>
+                    <span class="demo-grade-score">7 × 5s</span>
+                  </div>
+                  <div class="demo-grade-card">
+                    <span class="demo-grade-subject">National Merit</span>
+                    <span class="demo-grade-score">Semifinalist</span>
+                  </div>
+                  <div class="demo-grade-card">
+                    <span class="demo-grade-subject">Intended Major</span>
+                    <span class="demo-grade-score">Biomedical Eng.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Activities -->
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">🏆</span>
+                <h2>Extracurricular Activities</h2>
+              </div>
+              <div class="demo-activities">
+                <div class="demo-activity-card primary">
+                  <div class="demo-activity-header">
+                    <span class="demo-activity-icon">🔬</span>
+                    <div class="demo-activity-title">
+                      <h4>Medical Device Research</h4>
+                      <span class="demo-activity-meta">Stanford Bio-X Research Program · 3 years · 15 hrs/week</span>
+                    </div>
+                    <span class="demo-activity-badge">⭐ Spike</span>
+                  </div>
+                  <div class="demo-activity-achievements">
+                    <span class="demo-achievement">🏆 Intel ISEF 3rd Place</span>
+                    <span class="demo-achievement">📄 Patent Pending</span>
+                    <span class="demo-achievement">📊 Published Abstract</span>
+                  </div>
+                  <div class="demo-activity-meaningful">
+                    <strong>The Story:</strong> "After watching my abuela in rural Mexico struggle with expensive, complicated glucose monitors, I became obsessed with designing something better. My device uses smartphone cameras and costs under $5 vs $50+ for commercial monitors."
+                  </div>
+                </div>
+
+                <div class="demo-activity-card primary">
+                  <div class="demo-activity-header">
+                    <span class="demo-activity-icon">👩‍💻</span>
+                    <div class="demo-activity-title">
+                      <h4>Girls Who Code - Founder</h4>
+                      <span class="demo-activity-meta">Homestead/Mountain View Chapter · 3 years · 6 hrs/week</span>
+                    </div>
+                    <span class="demo-activity-badge">⭐ Primary</span>
+                  </div>
+                  <div class="demo-activity-achievements">
+                    <span class="demo-achievement">👥 40+ Students Served</span>
+                    <span class="demo-achievement">💰 $5K Grants Secured</span>
+                    <span class="demo-achievement">🤝 Google/Apple Partners</span>
+                  </div>
+                  <div class="demo-activity-meaningful">
+                    <strong>Impact:</strong> "Maria, a 7th grader who'd never touched code, built an app for her mom's food truck. She cried when it worked. So did I."
+                  </div>
+                </div>
+
+                <div class="demo-activity-card">
+                  <div class="demo-activity-header">
+                    <span class="demo-activity-icon">🏛️</span>
+                    <div class="demo-activity-title">
+                      <h4>Student Body Vice President</h4>
+                      <span class="demo-activity-meta">Homestead ASB · 2 years · 10 hrs/week</span>
+                    </div>
+                  </div>
+                  <div class="demo-activity-achievements">
+                    <span class="demo-achievement">💵 $80K Budget Manager</span>
+                    <span class="demo-achievement">🧠 Mental Health Initiative</span>
+                    <span class="demo-achievement">🌈 DEI Task Force Chair</span>
+                  </div>
+                </div>
+
+                <div class="demo-secondary-activities">
+                  <h5>Other Activities</h5>
+                  <div class="demo-secondary-grid">
+                    <div class="demo-secondary-item"><span>⚽</span> Varsity Soccer Captain</div>
+                    <div class="demo-secondary-item"><span>🎻</span> Youth Symphony Principal Cellist</div>
+                    <div class="demo-secondary-item"><span>🏥</span> Stanford ED Research Asst.</div>
+                    <div class="demo-secondary-item"><span>🎙️</span> Science Podcast Host</div>
+                    <div class="demo-secondary-item"><span>🔬</span> MIT Media Lab Intern</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Essays -->
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">✍️</span>
+                <h2>Personal Statement</h2>
+              </div>
+              <div class="demo-essays">
+                <div class="demo-essay-card">
+                  <div class="demo-essay-header">
+                    <h4>"My Abuela's Fingers"</h4>
+                  </div>
+                  <div class="demo-essay-content">
+                    <p>My grandmother's fingers are thick with calluses from decades of making tortillas by hand. They are also scarred from the lancets she uses four times a day to test her blood sugar.</p>
+                    <p>When I was fourteen, I spent a summer in rural Oaxaca, Mexico, helping my abuela manage her Type 2 diabetes. Her glucose monitor was expensive, complicated, and broke twice. When the batteries died, she went three weeks without testing.</p>
+                    <p>I watched her struggle and thought: <em>This is a design problem.</em></p>
+                    <p>Three years later, I have an answer—and a patent pending. My device uses smartphone cameras and colorimetric test strips to measure blood glucose. Total cost: under $5.</p>
+                    <p class="demo-essay-truncated">[Essay continues with the research journey and ends with the grandmother's reaction: "Mija, you made something useful."]</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-cta-section">
+              <p>That's Maya's complete application. Now see how XCounselor evaluates it:</p>
+              <button class="btn btn-primary btn-lg" onclick="showDemoTab('review', 'college')">
+                See XCounselor Review →
+              </button>
+            </div>
+          </div>
+
+          <!-- College Review Tab -->
+          <div id="demo-review-college" class="demo-content hidden">
+            <div class="demo-section">
+              <div class="demo-overall-score">
+                <div class="demo-score-circle">
+                  <svg viewBox="0 0 120 120">
+                    <circle class="demo-score-bg" cx="60" cy="60" r="54"/>
+                    <circle class="demo-score-fill" cx="60" cy="60" r="54" style="--score: 97"/>
+                  </svg>
+                  <div class="demo-score-text">
+                    <span class="demo-score-number">97</span>
+                    <span class="demo-score-max">/100</span>
+                  </div>
+                </div>
+                <div class="demo-score-info">
+                  <div class="demo-decision-badge accept">🎯 Ivy-Level Candidate</div>
+                  <h2>Outstanding Application</h2>
+                  <p>This is an elite-level application with a genuine "spike" (medical device research with Intel ISEF placement + patent), perfect academics, and a compelling narrative that connects personal experience to future impact.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">📊</span>
+                <h2>Component Scores</h2>
+              </div>
+              <div class="demo-component-scores">
+                <div class="demo-component-card">
+                  <div class="demo-component-header">
+                    <span class="demo-component-icon">🏆</span>
+                    <h4>Extracurricular Impact</h4>
+                    <span class="demo-component-score excellent">98/100</span>
+                  </div>
+                  <div class="demo-component-bar">
+                    <div class="demo-component-fill" style="width: 98%"></div>
+                  </div>
+                  <p class="demo-component-feedback">Tier 1 achievements: Intel ISEF finalist with patent-pending research is exceptionally rare. Girls Who Code founding shows initiative beyond personal achievement. Perfect "spike" profile with clear theme.</p>
+                </div>
+
+                <div class="demo-component-card">
+                  <div class="demo-component-header">
+                    <span class="demo-component-icon">📚</span>
+                    <h4>Academic Profile</h4>
+                    <span class="demo-component-score excellent">99/100</span>
+                  </div>
+                  <div class="demo-component-bar">
+                    <div class="demo-component-fill" style="width: 99%"></div>
+                  </div>
+                  <p class="demo-component-feedback">Near-perfect: 1580 SAT, 36 ACT, 7 AP 5s, National Merit Semifinalist, 3.96 UW GPA. This is baseline qualification for HYPSM. Course rigor is maximized with APs in all core areas.</p>
+                </div>
+
+                <div class="demo-component-card">
+                  <div class="demo-component-header">
+                    <span class="demo-component-icon">✍️</span>
+                    <h4>Essay Quality</h4>
+                    <span class="demo-component-score excellent">96/100</span>
+                  </div>
+                  <div class="demo-component-bar">
+                    <div class="demo-component-fill" style="width: 96%"></div>
+                  </div>
+                  <p class="demo-component-feedback">"My Abuela's Fingers" is memorable, specific, and emotionally resonant. Connects personal story to research impact beautifully. The closing line ("Mija, you made something useful") is perfect—shows humility and purpose.</p>
+                </div>
+
+                <div class="demo-component-card">
+                  <div class="demo-component-header">
+                    <span class="demo-component-icon">📖</span>
+                    <h4>Narrative Coherence</h4>
+                    <span class="demo-component-score excellent">97/100</span>
+                  </div>
+                  <div class="demo-component-bar">
+                    <div class="demo-component-fill" style="width: 97%"></div>
+                  </div>
+                  <p class="demo-component-feedback">Crystal clear: "This is the student who builds technology for people who are usually forgotten." Every activity connects: research → Girls Who Code → ED volunteering → health equity. Bicultural identity is woven throughout authentically.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-section">
+              <div class="demo-section-header">
+                <span class="demo-section-icon">⭐</span>
+                <h2>What Stood Out</h2>
+              </div>
+              <div class="demo-standout-grid">
+                <div class="demo-standout-item">
+                  <span class="demo-standout-icon">🔬</span>
+                  <h4>Genuine "Spike"</h4>
+                  <p>Intel ISEF 3rd place + patent pending in biomedical engineering. This is national-level research distinction that very few high schoolers achieve.</p>
+                </div>
+                <div class="demo-standout-item">
+                  <span class="demo-standout-icon">❤️</span>
+                  <h4>Personal → Impact Connection</h4>
+                  <p>The grandmother's diabetes story isn't performative—it directly motivated the research. Admissions officers can tell when motivation is authentic.</p>
+                </div>
+                <div class="demo-standout-item">
+                  <span class="demo-standout-icon">🌎</span>
+                  <h4>Bicultural Bridge</h4>
+                  <p>Chinese-American mother + Mexican-American father creates genuine cultural bridge identity. Science communication in Spanish shows commitment to equity.</p>
+                </div>
+                <div class="demo-standout-item">
+                  <span class="demo-standout-icon">🧑‍🤝‍🧑</span>
+                  <h4>Leadership With Impact</h4>
+                  <p>Girls Who Code founder (40+ students), Student Body VP ($80K budget), shows consistent pattern of creating and leading rather than just participating.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-final-cta">
+              <h2>Ready to get feedback on <span class="accent">your</span> application?</h2>
+              <p>See how XCounselor can help you identify strengths and improve your admission package.</p>
+              <div class="demo-cta-buttons">
+                <button class="btn btn-primary btn-lg" onclick="hideDemo(); scrollToPrograms();">
+                  Start Your Free Review →
+                </button>
+                <button class="btn btn-outline btn-lg" onclick="showDemoTab('application', 'college')">
+                  ← Review Application Again
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END COLLEGE DEMO -->
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" id="landing-footer">
+    <div class="container">
+      <p>
+        Made with <span class="heart">♥</span> for aspiring students · <strong>Pathfinder</strong> Synthetic Admissions Counselor
+      </p>
+      <p class="footer-note">
+        <em>This is a mock review tool for practice purposes. Results are simulated and should not be taken as actual admission decisions.</em>
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,348 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "description": "Middle school admissions evaluation criteria - v2 sophisticated assessment",
+    "critical_context": "These are 10-12 year old children. Expectations must be age-appropriate. Schools look for POTENTIAL, not polish."
+  },
+
+  "evaluation_philosophy": {
+    "core_principle": "At this age, authenticity trumps achievement. A genuine, enthusiastic child with room to grow beats a polished applicant who sounds like an adult.",
+    "what_matters_most": [
+      "Does the application sound like a child wrote it?",
+      "Is there genuine enthusiasm and curiosity visible?",
+      "Does the child have at least one sustained interest (2+ years)?",
+      "Do parents show realistic understanding of their child?",
+      "Is there evidence of potential and growth mindset?"
+    ],
+    "what_matters_less": [
+      "Perfect grammar and vocabulary",
+      "Number of activities (quality over quantity)",
+      "Impressive-sounding achievements",
+      "Polished, consultant-edited essays"
+    ]
+  },
+
+  "scoring_weights": {
+    "student_essays": 0.25,
+    "academic_profile": 0.30,
+    "activities": 0.20,
+    "parent_statement": 0.15,
+    "completeness": 0.10
+  },
+
+  "schools": {
+    "harker": {
+      "name": "Harker Middle School",
+      "type": "Independent",
+      "what_they_seek": [
+        "Intellectual curiosity and love of learning",
+        "Well-rounded students who can thrive in challenging environment",
+        "Strong engagement in interview",
+        "Evidence of leadership potential"
+      ],
+      "academic_expectations": "Strong academics across subjects, particularly in core areas",
+      "special_notes": "Interview is important - they want engaged, curious students who can articulate their interests"
+    },
+    "nueva": {
+      "name": "Nueva School",
+      "type": "Gifted-focused",
+      "what_they_seek": [
+        "Gifted learner (IQ testing typically 130+)",
+        "Creative, curious, passionate learners",
+        "Love of learning for its own sake",
+        "Original thinking and creative expression"
+      ],
+      "academic_expectations": "Gifted-level testing required; looking for asynchronous development",
+      "special_notes": "Creative project is CRUCIAL - must show authentic student work. Social-emotional development valued alongside academics."
+    },
+    "crystal_springs": {
+      "name": "Crystal Springs Uplands",
+      "type": "Independent",
+      "what_they_seek": [
+        "Kind, engaged students",
+        "Character as much as academics",
+        "Community-minded students",
+        "Interview skills and genuine personality"
+      ],
+      "academic_expectations": "Solid academic foundation with room for growth",
+      "special_notes": "Small, close-knit community. Interview matters a lot."
+    },
+    "menlo": {
+      "name": "Menlo School",
+      "type": "Independent",
+      "what_they_seek": [
+        "Balance of academics, arts, athletics",
+        "Confident, curious students",
+        "Strong sense of community contribution",
+        "Genuine personality in video responses"
+      ],
+      "academic_expectations": "Competitive academics with evidence of challenge-seeking",
+      "special_notes": "Video responses (Kira) are part of evaluation"
+    },
+    "basis": {
+      "name": "BASIS Independent",
+      "type": "STEM-focused",
+      "what_they_seek": [
+        "Academic intensity readiness",
+        "Strong STEM aptitude",
+        "Ability to handle accelerated curriculum",
+        "Self-directed learning ability"
+      ],
+      "academic_expectations": "Entrance exam is key factor; must demonstrate readiness for advanced work",
+      "special_notes": "Less emphasis on essays, more on demonstrated academic ability"
+    }
+  },
+
+  "evaluation_rubrics": {
+    "student_essays": {
+      "exceptional": {
+        "score_range": [85, 100],
+        "criteria": [
+          "Clearly sounds like a 10-12 year old wrote it",
+          "Genuine enthusiasm and personality shine through",
+          "Specific details about their life (not generic statements)",
+          "Shows age-appropriate reflection and insight",
+          "Natural vocabulary and sentence structure for the age"
+        ],
+        "example_signals": ["I was so excited when...", "My favorite part is...", "It was really hard but..."]
+      },
+      "strong": {
+        "score_range": [70, 84],
+        "criteria": [
+          "Generally sounds like a child",
+          "Some genuine personality visible",
+          "Mix of specific and generic content",
+          "Shows effort and thoughtfulness"
+        ]
+      },
+      "adequate": {
+        "score_range": [55, 69],
+        "criteria": [
+          "May sound slightly over-edited",
+          "Some personality buried under formal language",
+          "Generic in places but has some real moments",
+          "Effort is visible but doesn't stand out"
+        ]
+      },
+      "concerning": {
+        "score_range": [40, 54],
+        "criteria": [
+          "Sounds too adult or polished",
+          "Generic statements that could apply to any child",
+          "Little personality visible",
+          "Feels like what adults think admissions wants"
+        ]
+      },
+      "red_flag": {
+        "score_range": [0, 39],
+        "criteria": [
+          "Clearly written by a parent or consultant",
+          "Vocabulary and concepts beyond typical 5th grader",
+          "No authentic child voice",
+          "Feels like a sales pitch, not a child's thoughts"
+        ]
+      }
+    },
+
+    "activities": {
+      "exceptional": {
+        "score_range": [85, 100],
+        "criteria": [
+          "At least one multi-year commitment (3+ years)",
+          "Clear passion and genuine interest visible",
+          "Age-appropriate achievements (not inflated)",
+          "Activities tell a coherent story about who this child is",
+          "Quality over quantity approach"
+        ],
+        "age_appropriate_examples": [
+          "3-5 years in a sport or art form with natural progression",
+          "Genuine hobby they pursue on their own",
+          "One notable achievement at local/regional level"
+        ]
+      },
+      "strong": {
+        "score_range": [70, 84],
+        "criteria": [
+          "At least one sustained activity (2+ years)",
+          "Genuine interest visible in descriptions",
+          "Reasonable number of activities (not overloaded)",
+          "Some evidence of growth or progression"
+        ]
+      },
+      "adequate": {
+        "score_range": [55, 69],
+        "criteria": [
+          "Several activities but limited depth",
+          "Hard to identify what the child truly loves",
+          "Mix of genuine and resume-padding activities",
+          "Descriptions lack personal connection"
+        ]
+      },
+      "concerning": {
+        "score_range": [40, 54],
+        "criteria": [
+          "Many activities, all surface-level (1 year or less)",
+          "Feels like parent-driven activity schedule",
+          "No clear passion visible",
+          "Over-scheduled child signal"
+        ]
+      },
+      "red_flag": {
+        "score_range": [0, 39],
+        "criteria": [
+          "10+ activities with no depth (classic resume padding)",
+          "Achievements that seem exaggerated for age",
+          "No authentic interests visible",
+          "Parent's dream list, not child's interests"
+        ]
+      }
+    },
+
+    "parent_statement": {
+      "exceptional": {
+        "score_range": [85, 100],
+        "criteria": [
+          "Tells specific stories, not generic praise",
+          "Shows they truly know their child",
+          "Honest about both strengths AND growth areas",
+          "Aligns with child's self-description",
+          "Doesn't oversell or exaggerate"
+        ]
+      },
+      "strong": {
+        "score_range": [70, 84],
+        "criteria": [
+          "Good specific examples",
+          "Generally authentic tone",
+          "Some acknowledgment of growth areas",
+          "Supports child's narrative"
+        ]
+      },
+      "adequate": {
+        "score_range": [55, 69],
+        "criteria": [
+          "Mix of specific and generic",
+          "May lean too much on achievements",
+          "Growth areas mentioned but minimal",
+          "Somewhat aligned with child's essays"
+        ]
+      },
+      "concerning": {
+        "score_range": [40, 54],
+        "criteria": [
+          "Reads like a sales pitch",
+          "Only mentions achievements, no real child visible",
+          "No honest assessment of challenges",
+          "Disconnected from child's own voice"
+        ]
+      },
+      "red_flag": {
+        "score_range": [0, 39],
+        "criteria": [
+          "Pure bragging with no authentic insight",
+          "Inflated claims about child",
+          "Contradicts what child wrote",
+          "Obvious helicopter parenting signals"
+        ]
+      }
+    }
+  },
+
+  "weakness_detection": {
+    "high_priority": [
+      {
+        "id": "adult_voice",
+        "name": "Essay Sounds Adult-Written",
+        "description": "The biggest red flag in middle school admissions. Schools detect this immediately.",
+        "detection_signals": [
+          "Vocabulary beyond typical 5th grader",
+          "Complex sentence structures",
+          "Adult perspectives or insights",
+          "Overly polished language"
+        ],
+        "counselor_explanation": "This essay doesn't sound like an 11-year-old wrote it. Private school admissions officers read thousands of essays and can immediately tell when a parent or consultant has written or heavily edited a child's work. This is one of the most damaging things in an application."
+      },
+      {
+        "id": "over_scheduled",
+        "name": "Over-Scheduled Child",
+        "description": "10+ activities at age 10 is a red flag, not a strength",
+        "detection_signals": [
+          "Many activities listed (8+)",
+          "Most are 1 year or less",
+          "No clear passion or favorite",
+          "Seems driven by parent's agenda"
+        ],
+        "counselor_explanation": "This activity list suggests an over-scheduled child. Selective middle schools want to see depth and genuine passion, not a long list of everything you've ever tried. At this age, quality matters far more than quantity."
+      },
+      {
+        "id": "no_authentic_voice",
+        "name": "No Child Personality Visible",
+        "description": "The application feels like a checklist, not a child",
+        "detection_signals": [
+          "Generic statements throughout",
+          "No specific stories or moments",
+          "Could apply to any child with minor changes",
+          "No enthusiasm or personality"
+        ],
+        "counselor_explanation": "After reading this application, I can't picture who this child actually is. There's no personality, no specific moments, no genuine enthusiasm. Admissions officers want to meet a real child through the application—not a resume."
+      }
+    ],
+    "medium_priority": [
+      {
+        "id": "exaggerated_achievements",
+        "name": "Achievements Sound Inflated",
+        "description": "Claims that seem disproportionate for a 10-11 year old",
+        "detection_signals": [
+          "Leadership claims that seem unrealistic",
+          "Impact numbers that seem exaggerated",
+          "Adult-level accomplishments"
+        ],
+        "counselor_explanation": "Some achievements described here seem unusually advanced for a 5th grader. Admissions officers are skeptical of inflated claims and prefer honest, age-appropriate accomplishments."
+      },
+      {
+        "id": "parent_child_mismatch",
+        "name": "Parent Statement Doesn't Match Child",
+        "description": "Disconnect between what child and parent describe",
+        "detection_signals": [
+          "Different activities emphasized",
+          "Different personality described",
+          "Parent's vision vs. child's voice"
+        ],
+        "counselor_explanation": "The parent statement doesn't align with what the child wrote. This disconnect suggests either lack of authenticity or a parent who's projecting their aspirations rather than describing their actual child."
+      }
+    ]
+  },
+
+  "narrative_archetypes": {
+    "age_appropriate": true,
+    "archetypes": {
+      "the_curious_explorer": {
+        "description": "Loves learning across many areas, asks lots of questions",
+        "positive_for": ["Nueva", "Crystal Springs"],
+        "signals": ["mentions curiosity", "asks questions", "explores multiple interests"]
+      },
+      "the_dedicated_practitioner": {
+        "description": "Deep commitment to one or two activities with clear growth",
+        "positive_for": ["Harker", "Menlo", "BASIS"],
+        "signals": ["multi-year commitment", "progression visible", "genuine passion"]
+      },
+      "the_kind_connector": {
+        "description": "Shows empathy, helps others, values relationships",
+        "positive_for": ["Crystal Springs", "Menlo"],
+        "signals": ["mentions friends", "helping others", "emotional awareness"]
+      },
+      "the_resilient_learner": {
+        "description": "Has faced challenges and grown from them",
+        "positive_for": ["All schools"],
+        "signals": ["comeback story", "learned from failure", "growth mindset"]
+      }
+    }
+  },
+
+  "output_notes": {
+    "tone": "Encouraging but honest. These are children - be kind but truthful.",
+    "format": "Identify weaknesses but frame appropriately for a family with a 10-12 year old.",
+    "remember": "Potential over polish. Schools want to see who this child might become, not a finished product."
+  }
+}
+

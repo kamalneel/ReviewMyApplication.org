@@ -1,0 +1,390 @@
+{
+  "stanford_university": {
+    "university": "Stanford University",
+    "ranking": 3,
+    "acceptance_rate": "~3.7%",
+    "admissions_office_urls": {
+      "main_admissions": "https://admission.stanford.edu/",
+      "selection_process": "https://admission.stanford.edu/apply/selection/",
+      "essays": "https://admission.stanford.edu/apply/first-year/essays.html",
+      "blogs": "https://admission.stanford.edu/blog/",
+      "faqs": "https://admission.stanford.edu/apply/first-year/faqs.html"
+    },
+    "counselor_perspectives": {
+      "overall_philosophy": "Stanford seeks students who will make meaningful contributions to the Stanford community and, eventually, to the world. We look for distinctive students who exhibit an abundance of energy and curiosity in their classes, activities, projects, research, and lives.",
+      "mission_alignment": "Stanford's commitment to access, opportunity, and impact drives admissions. The university values intellectual vitality, demonstrated impact, and distinctive perspective.",
+      "what_they_seek": [
+        "Intellectual vitality - love of learning for its own sake",
+        "Evidence of initiative and impact beyond the classroom",
+        "Distinctive voice and perspective",
+        "Innovation and creative thinking",
+        "Demonstrated curiosity beyond coursework",
+        "Future leaders and changemakers",
+        "Students who will contribute to Stanford's mission of creating knowledge and educating students"
+      ],
+      "evaluation_philosophy": "Stanford employs comprehensive holistic review. Essays are weighted very heavily - they want to understand who you are beyond test scores and grades. They seek students who show depth of thought, reflection, and authentic voice."
+    },
+    "academic_criteria": {
+      "gpa_expectations": "Most admitted students are in top 10% of their class, typically 3.9-4.0 unweighted GPA",
+      "test_scores": {
+        "sat_range": "1470-1570 (middle 50%)",
+        "sat_math": "750-800 (middle 50%)",
+        "sat_ebrw": "720-770 (middle 50%)",
+        "act_range": "33-35 (middle 50%)",
+        "testing_requirement": "Test-optional for recent cycles, but strong scores still advantageous",
+        "superscoring": "Yes, Stanford superscores SAT"
+      },
+      "course_rigor": "Most demanding curriculum available - expects maximum challenge in areas of strength. Values depth in academic interests.",
+      "academic_interests": "Values students who pursue learning beyond classroom requirements - independent research, advanced coursework, intellectual exploration"
+    },
+    "essay_requirements": {
+      "personal_statement": "Common Application or Coalition Application essay",
+      "supplemental_essays": "Multiple short essays including 'What matters to you and why?' (100-250 words) and 'Why Stanford?' essays",
+      "essay_philosophy": "Essays are critically important at Stanford. They want authentic, distinctive, memorable voices. Essays reveal intellectual vitality, values, perspective, and fit with Stanford's culture.",
+      "what_makes_strong_essays": [
+        "Authentic voice that sounds like a real person, not polished to perfection",
+        "Specific, vivid examples and storytelling",
+        "Deep reflection and self-awareness",
+        "Demonstrating intellectual vitality and curiosity",
+        "Showing your unique perspective and values",
+        "Genuine enthusiasm for Stanford's specific offerings",
+        "Avoiding clichés and generic statements",
+        "Demonstrating impact and initiative"
+      ],
+      "common_essay_mistakes": [
+        "Essays that sound too polished or written by committee",
+        "Generic 'Why Stanford' essays listing famous programs without personal connection",
+        "Trying to be who you think Stanford wants rather than being yourself",
+        "Lists of accomplishments without reflection",
+        "Lack of specificity or concrete examples"
+      ]
+    },
+    "extracurriculars": {
+      "importance": "Extremely high - Stanford looks for sustained impact and depth",
+      "depth_vs_breadth": "Strongly prefer depth and distinction over breadth. Quality of impact matters far more than quantity of activities.",
+      "leadership_expectations": "Leadership and initiative are valued, but formal titles less important than demonstrated impact",
+      "impact_demonstration": "Must show tangible impact - what changed because of your involvement? Numbers, outcomes, and sustained commitment matter.",
+      "recognition_level": "Many admitted students have regional, state, or national recognition, but impact can also be deeply local",
+      "unique_preference": "Innovation, entrepreneurship, creative problem-solving, and making things happen"
+    },
+    "letters_of_recommendation": {
+      "requirements": "Two teacher recommendations (from different subject areas) plus counselor recommendation",
+      "what_reviewers_look_for": [
+        "Intellectual vitality and curiosity in classroom",
+        "Contribution to class discussions and community",
+        "Character, integrity, and personal qualities",
+        "Specific examples and anecdotes",
+        "How student stands out among peers",
+        "Growth mindset and resilience"
+      ],
+      "importance": "Very important - strong letters can significantly boost application"
+    },
+    "demonstrated_interest": {
+      "importance": "Not tracked - Stanford does not consider demonstrated interest",
+      "interviews": "Optional interviews with alumni when available, not required or guaranteed"
+    },
+    "evaluation_rubrics": {
+      "selection_process": "Multiple readers review each application. First read by regional officer, strong applications get second and third reads, then committee discussion for competitive applicants.",
+      "committee_review": "Final decisions made in committee with multiple admissions officers discussing each case",
+      "decision_framework": "Holistic evaluation of academic excellence, intellectual vitality, personal context, extracurricular impact, and fit with Stanford mission",
+      "key_evaluation_points": [
+        "Academic excellence and preparation for Stanford's rigor",
+        "Intellectual vitality - genuine love of learning",
+        "Personal context and overcoming challenges",
+        "Extracurricular depth and impact",
+        "Essay quality - distinctive voice and perspective",
+        "Recommendations - evidence of classroom contribution and character",
+        "Contribution to Stanford community - what will you add?"
+      ]
+    },
+    "unique_insights": [
+      "Stanford places exceptional weight on essays - they truly want to hear your voice",
+      "Intellectual vitality is Stanford's signature evaluation criterion - showing you love learning for its own sake",
+      "Location in Silicon Valley shapes culture - innovation and entrepreneurship highly valued",
+      "Stanford looks for students who will 'make a difference' - impact orientation is key",
+      "The 'What matters to you and why?' essay is uniquely Stanford - reveals values and depth of thought",
+      "Stanford has one of lowest acceptance rates (~3.7%) but seeks accessible, authentic students, not perfection",
+      "Cross-admit data: 38% choose Stanford over Harvard - strong preference among STEM/innovation-focused students",
+      "Stanford values diversity of thought and experience - geographic, socioeconomic, and intellectual diversity all matter"
+    ],
+    "common_pitfalls": [
+      "Generic or overly polished essays that lack authentic voice",
+      "Not demonstrating intellectual vitality beyond grades and test scores",
+      "Shallow involvement in many activities without meaningful impact",
+      "Weak 'Why Stanford' essays that could apply to any top university",
+      "Missing opportunities to show initiative and innovation",
+      "Focusing on prestige of activities rather than personal growth and impact",
+      "Trying to present a 'perfect' image rather than authentic self",
+      "Not contextualizing achievements within available opportunities"
+    ],
+    "red_flags": [
+      "Lack of genuine intellectual curiosity",
+      "Resume padding - long lists of brief involvements",
+      "Essays that sound like marketing materials",
+      "No evidence of impact or initiative",
+      "Inconsistencies between different parts of application",
+      "Lack of authenticity or self-awareness"
+    ]
+  },
+
+  "yale_university": {
+    "university": "Yale University",
+    "ranking": 4,
+    "acceptance_rate": "~4.5%",
+    "admissions_office_urls": {
+      "main_admissions": "https://admissions.yale.edu/",
+      "what_yale_looks_for": "https://admissions.yale.edu/what-yale-looks-for",
+      "application_info": "https://admissions.yale.edu/first-year-applicants",
+      "admissions_blog": "https://admissions.yale.edu/bulldog-blog",
+      "faqs": "https://admissions.yale.edu/faqs"
+    },
+    "counselor_perspectives": {
+      "overall_philosophy": "Yale undertakes a holistic review of every application. We look at academic achievement in the context of opportunities available and the student's personal story. We're building a diverse community of exceptional individuals who will learn from one another.",
+      "mission_alignment": "Yale seeks students who will take advantage of Yale's extraordinary resources and contribute to the residential college community. The university values intellectual curiosity, especially in humanities and liberal arts, along with leadership and character.",
+      "what_they_seek": [
+        "Outstanding academic achievement in context",
+        "Intellectual curiosity and love of learning",
+        "Leadership and initiative",
+        "Contribution to community",
+        "Character and personal qualities",
+        "Diverse perspectives and experiences",
+        "Students who will thrive in residential college system",
+        "Depth in academic and extracurricular pursuits"
+      ],
+      "evaluation_philosophy": "Yale has reinstated testing requirements, viewing standardized tests as one tool to evaluate preparation. They emphasize context - what opportunities were available to you? How did you make the most of them? The committee seeks students who show both achievement and promise."
+    },
+    "academic_criteria": {
+      "gpa_expectations": "Vast majority of admitted students are in top 10% of graduating class, typically 3.95+ unweighted GPA",
+      "test_scores": {
+        "sat_range": "1470-1570 (middle 50%)",
+        "sat_math": "730-790 (middle 50%)",
+        "sat_ebrw": "740-780 (middle 50%)",
+        "act_range": "33-35 (middle 50%)",
+        "testing_requirement": "SAT or ACT required (reinstated after test-optional period)",
+        "superscoring": "Yes, Yale superscores both SAT and ACT"
+      },
+      "course_rigor": "Most demanding curriculum available at your high school. Yale expects students to challenge themselves with honors, AP, IB, or equivalent courses.",
+      "academic_interests": "Strong preference for students with intellectual curiosity across disciplines - the liberal arts ideal"
+    },
+    "essay_requirements": {
+      "personal_statement": "Common Application or Coalition Application essay (650 words)",
+      "supplemental_essays": "Multiple Yale-specific short answer questions and essays including 'Why Yale?' and intellectual engagement questions",
+      "essay_philosophy": "Yale wants to understand who you are beyond your transcript. Essays should reveal your voice, values, intellectual interests, and how you think. They value authenticity, reflection, and specific examples.",
+      "what_makes_strong_essays": [
+        "Authentic voice and genuine reflection",
+        "Specific examples and vivid storytelling",
+        "Intellectual curiosity and depth of thought",
+        "Understanding of Yale's specific offerings (residential colleges, shopping period, etc.)",
+        "Personal growth and self-awareness",
+        "How you'll contribute to Yale community",
+        "Evidence of character and values"
+      ],
+      "common_essay_mistakes": [
+        "Generic essays that could apply to any Ivy League school",
+        "Listing accomplishments without reflection",
+        "Overly formal or trying too hard to impress",
+        "Not demonstrating knowledge of Yale's unique features",
+        "Lack of specific examples",
+        "Missing opportunities to show intellectual curiosity"
+      ]
+    },
+    "extracurriculars": {
+      "importance": "Very high - Yale evaluates both achievement and contribution to community",
+      "depth_vs_breadth": "Depth, commitment, and impact strongly preferred over long lists of activities",
+      "leadership_expectations": "Leadership valued, but can take many forms - formal positions, informal influence, or initiative",
+      "impact_demonstration": "Show sustained commitment and tangible outcomes. What changed because of your involvement?",
+      "recognition_level": "Many admitted students have state or national recognition, but deep local impact also valued",
+      "unique_preference": "Activities that demonstrate intellectual curiosity, service to others, and contribution to community"
+    },
+    "letters_of_recommendation": {
+      "requirements": "Two teacher recommendations plus counselor recommendation; third teacher recommendation optional",
+      "what_reviewers_look_for": [
+        "Intellectual curiosity and contribution to classroom",
+        "Character, integrity, and personal qualities",
+        "Specific examples and anecdotes",
+        "How student interacts with peers and teachers",
+        "Academic abilities and potential",
+        "Growth and resilience"
+      ],
+      "importance": "Critical - Yale places heavy weight on recommendations to understand classroom presence and character"
+    },
+    "demonstrated_interest": {
+      "importance": "Not considered - Yale does not track demonstrated interest",
+      "interviews": "Alumni interviews offered when available, evaluative but not required. No campus interviews."
+    },
+    "evaluation_rubrics": {
+      "selection_process": "Applications read by at least two admissions officers. Strong applications discussed in regional and full committee meetings.",
+      "committee_review": "Admissions committee includes admissions officers and faculty. Decisions made by consensus after thorough discussion.",
+      "decision_framework": "Holistic evaluation considering academic achievement, testing, recommendations, essays, extracurriculars, and personal context",
+      "key_evaluation_points": [
+        "Academic achievement in context of opportunities",
+        "Standardized test scores (reinstituted requirement)",
+        "Teacher and counselor recommendations",
+        "Essay quality and personal voice",
+        "Extracurricular depth and impact",
+        "Character and personal qualities",
+        "Contribution to Yale's diverse community",
+        "Fit with residential college system"
+      ]
+    },
+    "unique_insights": [
+      "Yale's residential college system is central to student life - admissions looks for students who will thrive in close-knit community",
+      "Humanities and liberal arts orientation - Yale values intellectual breadth and curiosity across disciplines",
+      "Shopping period (first two weeks to sample classes) reflects commitment to academic exploration",
+      "Yale has reinstated standardized testing requirement, viewing tests as important evaluation tool",
+      "Strong preference for students with intellectual engagement beyond classroom",
+      "Cross-admit data: 65% choose Harvard over Yale, 54% choose Yale over Stanford",
+      "Yale's location in New Haven and commitment to community engagement shapes admissions priorities",
+      "Faculty involvement in admissions decisions reflects academic focus"
+    ],
+    "common_pitfalls": [
+      "Not understanding Yale's distinctive features (residential colleges, shopping period, etc.)",
+      "Weak 'Why Yale?' essays without specific knowledge",
+      "Overemphasis on STEM without showing liberal arts engagement",
+      "Activity lists focused on quantity over quality",
+      "Generic essays lacking personal voice",
+      "Not demonstrating intellectual curiosity beyond grades",
+      "Missing opportunities to show character and values",
+      "Underestimating importance of standardized tests"
+    ],
+    "red_flags": [
+      "Below 25th percentile test scores without exceptional circumstances",
+      "Lack of intellectual curiosity or engagement",
+      "Generic application without Yale-specific knowledge",
+      "Resume padding without meaningful commitment",
+      "Essays that don't reveal authentic voice",
+      "Weak or generic recommendations"
+    ]
+  },
+
+  "princeton_university": {
+    "university": "Princeton University",
+    "ranking": 5,
+    "acceptance_rate": "~4%",
+    "admissions_office_urls": {
+      "main_admissions": "https://admission.princeton.edu/",
+      "how_to_apply": "https://admission.princeton.edu/how-apply",
+      "what_princeton_looks_for": "https://admission.princeton.edu/how-apply/what-princeton-looks",
+      "blogs": "https://admission.princeton.edu/blogs",
+      "admission_dean_blog": "https://admission.princeton.edu/blogs/dean"
+    },
+    "counselor_perspectives": {
+      "overall_philosophy": "Princeton conducts a thorough holistic review of every application. We seek students who have made the most of their opportunities and will contribute to Princeton's undergraduate-focused community. Character matters as much as achievement.",
+      "mission_alignment": "Princeton's commitment to undergraduate education is unparalleled. The university seeks students who will take advantage of independent work, junior papers, and senior thesis while contributing to tight-knit residential community.",
+      "what_they_seek": [
+        "Academic excellence and intellectual curiosity",
+        "Independent thinking and research potential",
+        "Character, integrity, and ethical commitment",
+        "Contribution to residential community",
+        "Leadership and initiative",
+        "Diverse perspectives and experiences",
+        "Students who will thrive with undergraduate focus and close faculty relationships",
+        "Commitment to service and impact"
+      ],
+      "evaluation_philosophy": "Princeton emphasizes fit with undergraduate-focused mission. The admissions committee looks for students who will excel in Princeton's distinctive academic structure (independent work, precepts) and contribute to residential college community."
+    },
+    "academic_criteria": {
+      "gpa_expectations": "Nearly all admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+      "test_scores": {
+        "sat_range": "1470-1570 (middle 50%)",
+        "sat_math": "740-800 (middle 50%)",
+        "sat_ebrw": "730-770 (middle 50%)",
+        "act_range": "33-35 (middle 50%)",
+        "testing_requirement": "SAT or ACT required",
+        "superscoring": "Yes, Princeton superscores SAT and ACT"
+      },
+      "course_rigor": "Most rigorous curriculum available. Princeton expects maximum academic challenge and depth in areas of interest.",
+      "academic_interests": "Values students prepared for independent work and research. Intellectual independence is key."
+    },
+    "essay_requirements": {
+      "personal_statement": "Common Application essay (650 words)",
+      "supplemental_essays": "Multiple Princeton supplements including essays on extracurriculars, summer experiences, 'favorite' prompts, and academic interests",
+      "essay_philosophy": "Princeton values authentic voice, reflection, and insight into character. Essays should reveal intellectual curiosity, values, and how you think. The admissions committee wants to understand who you are and how you'll contribute.",
+      "what_makes_strong_essays": [
+        "Authentic personal voice",
+        "Specific examples and concrete details",
+        "Reflection and self-awareness",
+        "Intellectual depth and curiosity",
+        "Understanding of Princeton's unique features (independent work, precepts, residential colleges)",
+        "Evidence of character and values",
+        "Genuine enthusiasm for Princeton's offerings",
+        "How you'll contribute to community"
+      ],
+      "common_essay_mistakes": [
+        "Generic 'Why Princeton' without specific knowledge",
+        "Lists of accomplishments without reflection",
+        "Trying to sound impressive rather than authentic",
+        "Missing opportunities to show character",
+        "Not demonstrating understanding of independent work or undergraduate focus",
+        "Lack of specific examples"
+      ]
+    },
+    "extracurriculars": {
+      "importance": "Very high - Princeton evaluates depth of commitment and impact",
+      "depth_vs_breadth": "Strongly prefer sustained depth and measurable impact over breadth",
+      "leadership_expectations": "Leadership important, but quality of contribution matters more than titles",
+      "impact_demonstration": "Show sustained commitment over time and tangible outcomes. What impact did you make?",
+      "recognition_level": "Many admitted students have regional or national recognition, but deep local leadership also valued",
+      "unique_preference": "Service, research, intellectual pursuits, and activities showing independent initiative"
+    },
+    "letters_of_recommendation": {
+      "requirements": "Two teacher recommendations plus counselor recommendation",
+      "what_reviewers_look_for": [
+        "Intellectual curiosity and classroom contribution",
+        "Character, integrity, and ethical qualities",
+        "Relationship with peers and teachers",
+        "Specific examples of impact and growth",
+        "Potential for independent work and research",
+        "Academic excellence and engagement"
+      ],
+      "importance": "Critical - Princeton places heavy emphasis on recommendations to understand character and classroom presence"
+    },
+    "demonstrated_interest": {
+      "importance": "Not tracked - Princeton does not consider demonstrated interest",
+      "interviews": "Alumni interviews offered when available but not required"
+    },
+    "evaluation_rubrics": {
+      "selection_process": "Each application read by multiple officers. Regional discussions followed by full committee review for competitive applicants.",
+      "committee_review": "Full admissions committee discusses competitive applications. Dean of Admission makes final decisions with committee input.",
+      "decision_framework": "Holistic evaluation of academic achievement, personal character, extracurricular impact, and fit with Princeton's mission",
+      "key_evaluation_points": [
+        "Academic excellence and preparation for rigorous curriculum",
+        "Potential for independent work and research",
+        "Character and personal qualities",
+        "Extracurricular depth and leadership",
+        "Essay quality and authentic voice",
+        "Recommendations - classroom presence and character",
+        "Contribution to diverse community",
+        "Fit with undergraduate-focused mission"
+      ]
+    },
+    "unique_insights": [
+      "Princeton's undergraduate focus is distinctive - no professional schools competing for resources",
+      "Independent work (junior papers, senior thesis) is required for all students - admissions looks for research potential",
+      "Precept system (small discussion seminars) means classroom participation is critical",
+      "Residential college system provides tight-knit community - admissions seeks students who will contribute",
+      "Princeton's financial aid is among most generous - no loans in aid packages",
+      "Strong emphasis on public service - Pace Center and service opportunities shape campus culture",
+      "Dean's blog posts offer insights into admissions philosophy and process",
+      "Cross-admit data: 75% choose Harvard over Princeton, 74% choose Stanford over Princeton"
+    },
+    "common_pitfalls": [
+      "Not understanding Princeton's distinctive features (independent work, undergraduate focus, precepts)",
+      "Weak essays without authentic voice or reflection",
+      "Not demonstrating research potential or intellectual independence",
+      "Activity lists without depth or sustained commitment",
+      "Generic 'Why Princeton' essays",
+      "Missing opportunities to show character and ethical commitment",
+      "Underestimating importance of teacher recommendations",
+      "Not conveying fit with residential community"
+    ],
+    "red_flags": [
+      "Lack of intellectual independence or curiosity",
+      "Shallow extracurricular involvement",
+      "Generic essays without Princeton-specific knowledge",
+      "Below 25th percentile scores without compelling story",
+      "Weak character recommendations",
+      "No evidence of research interest or independent thinking"
+    ]
+  }
+}
