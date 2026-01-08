@@ -2,12 +2,11 @@
   "metadata": {
     "project_name": "College Admissions Counselor Knowledge Base",
     "version": "1.0",
-    "last_updated": "2025-12-27",
+    "last_updated": "2026-01-07",
     "total_colleges_catalogued": 100,
     "colleges_with_deep_research": 10,
     "description": "Comprehensive database of college admissions counselor perspectives, preferences, and evaluation criteria"
   },
-  
   "consulting_resources": [
     {
       "name": "Admissions Madness",
@@ -84,7 +83,6 @@
       "specialty": "Application process, admissions interviews"
     }
   ],
-  
   "database_resources": [
     {
       "name": "College Board BigFuture",
@@ -117,7 +115,6 @@
       "description": "Member schools committed to access, affordability, and graduation"
     }
   ],
-  
   "top_10_universities_deep_research": [
     {
       "university": "Harvard University",
@@ -210,7 +207,6 @@
         "Spreading activities too thin without depth"
       ]
     },
-    
     {
       "university": "Massachusetts Institute of Technology (MIT)",
       "ranking": 2,
@@ -305,7 +301,7 @@
         "Students regularly work alongside faculty to shape MIT policies",
         "Risk-taking can lead to failure, but structural supports help students learn resilience",
         "MIT has active blogs since 2004, unfiltered student narratives"
-      },
+      ],
       "common_pitfalls": [
         "Focusing solely on academic achievement without showing hands-on making",
         "Not demonstrating collaborative spirit or community care",
@@ -315,7 +311,6 @@
         "Focusing on breadth over depth in activities"
       ]
     },
-    
     {
       "university": "Stanford University",
       "ranking": 3,
@@ -365,7 +360,7 @@
           "Demonstrating intellectual vitality and curiosity",
           "Showing your unique perspective and values",
           "Genuine enthusiasm for Stanford's specific offerings",
-          "Avoiding clichés and generic statements",
+          "Avoiding clich\u00e9s and generic statements",
           "Demonstrating impact and initiative"
         ],
         "common_essay_mistakes": [
@@ -443,7 +438,6 @@
         "Lack of authenticity or self-awareness"
       ]
     },
-    
     {
       "university": "Yale University",
       "ranking": 4,
@@ -573,7 +567,6 @@
         "Weak or generic recommendations"
       ]
     },
-    
     {
       "university": "Princeton University",
       "ranking": 5,
@@ -704,151 +697,687 @@
         "No evidence of research interest or independent thinking"
       ]
     },
-    
     {
       "university": "Columbia University",
       "ranking": 6,
-      "acceptance_rate": "~4.2%",
+      "acceptance_rate": "~3.9%",
       "admissions_office_urls": {
-        "main_admissions": "[REQUIRES RESEARCH]",
-        "blogs": "[REQUIRES RESEARCH]"
+        "main_admissions": "https://undergrad.admissions.columbia.edu/",
+        "apply": "https://undergrad.admissions.columbia.edu/apply",
+        "content_portal": "https://undergrad.admissions.columbia.edu/content",
+        "contact": "https://undergrad.admissions.columbia.edu/contact",
+        "visiting": "https://undergrad.admissions.columbia.edu/visit"
       },
-      "research_status": "MINIMAL - Requires substantial deep research",
-      "known_insights": [
-        "2024-25 admissions: received ~60,000 applications, 4.2% accepted (second lowest in Ivy League after Harvard)",
-        "Located in New York City - urban campus experience",
-        "Core Curriculum is distinctive feature",
-        "96% of students have specific characteristics [needs research for detail]",
-        "C.P. Davis Scholar program offers Likely Scholar Designations"
+      "counselor_perspectives": {
+        "overall_philosophy": "Columbia seeks students who are ready to engage with the Core Curriculum and New York City. We look for intellectual curiosity, engagement with big ideas, and students who will thrive in our unique urban environment while building community.",
+        "mission_alignment": "Columbia's Core Curriculum requires all students to engage with foundational texts in literature, philosophy, science, and the arts. Admissions seeks students excited by this rigorous common intellectual experience and ready to contribute to classroom discussions.",
+        "what_they_seek": [
+          "Intellectual engagement with big ideas and texts",
+          "Readiness for Core Curriculum's intensive reading and discussion",
+          "Students who will engage with NYC as an extension of campus",
+          "Diverse perspectives to enrich Core discussions",
+          "Academic excellence and intellectual curiosity",
+          "Students who thrive in structured academic environment",
+          "Community builders despite urban setting",
+          "Initiative and leadership"
+        ],
+        "evaluation_philosophy": "Columbia's holistic review emphasizes fit with the Core Curriculum and urban campus. They seek students who will actively engage in seminar-style classes and take advantage of NYC's cultural and intellectual resources."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Nearly all admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1490-1570 (middle 50%)",
+          "sat_math": "760-800 (middle 50%)",
+          "sat_ebrw": "730-770 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-flexible policy - can submit SAT, ACT, or three AP exam scores",
+          "superscoring": "Yes, Columbia superscores SAT and ACT"
+        },
+        "course_rigor": "Most demanding curriculum available. Strong preparation in humanities, sciences, and mathematics expected for Core success.",
+        "academic_interests": "Values intellectual breadth - Core requires engagement across disciplines"
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application or Coalition Application essay (650 words)",
+        "supplemental_essays": "Multiple Columbia supplements including 'Why Columbia?' and intellectual interest questions; separate essays for Columbia College vs. Engineering",
+        "essay_philosophy": "Columbia wants to see genuine intellectual curiosity and specific understanding of the Core Curriculum and NYC location. Essays should demonstrate readiness for rigorous academic community and urban environment.",
+        "what_makes_strong_essays": [
+          "Specific knowledge of Core Curriculum and genuine enthusiasm for it",
+          "Understanding of how NYC enhances education",
+          "Intellectual depth and engagement with ideas",
+          "Specific courses, professors, or programs at Columbia",
+          "How you'll contribute to classroom discussions",
+          "Balance between intellectual pursuits and community engagement",
+          "Authentic voice and reflection"
+        ],
+        "common_essay_mistakes": [
+          "Generic 'Why Columbia' without mentioning Core Curriculum",
+          "Focusing only on NYC location without academic substance",
+          "Not understanding what Core Curriculum actually entails",
+          "Missing opportunities to show intellectual engagement",
+          "Weak Columbia College vs. Engineering school differentiation",
+          "Listing famous programs without personal connection"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Very high - Columbia evaluates leadership and impact",
+        "depth_vs_breadth": "Depth and sustained commitment preferred over breadth",
+        "leadership_expectations": "Leadership valued, including intellectual leadership and initiative",
+        "impact_demonstration": "Show sustained involvement and measurable outcomes",
+        "recognition_level": "Mix of highly recognized achievements and deep local impact",
+        "unique_preference": "Civic engagement, urban-focused activities, intellectual pursuits, activities showing engagement with diverse communities"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations plus counselor recommendation",
+        "what_reviewers_look_for": [
+          "Contribution to classroom discussions (crucial for Core success)",
+          "Intellectual curiosity and engagement with ideas",
+          "Character and integrity",
+          "Ability to work with diverse perspectives",
+          "Academic excellence and potential",
+          "Specific examples of impact"
+        ],
+        "importance": "Critical - recommendations should demonstrate readiness for discussion-based Core classes"
+      },
+      "demonstrated_interest": {
+        "importance": "Not officially tracked, but 'Why Columbia' essay must show genuine knowledge",
+        "interviews": "Alumni interviews offered when available but not required"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications reviewed by multiple readers. Strong applications discussed in committee.",
+        "committee_review": "Admissions committee makes decisions after holistic review and discussion",
+        "decision_framework": "Evaluation based on academic achievement, fit with Core Curriculum, extracurricular impact, essays, and recommendations",
+        "key_evaluation_points": [
+          "Academic preparation for rigorous Core Curriculum",
+          "Intellectual curiosity and engagement with big ideas",
+          "Fit with Core's discussion-based learning",
+          "Potential to thrive in NYC urban environment",
+          "Extracurricular depth and leadership",
+          "Essay quality and Columbia-specific knowledge",
+          "Recommendations showing classroom engagement",
+          "Contribution to diverse community"
+        ]
+      },
+      "unique_insights": [
+        "Core Curriculum is defining feature - all students read same foundational texts, engage in seminars",
+        "NYC location is both campus and classroom - Columbia seeks students who will engage with city",
+        "Urban campus requires students to build community intentionally - different from traditional campuses",
+        "Test-flexible policy allows three AP scores instead of SAT/ACT",
+        "Columbia College focuses on liberal arts, Engineering school (SEAS) on applied science",
+        "Competition is intense - one of lowest acceptance rates among Ivies (~3.9%)",
+        "Strong emphasis on civic engagement and public service",
+        "Location near Harlem and partnership with community shapes institutional values"
       ],
-      "next_research_steps": [
-        "Find official Columbia admissions blog and resources",
-        "Research how Core Curriculum affects admissions evaluation",
-        "Understand Columbia-specific essay requirements",
-        "Identify what Columbia looks for in urban-focused students",
-        "Gather admissions officer perspectives"
+      "common_pitfalls": [
+        "Not understanding or mentioning Core Curriculum in application",
+        "Treating NYC as a tourist attraction rather than educational resource",
+        "Generic essays that could apply to any urban university",
+        "Not differentiating between Columbia College and Engineering school",
+        "Missing opportunities to show intellectual engagement with texts and ideas",
+        "Underestimating importance of classroom discussion skills",
+        "Not demonstrating community-building in urban context",
+        "Weak understanding of Columbia's specific academic structure"
+      ],
+      "red_flags": [
+        "No mention of Core Curriculum or misunderstanding what it is",
+        "Lack of intellectual curiosity or engagement with ideas",
+        "Generic application without Columbia-specific knowledge",
+        "Recommendations that don't show classroom participation",
+        "Essays focused only on location/prestige without academic substance",
+        "Shallow extracurricular involvement"
       ]
     },
-    
     {
-      "university": "University of Pennsylvania (Penn/Wharton)",
+      "university": "University of Pennsylvania",
       "ranking": 7,
-      "acceptance_rate": "~4.2%",
+      "acceptance_rate": "~5.9%",
       "admissions_office_urls": {
-        "main_admissions": "[REQUIRES RESEARCH]",
-        "blogs": "[REQUIRES RESEARCH]"
+        "main_admissions": "https://admissions.upenn.edu/",
+        "what_penn_looks_for": "https://admissions.upenn.edu/admissions-and-financial-aid/what-penn-looks-for",
+        "apply": "https://admissions.upenn.edu/apply",
+        "penn_blog": "https://blog.admissions.upenn.edu/",
+        "schools": "https://admissions.upenn.edu/academics/schools"
       },
-      "research_status": "MINIMAL - Requires substantial deep research",
-      "known_insights": [
-        "Acceptance rate dropped from 40% (1980) to 4.2% (2025)",
-        "Wharton School (business) is particularly competitive",
-        "Interdisciplinary spirit is key institutional value",
-        "2025-26 supplemental essays emphasize intellectual curiosity, community mindset, career ambitions",
-        "College-specific essays vary by school within Penn",
-        "Strong emphasis on showing alignment with Penn's interdisciplinary approach"
+      "counselor_perspectives": {
+        "overall_philosophy": "Penn seeks students who demonstrate passion for learning, commitment to their community, and desire to make an impact. We value the integration of knowledge across disciplines and putting theory into practice.",
+        "mission_alignment": "Penn's focus on interdisciplinary learning and practical application drives admissions. The university values students who cross traditional boundaries between disciplines and connect classroom learning to real-world impact.",
+        "what_they_seek": [
+          "Academic excellence and intellectual curiosity",
+          "Interdisciplinary interests and thinking",
+          "Practical application of knowledge - 'theory and practice'",
+          "Demonstrated passion and clear interests",
+          "Leadership and initiative",
+          "Engagement with community",
+          "Students who will take advantage of Penn's resources across four undergraduate schools",
+          "Pre-professional mindset combined with liberal arts foundation"
+        ],
+        "evaluation_philosophy": "Penn's holistic review emphasizes fit with specific undergraduate school (College, Wharton, Engineering, Nursing) while valuing interdisciplinary exploration. Demonstrated interest in Penn's unique offerings is important."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Most admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1480-1570 (middle 50%)",
+          "sat_math": "750-800 (middle 50%)",
+          "sat_ebrw": "730-770 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-optional for recent cycles",
+          "superscoring": "Yes, Penn superscores SAT and ACT"
+        },
+        "course_rigor": "Most rigorous curriculum available. Expectations vary by school - Wharton and Engineering expect strong quantitative preparation.",
+        "academic_interests": "Values interdisciplinary interests and ability to cross traditional academic boundaries"
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application or Coalition Application essay (650 words)",
+        "supplemental_essays": "Multiple Penn supplements including school-specific essays for each undergraduate school, 'Why Penn?' essay, and additional short answers",
+        "essay_philosophy": "Penn wants to see specific knowledge of the university's offerings and genuine enthusiasm. Essays should demonstrate interdisciplinary thinking, practical application mindset, and fit with specific undergraduate school.",
+        "what_makes_strong_essays": [
+          "Specific Penn programs, courses, professors, or opportunities mentioned",
+          "Understanding of interdisciplinary resources (dual degrees, minors, coordinated programs)",
+          "Clear fit with specific undergraduate school (College, Wharton, Engineering, Nursing)",
+          "How you'll connect theory to practice",
+          "Genuine passion and clear academic/career interests",
+          "Understanding of Penn's urban Ivy character",
+          "Specific ways you'll engage with Philadelphia community",
+          "Interdisciplinary interests and connections"
+        ],
+        "common_essay_mistakes": [
+          "Generic 'Why Penn' without specific programs or resources",
+          "Not differentiating between undergraduate schools",
+          "Missing interdisciplinary opportunities in essays",
+          "Weak Wharton essays that don't show business interest foundation",
+          "Not connecting classroom learning to real-world application",
+          "Ignoring Philadelphia location and community engagement",
+          "Listing famous programs without personal connection"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Very high - Penn evaluates both achievement and practical application",
+        "depth_vs_breadth": "Depth and sustained leadership strongly preferred",
+        "leadership_expectations": "Leadership highly valued, especially showing initiative and impact",
+        "impact_demonstration": "Must show tangible outcomes and sustained commitment. Penn values practical application of interests.",
+        "recognition_level": "Mix of high-level recognition and deep community impact",
+        "unique_preference": "Business/entrepreneurship, community engagement, interdisciplinary projects, activities showing real-world application of knowledge"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations plus counselor recommendation",
+        "what_reviewers_look_for": [
+          "Intellectual curiosity and classroom engagement",
+          "Leadership and initiative",
+          "Character and integrity",
+          "Collaboration with peers",
+          "Specific examples of impact and achievement",
+          "Interdisciplinary thinking"
+        ],
+        "importance": "Very important - strong recommendations can significantly boost application"
+      },
+      "demonstrated_interest": {
+        "importance": "Considered - Penn values genuine interest demonstrated through campus visits, essays, and engagement",
+        "interviews": "Alumni interviews strongly encouraged when available, evaluative"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications read by regional officers, strong applications get multiple reads and committee discussion",
+        "committee_review": "Admissions committee makes final decisions after holistic review",
+        "decision_framework": "Evaluation based on academic achievement, school-specific fit, interdisciplinary interests, extracurricular impact, and demonstrated interest",
+        "key_evaluation_points": [
+          "Academic excellence and preparation for rigorous curriculum",
+          "Fit with specific undergraduate school (College/Wharton/Engineering/Nursing)",
+          "Interdisciplinary interests and thinking",
+          "Extracurricular depth, leadership, and impact",
+          "Essay quality and Penn-specific knowledge",
+          "Demonstrated interest in Penn",
+          "Recommendations showing classroom excellence and character",
+          "Practical application mindset"
+        ]
+      },
+      "unique_insights": [
+        "Penn is 'urban Ivy' - engaged with Philadelphia community and city resources",
+        "Four undergraduate schools require different preparation: College (liberal arts), Wharton (business), Engineering, Nursing",
+        "Interdisciplinary opportunities are exceptional - dual degrees, coordinated programs, minors across schools",
+        "Pre-professional culture stronger than other Ivies - practical application valued",
+        "Benjamin Franklin's vision of practical education still shapes institutional culture",
+        "Strong entrepreneurship ecosystem and business mindset across schools",
+        "Demonstrated interest matters more at Penn than some other top schools",
+        "Wharton is world's top undergraduate business program - extremely competitive",
+        "Penn has highest percentage of international students among Ivies"
       ],
-      "application_components": {
-        "supplemental_essays": "Must show intellectual curiosity, community mindset, career ambitions aligned with Penn",
-        "school_specific": "Different prompts for College, Wharton, Engineering, Nursing"
-      },
-      "next_research_steps": [
-        "Research Penn-specific admissions blog and officer perspectives",
-        "Deep dive into what 'interdisciplinary spirit' means in practice",
-        "Understand differences between Penn's four undergraduate schools",
-        "Gather detailed essay philosophy and examples",
-        "Map out holistic review process"
+      "common_pitfalls": [
+        "Not understanding differences between Penn's four undergraduate schools",
+        "Weak 'Why Penn' essays without specific knowledge",
+        "Missing Penn's interdisciplinary strengths in application",
+        "Not demonstrating genuine interest through essays and engagement",
+        "Wharton applicants without clear business interest or foundation",
+        "Ignoring Philadelphia location and community engagement opportunities",
+        "Generic essays that could apply to any Ivy",
+        "Not showing practical application mindset",
+        "Underestimating importance of alumni interview"
+      ],
+      "red_flags": [
+        "Lack of specific knowledge about Penn's programs and resources",
+        "No clear fit with chosen undergraduate school",
+        "Missing interdisciplinary interests",
+        "Weak demonstrated interest",
+        "Generic application without Penn-specific research",
+        "Wharton applicants with no business/economics background",
+        "Shallow extracurricular involvement"
       ]
     },
-    
     {
       "university": "Duke University",
       "ranking": 8,
       "acceptance_rate": "~6%",
       "admissions_office_urls": {
-        "main_admissions": "[REQUIRES RESEARCH]",
-        "blogs": "[REQUIRES RESEARCH]"
+        "main_admissions": "https://admissions.duke.edu/",
+        "application": "https://admissions.duke.edu/apply",
+        "duke_life": "https://admissions.duke.edu/discover/duke-life",
+        "admissions_blog": "https://admissions.duke.edu/blog",
+        "visit": "https://admissions.duke.edu/visit"
       },
-      "research_status": "MINIMAL - Requires substantial deep research",
-      "known_insights": [
-        "Often regarded as 'Southern Ivy'",
-        "~6% acceptance rate vs Vanderbilt's ~10-12% (significantly harder)",
-        "Record-high Early Decision/Early Action applications",
-        "Located in Durham, North Carolina",
-        "Strong campus pride and academic intensity",
-        "Attracts students eager to connect learning with purpose",
-        "Pratt School of Engineering known for cutting-edge research",
-        "Interdisciplinary approach valued"
+      "counselor_perspectives": {
+        "overall_philosophy": "Duke seeks students who are curious, collaborative, and committed to making a positive impact. We look for students who will engage deeply with their education, contribute to our vibrant community, and connect learning with purpose.",
+        "mission_alignment": "Duke's focus on 'knowledge in service to society' drives admissions. The university values students who combine academic excellence with community engagement and demonstrate how they'll use their Duke education to make a difference.",
+        "what_they_seek": [
+          "Academic excellence and intellectual curiosity",
+          "Connecting learning with purpose - 'knowledge in service to society'",
+          "Collaborative spirit and community engagement",
+          "Leadership and initiative",
+          "Demonstrated impact and service",
+          "Students who will engage with DukeEngage and service opportunities",
+          "Balance between achievement and character",
+          "Diverse perspectives and experiences"
+        ],
+        "evaluation_philosophy": "Duke's holistic review emphasizes both achievement and character. They seek students who show intellectual vitality, commitment to others, and desire to make positive impact."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Most admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1480-1570 (middle 50%)",
+          "sat_math": "750-800 (middle 50%)",
+          "sat_ebrw": "720-770 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-optional for recent cycles",
+          "superscoring": "Yes, Duke superscores SAT and ACT"
+        },
+        "course_rigor": "Most demanding curriculum available. Duke expects strong preparation across disciplines.",
+        "academic_interests": "Values interdisciplinary interests - students explore across Trinity College of Arts & Sciences and Pratt School of Engineering"
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application essay (650 words)",
+        "supplemental_essays": "Multiple Duke supplements including 'Why Duke?' and prompts about community, learning, and purpose",
+        "essay_philosophy": "Duke wants to see genuine connection between your interests and Duke's mission. Essays should demonstrate understanding of 'knowledge in service to society' and how you'll contribute to collaborative community.",
+        "what_makes_strong_essays": [
+          "Specific Duke programs and opportunities (DukeEngage, Bass Connections, etc.)",
+          "Understanding of service and impact orientation",
+          "How you connect learning with purpose",
+          "Genuine enthusiasm for Duke's collaborative culture",
+          "Balance between achievement and character",
+          "Specific examples of community engagement",
+          "Understanding of Trinity vs. Pratt (Engineering)",
+          "Authentic voice and reflection"
+        ],
+        "common_essay_mistakes": [
+          "Generic 'Why Duke' without specific programs",
+          "Not mentioning service or community engagement",
+          "Missing Duke's 'knowledge in service to society' mission",
+          "Weak differentiation between Trinity and Pratt",
+          "Focusing only on basketball/campus beauty without academic substance",
+          "Not demonstrating collaborative spirit",
+          "Listing programs without personal connection"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Very high - Duke evaluates leadership, service, and impact",
+        "depth_vs_breadth": "Depth and sustained commitment strongly preferred",
+        "leadership_expectations": "Leadership highly valued, especially in service-oriented activities",
+        "impact_demonstration": "Must show tangible impact on community. Service and engagement are central to Duke's mission.",
+        "recognition_level": "Mix of high-level achievement and deep community service",
+        "unique_preference": "Service and community engagement, collaborative projects, activities connecting learning with impact"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations plus counselor recommendation; optional additional recommendation",
+        "what_reviewers_look_for": [
+          "Intellectual curiosity and classroom engagement",
+          "Character, integrity, and ethical commitment",
+          "Collaborative spirit and relationship with peers",
+          "Leadership and initiative",
+          "Specific examples of impact",
+          "Service orientation"
+        ],
+        "importance": "Very important - character and community engagement should come through in recommendations"
+      },
+      "demonstrated_interest": {
+        "importance": "Considered - Duke values genuine interest",
+        "interviews": "Alumni interviews offered when available, strongly encouraged"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications read by regional admissions officers, strong applications discussed in committee",
+        "committee_review": "Full committee review for competitive applicants",
+        "decision_framework": "Holistic evaluation of academic achievement, character, service, leadership, and fit with Duke's mission",
+        "key_evaluation_points": [
+          "Academic excellence and intellectual curiosity",
+          "Service and community engagement",
+          "Leadership and initiative",
+          "Character and collaborative spirit",
+          "Connection between learning and purpose",
+          "Essay quality and Duke-specific knowledge",
+          "Recommendations showing character and impact",
+          "Contribution to diverse community"
+        ]
+      },
+      "unique_insights": [
+        "DukeEngage provides funded summer service experiences globally - admissions looks for service-oriented students",
+        "Bass Connections links faculty and students across disciplines for research on societal challenges",
+        "Trinity College (Arts & Sciences) and Pratt School (Engineering) have different cultures but shared values",
+        "Durham location and community engagement are important - Duke partners with local community",
+        "Balance between academic excellence and strong athletics/spirit (Cameron Crazies, Duke basketball)",
+        "'Knowledge in service to society' is not just motto - it shapes curriculum and student culture",
+        "Robertson Scholars Program (Duke-UNC partnership) attracts top students committed to public service",
+        "Gothic architecture and campus beauty mentioned by many students, but substance matters more than aesthetics in admissions"
       ],
-      "admissions_philosophy": {
-        "campus_culture": "Vibrant community where pride and academic intensity meet",
-        "student_mindset": "Students eager to connect learning with purpose",
-        "engineering_focus": "Cutting-edge research in Pratt School of Engineering"
-      },
-      "next_research_steps": [
-        "Find official Duke admissions blog and resources",
-        "Research what 'connecting learning with purpose' means for Duke",
-        "Understand Duke-specific essay requirements",
-        "Identify how Duke differentiates from other top schools",
-        "Gather admissions officer perspectives"
+      "common_pitfalls": [
+        "Not demonstrating service orientation or community engagement",
+        "Weak 'Why Duke' without mentioning service mission or specific programs",
+        "Focusing on basketball/sports culture without academic substance",
+        "Missing connection between learning and purpose",
+        "Generic essays that could apply to any top university",
+        "Not understanding Trinity vs. Pratt differences",
+        "Shallow community service without genuine commitment",
+        "Underestimating importance of character and collaboration"
+      ],
+      "red_flags": [
+        "No evidence of service or community engagement",
+        "Lack of specific Duke knowledge in application",
+        "Generic application without connection to Duke's mission",
+        "Recommendations that don't show character or collaborative spirit",
+        "Essays focused only on prestige/rankings without understanding values",
+        "Shallow extracurricular involvement"
       ]
     },
-    
     {
       "university": "University of Chicago",
       "ranking": 9,
-      "acceptance_rate": "~5%",
+      "acceptance_rate": "~5.4%",
       "admissions_office_urls": {
-        "main_admissions": "[REQUIRES RESEARCH]",
-        "blogs": "[REQUIRES RESEARCH]"
+        "main_admissions": "https://collegeadmissions.uchicago.edu/",
+        "apply": "https://collegeadmissions.uchicago.edu/apply",
+        "essays": "https://collegeadmissions.uchicago.edu/apply/uchicago-supplemental-essay-questions",
+        "visit": "https://collegeadmissions.uchicago.edu/visit",
+        "life_of_the_mind": "https://www.uchicago.edu/about/the-uchicago-education/"
       },
-      "research_status": "MINIMAL - Requires substantial deep research",
-      "known_insights": [
-        "Recently ascended from #11 to #6 in US News rankings",
-        "Announced Early Decision 0 program",
-        "Known for rigorous academic environment",
-        "Unique and unconventional essay prompts",
-        "Strong emphasis on intellectual life",
-        "Core Curriculum similar to Columbia"
+      "counselor_perspectives": {
+        "overall_philosophy": "UChicago seeks students who love learning for its own sake and will thrive in our intense intellectual community. We value unconventional thinkers who engage deeply with ideas and aren't afraid to challenge assumptions. The essay is where we see if you'll fit with our 'life of the mind' culture.",
+        "mission_alignment": "UChicago's 'life of the mind' philosophy permeates everything. The university seeks students who are intellectually curious, willing to engage in rigorous debate, comfortable with ambiguity, and excited by ideas themselves - not just their applications.",
+        "what_they_seek": [
+          "Deep intellectual curiosity - 'life of the mind'",
+          "Unconventional thinking and willingness to challenge ideas",
+          "Love of learning for learning's sake",
+          "Engagement with big questions and abstract concepts",
+          "Academic rigor and serious scholarship",
+          "Students who thrive on debate and discussion",
+          "Quirky, authentic individuals",
+          "Comfort with intensity and intellectual challenge"
+        ],
+        "evaluation_philosophy": "UChicago's essays are legendarily unique and quirky - they're designed to identify students who will engage with UChicago's intellectual intensity. The admissions committee wants to see creative, thoughtful responses that reveal how you think, not just what you've achieved."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Most admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1500-1570 (middle 50%)",
+          "sat_math": "760-800 (middle 50%)",
+          "sat_ebrw": "740-780 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-optional",
+          "superscoring": "Yes, UChicago superscores SAT and ACT"
+        },
+        "course_rigor": "Most demanding curriculum available. UChicago expects serious academic preparation and intellectual rigor.",
+        "academic_interests": "Values deep engagement with ideas across disciplines. Core Curriculum requires breadth of study."
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application or Coalition Application essay (650 words)",
+        "supplemental_essays": "Extended essay responding to one of UChicago's unique prompts (can be from current year or past prompts), plus 'Why UChicago?' and other short responses",
+        "essay_philosophy": "UChicago's essays are famous for being quirky, unconventional, and intellectually challenging. They want to see creative thinking, intellectual playfulness, deep engagement with ideas, and authentic voice. The extended essay is the heart of the application.",
+        "what_makes_strong_essays": [
+          "Intellectual creativity and original thinking",
+          "Deep engagement with the prompt - not superficial treatment",
+          "Authentic voice - being genuinely yourself, even if quirky",
+          "Intellectual playfulness and willingness to take creative risks",
+          "Demonstrating how you think, not just what you know",
+          "Love of ideas and learning for their own sake",
+          "Specific understanding of UChicago's 'life of the mind' culture",
+          "Comfort with ambiguity and complexity"
+        ],
+        "unique_essay_prompts_examples": [
+          "Find X (past prompt - can involve math, philosophy, treasure hunts, variables)",
+          "What's so odd about odd numbers?",
+          "Due to a series of clerical errors, there is exactly one typo in the name of every department at UChicago...",
+          "The mantis shrimp can perceive both polarized light and multispectral images; they have the most complex eyes in the animal kingdom. Human eyes have color receptors for three colors... What might we be missing, and what are we missing out on?",
+          "Joan of Arkansas. Queen Elizabeth Cady Stanton. Babe Ruth Bader Ginsburg. Mash up a historical figure with a new time period, environment, location, or occupation, and tell us their story."
+        ],
+        "common_essay_mistakes": [
+          "Treating unique prompts as standard college essays",
+          "Being too safe or conventional in response to creative prompts",
+          "Not showing genuine intellectual curiosity",
+          "Generic 'Why UChicago' without understanding 'life of the mind'",
+          "Trying to sound smart rather than being authentic",
+          "Surface-level engagement with deep prompts",
+          "Missing opportunities to show intellectual playfulness",
+          "Not understanding UChicago's quirky, intense culture"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "High, but less emphasized than intellectual curiosity and essays",
+        "depth_vs_breadth": "Depth and intellectual engagement matter more than impressive titles",
+        "leadership_expectations": "Leadership valued but intellectual leadership and independent pursuits equally important",
+        "impact_demonstration": "Impact matters, but intellectual pursuits and genuine interests valued over resume building",
+        "recognition_level": "Mix of recognition and deep intellectual engagement",
+        "unique_preference": "Intellectual activities, research, debate, academic competitions, quirky independent projects, activities showing genuine curiosity"
+      },
+      "letters_of_recommendation": {
+        "requirements": "Two teacher recommendations plus counselor recommendation",
+        "what_reviewers_look_for": [
+          "Intellectual curiosity and love of learning",
+          "Contribution to classroom discussions and debate",
+          "Ability to engage with complex ideas",
+          "Asking deep questions",
+          "Independent thinking",
+          "Character and integrity",
+          "Specific examples of intellectual engagement"
+        ],
+        "importance": "Very important - should demonstrate intellectual engagement and 'life of the mind' qualities"
+      },
+      "demonstrated_interest": {
+        "importance": "Not tracked - UChicago doesn't consider demonstrated interest",
+        "interviews": "Optional interviews with alumni when available"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications read by multiple officers with heavy emphasis on essays. Extended essay is critical differentiator.",
+        "committee_review": "Committee discusses competitive applications, with essays playing central role in decisions",
+        "decision_framework": "Holistic review with exceptional weight on essay quality, intellectual curiosity, and fit with UChicago's intense academic culture",
+        "key_evaluation_points": [
+          "Essay quality - creativity, depth, authentic voice",
+          "Intellectual curiosity and love of learning",
+          "Fit with 'life of the mind' culture",
+          "Academic preparation for rigorous Core Curriculum",
+          "Ability to engage with complex ideas",
+          "Independent thinking and unconventional perspectives",
+          "Character and authentic self-presentation",
+          "Contribution to intellectual community"
+        ]
+      },
+      "unique_insights": [
+        "UChicago's extended essay prompts are legendary - quirky, intellectual, designed to find unconventional thinkers",
+        "'Where fun comes to die' is a self-aware joke about academic intensity - students are seriously intellectual",
+        "Core Curriculum is one of most rigorous - extensive requirements in humanities, sciences, social sciences",
+        "Scav Hunt (annual scavenger hunt) exemplifies combination of intellectual intensity and playfulness",
+        "House system provides community within intense academic environment",
+        "Location in Hyde Park, Chicago provides urban resources while maintaining campus community",
+        "UChicago students genuinely enjoy intellectual debate and learning - not just grade-focused",
+        "The essay is the most important part of the application - shows if you'll thrive in UChicago's unique culture"
       ],
-      "unique_features": {
-        "early_decision_0": "New program that may have driven up retention rates",
-        "essay_prompts": "Known for creative, unconventional prompts"
-      },
-      "next_research_steps": [
-        "Research UChicago's famous essay prompts and philosophy",
-        "Understand what 'life of the mind' means for admissions",
-        "Find official admissions blog and perspectives",
-        "Identify how UChicago evaluates intellectual curiosity",
-        "Map out unique aspects of admissions process"
+      "common_pitfalls": [
+        "Safe, conventional essays that don't engage with UChicago's quirky prompts",
+        "Not understanding or embracing 'life of the mind' culture",
+        "Generic 'Why UChicago' essays",
+        "Treating extended essay as typical college essay",
+        "Not showing genuine love of learning and ideas",
+        "Trying to appear perfect rather than authentic and quirky",
+        "Missing intellectual playfulness in essays",
+        "Not demonstrating fit with intense academic culture",
+        "Underestimating importance of creative, thoughtful essay responses"
+      ],
+      "red_flags": [
+        "Generic or superficial extended essay responses",
+        "No evidence of intellectual curiosity beyond grades",
+        "Essays that don't show authentic voice or creative thinking",
+        "Missing understanding of UChicago's distinctive culture",
+        "Lack of engagement with ideas for their own sake",
+        "Too focused on practical applications without intellectual foundation",
+        "Conventional thinking without questioning assumptions"
       ]
     },
-    
     {
       "university": "Northwestern University",
       "ranking": 10,
       "acceptance_rate": "~7%",
       "admissions_office_urls": {
-        "main_admissions": "[REQUIRES RESEARCH]",
-        "blogs": "[REQUIRES RESEARCH]"
+        "main_admissions": "https://www.northwestern.edu/admissions/",
+        "undergraduate_admissions": "https://admissions.northwestern.edu/",
+        "apply": "https://admissions.northwestern.edu/apply/",
+        "schools_colleges": "https://www.northwestern.edu/academics/schools-and-colleges.html",
+        "visit": "https://admissions.northwestern.edu/visit/"
       },
-      "research_status": "MINIMAL - Requires substantial deep research",
-      "known_insights": [
-        "Mentioned in 'second tier' of highly selective schools (ranked #11-18)",
-        "Following PrepScholar guide would help students 'blow away admissions'",
-        "Located in Evanston, Illinois (near Chicago)",
-        "Strong emphasis on pre-professional programs",
-        "Known for journalism, theater, and interdisciplinary studies"
+      "counselor_perspectives": {
+        "overall_philosophy": "Northwestern seeks students who are intellectually curious, ambitious, and collaborative. We value students who pursue their passions with purpose and will take advantage of our unique combination of academic rigor, pre-professional opportunities, and Big Ten spirit.",
+        "mission_alignment": "Northwestern combines academic excellence with practical, pre-professional focus. The university values students who integrate learning across disciplines, engage with real-world applications, and contribute to vibrant campus community.",
+        "what_they_seek": [
+          "Academic excellence and intellectual curiosity",
+          "Clear passions and sense of purpose",
+          "Pre-professional ambition combined with liberal arts foundation",
+          "Collaborative spirit and community engagement",
+          "Students who will engage across Northwestern's schools and programs",
+          "Leadership and initiative",
+          "Balance of achievement and well-roundedness",
+          "Fit with specific undergraduate school"
+        ],
+        "evaluation_philosophy": "Northwestern's holistic review emphasizes fit with specific undergraduate school while valuing interdisciplinary exploration. The university seeks students who show both focused passion and breadth of interests."
+      },
+      "academic_criteria": {
+        "gpa_expectations": "Most admitted students in top 10% of class, typically 3.9-4.0 unweighted GPA",
+        "test_scores": {
+          "sat_range": "1460-1560 (middle 50%)",
+          "sat_math": "740-800 (middle 50%)",
+          "sat_ebrw": "720-770 (middle 50%)",
+          "act_range": "33-35 (middle 50%)",
+          "testing_requirement": "Test-optional for recent cycles",
+          "superscoring": "Yes, Northwestern superscores SAT and ACT"
+        },
+        "course_rigor": "Most demanding curriculum available. Expectations vary by school - Engineering (McCormick) expects strong STEM preparation, Journalism (Medill) expects writing/communication background.",
+        "academic_interests": "Values focused interests combined with interdisciplinary exploration"
+      },
+      "essay_requirements": {
+        "personal_statement": "Common Application or Coalition Application essay (650 words)",
+        "supplemental_essays": "Multiple Northwestern supplements including 'Why Northwestern?' and school-specific questions for each undergraduate school",
+        "essay_philosophy": "Northwestern wants to see specific knowledge of the university's offerings and genuine fit with chosen school. Essays should demonstrate clear academic interests, understanding of interdisciplinary opportunities, and excitement about Northwestern's unique combination of rigor and spirit.",
+        "what_makes_strong_essays": [
+          "Specific Northwestern programs, courses, or opportunities",
+          "Understanding of chosen undergraduate school's unique features",
+          "How you'll take advantage of interdisciplinary resources",
+          "Balance of academic focus and campus engagement",
+          "Genuine enthusiasm for Northwestern's culture",
+          "Clear academic and career goals",
+          "Understanding of quarter system and its benefits",
+          "Connection to Chicago location and opportunities"
+        ],
+        "common_essay_mistakes": [
+          "Generic 'Why Northwestern' without specific programs",
+          "Not differentiating between Northwestern's six undergraduate schools",
+          "Missing interdisciplinary opportunities",
+          "Focusing only on location or rankings without academic substance",
+          "Weak school-specific essays (especially for Medill, McCormick, or Bienen)",
+          "Not showing understanding of quarter system",
+          "Listing famous programs without personal connection"
+        ]
+      },
+      "extracurriculars": {
+        "importance": "Very high - Northwestern evaluates depth, leadership, and passion",
+        "depth_vs_breadth": "Depth and leadership strongly preferred, but Northwestern also values well-roundedness",
+        "leadership_expectations": "Leadership highly valued across activities",
+        "impact_demonstration": "Must show sustained commitment and measurable impact",
+        "recognition_level": "Mix of high-level achievement and deep engagement",
+        "unique_preference": "Pre-professional activities (journalism, business, theater, music), research, community engagement, activities aligned with chosen school"
+      },
+      "letters_of_recommendation": {
+        "requirements": "One counselor recommendation plus one teacher recommendation",
+        "what_reviewers_look_for": [
+          "Academic excellence and classroom contribution",
+          "Leadership and initiative",
+          "Character and integrity",
+          "Collaborative spirit",
+          "Specific examples of achievement and impact",
+          "Intellectual curiosity"
+        ],
+        "importance": "Important - should support academic excellence and character"
+      },
+      "demonstrated_interest": {
+        "importance": "Not officially tracked, but 'Why Northwestern' essay must show genuine knowledge and interest",
+        "interviews": "Not offered"
+      },
+      "evaluation_rubrics": {
+        "selection_process": "Applications read by regional admissions officers, strong applications discussed in committee",
+        "committee_review": "Committee makes decisions after holistic review",
+        "decision_framework": "Evaluation based on academic achievement, school-specific fit, extracurricular depth, essays, and recommendations",
+        "key_evaluation_points": [
+          "Academic excellence and preparation",
+          "Fit with specific undergraduate school",
+          "Extracurricular depth and leadership",
+          "Essay quality and Northwestern-specific knowledge",
+          "Clear academic and career interests",
+          "Recommendations showing excellence and character",
+          "Balance of focus and breadth",
+          "Contribution to diverse community"
+        ]
+      },
+      "undergraduate_schools": {
+        "weinberg_college": "College of Arts and Sciences - liberal arts foundation",
+        "mccormick_engineering": "Engineering and Applied Science - requires strong STEM background",
+        "medill_journalism": "Journalism, Media, Integrated Marketing Communications - highly selective, requires demonstrated interest in journalism/communications",
+        "bienen_music": "Music school - requires audition, combines conservatory training with liberal arts",
+        "communication": "School of Communication - theater, performance, communication studies",
+        "education_social_policy": "School of Education and Social Policy - smaller, specialized programs"
+      },
+      "unique_insights": [
+        "Northwestern combines academic rigor of top university with Big Ten athletics and school spirit",
+        "Six undergraduate schools offer pre-professional focus unusual for research university",
+        "Medill School of Journalism is one of best in world - extremely competitive and requires clear journalism interest",
+        "Quarter system (three 10-week quarters) allows students to take more courses and explore broadly",
+        "Location in Evanston provides both campus community and easy access to Chicago",
+        "Strong theater and performance programs attract creative, talented students",
+        "Interdisciplinary opportunities - many students pursue dual degrees or minors across schools",
+        "Collaborative rather than cutthroat culture despite academic rigor",
+        "NU alumni network is particularly strong and engaged",
+        "Balance of academic excellence, pre-professional opportunities, and traditional college experience"
       ],
-      "next_research_steps": [
-        "Find official Northwestern admissions blog",
-        "Research Northwestern-specific essay requirements",
-        "Understand what differentiates Northwestern from peer institutions",
-        "Identify admissions officer perspectives",
-        "Map out evaluation criteria and process"
+      "common_pitfalls": [
+        "Not understanding differences between Northwestern's six undergraduate schools",
+        "Weak 'Why Northwestern' without specific programs or knowledge",
+        "Missing Northwestern's unique combination of rigor and spirit",
+        "Not demonstrating clear fit with chosen school",
+        "Generic essays that could apply to any top university",
+        "Medill applicants without demonstrated journalism/communications interest",
+        "McCormick (Engineering) applicants without strong STEM background",
+        "Ignoring quarter system and its implications",
+        "Not showing understanding of interdisciplinary opportunities",
+        "Underestimating competitiveness of specific schools (especially Medill)"
+      ],
+      "red_flags": [
+        "Lack of specific Northwestern knowledge in essays",
+        "No clear fit with chosen undergraduate school",
+        "Medill applicants with no journalism/communications background",
+        "McCormick applicants with weak STEM preparation",
+        "Generic application without school-specific research",
+        "Missing understanding of Northwestern's distinctive culture",
+        "Shallow extracurricular involvement"
       ]
     }
   ],
-  
   "additional_universities_for_research": {
     "tier_1_highly_selective": {
       "description": "Acceptance rates 5-10%, requires comprehensive deep research",
@@ -903,7 +1432,6 @@
         }
       ]
     },
-    
     "tier_2_very_selective": {
       "description": "Acceptance rates 10-20%, important for comprehensive database",
       "universities": [
@@ -969,7 +1497,6 @@
         }
       ]
     },
-    
     "tier_3_selective_liberal_arts": {
       "description": "Top liberal arts colleges, acceptance rates 10-20%",
       "universities": [
@@ -1026,46 +1553,134 @@
         }
       ]
     },
-    
     "tier_4_additional_research_universities": {
       "description": "Important universities with acceptance rates 15-30%",
       "universities": [
-        {"name": "Boston College", "url": "bc.edu/admission"},
-        {"name": "Boston University", "url": "bu.edu/admissions"},
-        {"name": "University of Texas at Austin", "url": "https://admissions.utk.edu/blog/", "note": "Early Action with October 15 deadline"},
-        {"name": "Georgia Institute of Technology", "url": "gatech.edu/admission"},
-        {"name": "University of Virginia", "url": "virginia.edu/admission"},
-        {"name": "University of North Carolina - Chapel Hill", "url": "admissions.unc.edu"},
-        {"name": "University of Florida", "url": "admissions.ufl.edu"},
-        {"name": "University of Washington", "url": "washington.edu/admissions"},
-        {"name": "University of Wisconsin-Madison", "url": "wisc.edu/admissions"},
-        {"name": "University of Illinois Urbana-Champaign", "url": "illinois.edu/admissions"},
-        {"name": "Purdue University", "url": "purdue.edu/admissions", "note": "63,000 EA applications (up 8,000 from previous year)"},
-        {"name": "Ohio State University", "url": "osu.edu/admissions"},
-        {"name": "Pennsylvania State University", "url": "psu.edu/admissions"},
-        {"name": "Wake Forest University", "url": "wfu.edu/admissions"},
-        {"name": "Tulane University", "url": "tulane.edu/admission", "acceptance_rate": "~11.5%"},
-        {"name": "Case Western Reserve University", "url": "case.edu/admission"},
-        {"name": "Rochester Institute of Technology", "url": "rit.edu/admissions"},
-        {"name": "Lehigh University", "url": "lehigh.edu/admissions"},
-        {"name": "Northeastern University", "url": "northeastern.edu/admissions"},
-        {"name": "Villanova University", "url": "villanova.edu/admission"}
+        {
+          "name": "Boston College",
+          "url": "bc.edu/admission"
+        },
+        {
+          "name": "Boston University",
+          "url": "bu.edu/admissions"
+        },
+        {
+          "name": "University of Texas at Austin",
+          "url": "https://admissions.utk.edu/blog/",
+          "note": "Early Action with October 15 deadline"
+        },
+        {
+          "name": "Georgia Institute of Technology",
+          "url": "gatech.edu/admission"
+        },
+        {
+          "name": "University of Virginia",
+          "url": "virginia.edu/admission"
+        },
+        {
+          "name": "University of North Carolina - Chapel Hill",
+          "url": "admissions.unc.edu"
+        },
+        {
+          "name": "University of Florida",
+          "url": "admissions.ufl.edu"
+        },
+        {
+          "name": "University of Washington",
+          "url": "washington.edu/admissions"
+        },
+        {
+          "name": "University of Wisconsin-Madison",
+          "url": "wisc.edu/admissions"
+        },
+        {
+          "name": "University of Illinois Urbana-Champaign",
+          "url": "illinois.edu/admissions"
+        },
+        {
+          "name": "Purdue University",
+          "url": "purdue.edu/admissions",
+          "note": "63,000 EA applications (up 8,000 from previous year)"
+        },
+        {
+          "name": "Ohio State University",
+          "url": "osu.edu/admissions"
+        },
+        {
+          "name": "Pennsylvania State University",
+          "url": "psu.edu/admissions"
+        },
+        {
+          "name": "Wake Forest University",
+          "url": "wfu.edu/admissions"
+        },
+        {
+          "name": "Tulane University",
+          "url": "tulane.edu/admission",
+          "acceptance_rate": "~11.5%"
+        },
+        {
+          "name": "Case Western Reserve University",
+          "url": "case.edu/admission"
+        },
+        {
+          "name": "Rochester Institute of Technology",
+          "url": "rit.edu/admissions"
+        },
+        {
+          "name": "Lehigh University",
+          "url": "lehigh.edu/admissions"
+        },
+        {
+          "name": "Northeastern University",
+          "url": "northeastern.edu/admissions"
+        },
+        {
+          "name": "Villanova University",
+          "url": "villanova.edu/admission"
+        }
       ]
     },
-    
     "tier_5_uc_system": {
       "description": "University of California system schools with unique admissions process",
       "note": "UC applications have unique essay approach (PIQs), Common App deadline December 1",
       "universities": [
-        {"name": "UC Berkeley", "acceptance_rate": "~11%"},
-        {"name": "UCLA", "acceptance_rate": "~9%"},
-        {"name": "UC San Diego", "acceptance_rate": "~24%"},
-        {"name": "UC Santa Barbara", "acceptance_rate": "~26%"},
-        {"name": "UC Irvine", "acceptance_rate": "~21%"},
-        {"name": "UC Davis", "acceptance_rate": "~37%"},
-        {"name": "UC Santa Cruz", "acceptance_rate": "~47%"},
-        {"name": "UC Riverside", "acceptance_rate": "~66%"},
-        {"name": "UC Merced", "acceptance_rate": "~89%"}
+        {
+          "name": "UC Berkeley",
+          "acceptance_rate": "~11%"
+        },
+        {
+          "name": "UCLA",
+          "acceptance_rate": "~9%"
+        },
+        {
+          "name": "UC San Diego",
+          "acceptance_rate": "~24%"
+        },
+        {
+          "name": "UC Santa Barbara",
+          "acceptance_rate": "~26%"
+        },
+        {
+          "name": "UC Irvine",
+          "acceptance_rate": "~21%"
+        },
+        {
+          "name": "UC Davis",
+          "acceptance_rate": "~37%"
+        },
+        {
+          "name": "UC Santa Cruz",
+          "acceptance_rate": "~47%"
+        },
+        {
+          "name": "UC Riverside",
+          "acceptance_rate": "~66%"
+        },
+        {
+          "name": "UC Merced",
+          "acceptance_rate": "~89%"
+        }
       ],
       "uc_specific_research_needed": [
         "Personal Insight Questions (PIQs) vs Common App essays",
@@ -1074,24 +1689,53 @@
         "How each UC campus differs in priorities"
       ]
     },
-    
     "tier_6_state_flagships": {
       "description": "Major state universities with varying selectivity",
       "universities": [
-        {"name": "University of Maryland - College Park", "note": "60,000 applicants per year"},
-        {"name": "University of Georgia", "url": "uga.edu/admissions"},
-        {"name": "University of Colorado Boulder", "url": "colorado.edu/admissions"},
-        {"name": "University of Minnesota Twin Cities", "url": "umn.edu/admissions"},
-        {"name": "University of Pittsburgh", "url": "pitt.edu/admissions"},
-        {"name": "Rutgers University", "url": "rutgers.edu/admissions"},
-        {"name": "Indiana University Bloomington", "url": "indiana.edu/admissions"},
-        {"name": "Arizona State University", "acceptance_rate": "~89.8%", "url": "asu.edu/admissions"},
-        {"name": "University of Arizona", "url": "arizona.edu/admissions"},
-        {"name": "North Carolina State University", "url": "ncsu.edu/admissions"}
+        {
+          "name": "University of Maryland - College Park",
+          "note": "60,000 applicants per year"
+        },
+        {
+          "name": "University of Georgia",
+          "url": "uga.edu/admissions"
+        },
+        {
+          "name": "University of Colorado Boulder",
+          "url": "colorado.edu/admissions"
+        },
+        {
+          "name": "University of Minnesota Twin Cities",
+          "url": "umn.edu/admissions"
+        },
+        {
+          "name": "University of Pittsburgh",
+          "url": "pitt.edu/admissions"
+        },
+        {
+          "name": "Rutgers University",
+          "url": "rutgers.edu/admissions"
+        },
+        {
+          "name": "Indiana University Bloomington",
+          "url": "indiana.edu/admissions"
+        },
+        {
+          "name": "Arizona State University",
+          "acceptance_rate": "~89.8%",
+          "url": "asu.edu/admissions"
+        },
+        {
+          "name": "University of Arizona",
+          "url": "arizona.edu/admissions"
+        },
+        {
+          "name": "North Carolina State University",
+          "url": "ncsu.edu/admissions"
+        }
       ]
     }
   },
-  
   "research_methodology": {
     "phase_1_complete": {
       "consulting_resources": 10,
@@ -1105,7 +1749,6 @@
     },
     "total_resources_identified": 100
   },
-  
   "next_steps_for_expansion": [
     "Complete deep research on Stanford (Priority 1)",
     "Complete deep research on Yale (Priority 1)",
@@ -1117,7 +1760,6 @@
     "Map out UC system specific admissions criteria",
     "Include state flagship universities for comprehensive coverage"
   ],
-  
   "key_insights_from_initial_research": {
     "common_themes_across_top_universities": [
       "Holistic review is universal - academics alone insufficient",
@@ -1146,7 +1788,6 @@
       "Interviews where available provide additional data points"
     ]
   },
-  
   "application_for_synthetic_counselor": {
     "scoring_framework_considerations": [
       "Academic strength (GPA, test scores, rigor) - baseline filter",
